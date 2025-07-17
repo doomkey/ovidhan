@@ -1,0 +1,8 @@
+{
+  "name": "banglanary",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite",
+  "package-manager": "pnpm"
+}

@@ -1,0 +1,47 @@
+@import "fonts.css";
+@import "md3/theme.css";
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+:root {
+  color-scheme: light dark;
+}
+
+/* :root.prefers-light, */
+[data-theme="light"] {
+  color-scheme: light;
+}
+
+/* :root.prefers-dark, */
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+/*
+ * App-Wide Text Size Adjustments
+ * -------------------------------------------
+ */
+
+/* --- Small Text Size --- */
+[data-text-size="small"] {
+  font-size: 14px;
+}
+
+/* --- Large Text Size --- */
+[data-text-size="large"] {
+  font-size: 18px;
+}
+
+[data-text-size="large"] ion-label,
+[data-text-size="large"] p {
+  font-size: 1.1em;
+}
+
+[data-text-size="large"] h2 {
+  font-size: 1.4em;
+}
+
+ion-list-header.md {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
