@@ -59,13 +59,29 @@ jobs:
         run: chmod +x ./gradlew
         working-directory: ./android
 
-      - name: Build Release APK
+      - name: Build APK
         run: ./gradlew assembleRelease
         working-directory: ./android
-        env:
-          SIGNING_KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          SIGNING_KEY_PASSWORD: ${{ secrets.KEY_ALIAS_PASSWORD }}
-          SIGNING_STORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+
+      - name: Sign APK
+        run: |
+          APKSIGNER_PATH=$(find $ANDROID_HOME/build-tools -name "apksigner" | sort -r | head -n 1)
+          if [ -z "$APKSIGNER_PATH" ]; then
+            echo "apksigner not found!"
+            exit 1
+          fi
+          
+          echo "Using apksigner at: $APKSIGNER_PATH"
+          
+          # Run the apksigner command
+          "$APKSIGNER_PATH" sign \
+            --ks android/app/release.keystore \
+            --ks-key-alias "${{ secrets.KEY_ALIAS }}" \
+            --ks-pass pass:"${{ secrets.KEYSTORE_PASSWORD }}" \
+            --key-pass pass:"${{ secrets.KEY_ALIAS_PASSWORD }}" \
+            --out android/app/build/outputs/apk/release/app-release-signed.apk \
+            android/app/build/outputs/apk/release/app-release-unsigned.apk
+
       # debug
       - name: List files in build output
         run: find android/app/build/outputs -type f
@@ -75,5 +91,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-release
-          path: android/app/build/outputs/apk/release/app-release-unsigned.apk
-
+          path: android/app/build/outputs/apk/release/app-release-signed.apk
