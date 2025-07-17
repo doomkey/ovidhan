@@ -44,7 +44,7 @@ jobs:
         run: pnpm run build
 
       - name: Sync Capacitor assets
-        run: pnpx cap sync android
+        run: pnpx capacitor sync android
 
 
       - name: Decode Keystore
