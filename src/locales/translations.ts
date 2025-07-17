@@ -8,9 +8,11 @@ export const translations = {
   english_bn: { en: "English", bn: "ইংলিশ" },
   bangla: { en: "বাংলা", bn: "বাংলা" },
   clear: { en: "Clear", bn: "মুছুন" },
+  ok: { en: "OK", bn: "ঠিক আছে" },
   cancel: { en: "Cancel", bn: "বাতিল" },
   back: { en: "Back", bn: "ফেরত" },
   loading: { en: "Loading", bn: "অপেক্ষা করুন" },
+  error: { en: "Error", bn: "সমস্যা হয়েছে" },
   // Page Titles
   homeTitle: { en: "Dictionary", bn: "অভিধান" },
   favoritesTitle: { en: "Favorite Words", bn: "প্রিয় শব্দ" },
@@ -69,6 +71,22 @@ export const translations = {
   githubPage: { en: "GitHub Page", bn: "গিটহাব পেজ" },
   checkForUpdate: { en: "Check for Update", bn: "আপডেট দেখুন" },
   version: { en: "Version", bn: "ভার্সন" },
+  updateAvailable: { en: "Update Available!", bn: "আপডেট আছে!" },
+  updateAvailableMessage: {
+    en: "A new version is available. Would you like to download it?",
+    bn: "নতুন ভার্সন রিলিজ হয়েছে। ডাউনলোড করবেন?",
+  },
+  updateLater: { en: "Later", bn: "পরে" },
+  updateDownload: { en: "Download", bn: "ডাউনলোড" },
+  updateNone: { en: "No Updates", bn: "আপডেট নেই" },
+  updateNoneMessage: {
+    en: "You are already on the latest version.",
+    bn: "আপনি সর্বশেষ ভার্সনে আছেন।",
+  },
+  updateFailed: {
+    en: "Could not check for updates at this time.",
+    bn: "আপডেট চেক করা যায়নি।",
+  },
   // Confirmation Dialogs
   clearHistoryHeader: { en: "Clear History", bn: "ইতিহাস মুছুন" },
   clearHistoryMessage: {

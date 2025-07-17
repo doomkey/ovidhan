@@ -106,12 +106,12 @@ const checkForUpdate = async () => {
 
     if (latestVersion && latestVersion > VERSION) {
       const alert = await alertController.create({
-        header: "Update Available!",
-        message: `A new version (${latestVersion}) is available. Would you like to download it?`,
+        header: t("updateAvailable"),
+        message: t("updateAvailableMessage"),
         buttons: [
-          { text: "Later", role: "cancel" },
+          { text: t("updateLater"), role: "cancel" },
           {
-            text: "Download",
+            text: t("updateDownload"),
             handler: () => {
               Browser.open({ url: latestRelease.html_url });
             },
@@ -121,18 +121,18 @@ const checkForUpdate = async () => {
       await alert.present();
     } else {
       const alert = await alertController.create({
-        header: "No Updates",
-        message: "You are already on the latest version.",
-        buttons: ["OK"],
+        header: t("updateNone"),
+        message: t("updateNoneMessage"),
+        buttons: [t("ok")],
       });
       await alert.present();
     }
   } catch (error) {
     console.error("Error checking for updates:", error);
     const alert = await alertController.create({
-      header: "Error",
-      message: "Could not check for updates at this time.",
-      buttons: ["OK"],
+      header: t("error"),
+      message: t("updateFailed"),
+      buttons: [t("ok")],
     });
     await alert.present();
   }
