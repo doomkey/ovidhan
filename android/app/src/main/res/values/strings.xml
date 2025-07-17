@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ovidhan</string>
+    <string name="title_activity_main">Ovidhan</string>
+    <string name="package_name">com.doomkey.dictionary_bn</string>
+    <string name="custom_url_scheme">com.doomkey.dictionary_bn</string>
+</resources>
