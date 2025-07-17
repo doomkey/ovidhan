@@ -74,6 +74,8 @@ import {
   IonItem,
   IonLabel,
   IonIcon,
+  loadingController,
+  alertController,
 } from "@ionic/vue";
 import { book, logoGithub, cloudDownload } from "ionicons/icons";
 
@@ -81,7 +83,6 @@ import { useLanguage } from "@/composables/useLanguage";
 const { t } = useLanguage();
 
 import { CapacitorHttp, type HttpResponse } from "@capacitor/core";
-import { alertController } from "@ionic/vue";
 import { Browser } from "@capacitor/browser";
 
 const VERSION = "v1.0.3";
@@ -91,6 +92,12 @@ const openGitHub = async () => {
 };
 
 const checkForUpdate = async () => {
+  const loading = await loadingController.create({
+    message: "Checking for updates...",
+    spinner: "crescent",
+  });
+  await loading.present();
+
   const owner = "doomkey";
   const repo = "ovidhan";
 
@@ -103,7 +110,7 @@ const checkForUpdate = async () => {
     const response: HttpResponse = await CapacitorHttp.get(options);
     const latestRelease = response.data;
     const latestVersion = latestRelease.tag_name;
-
+    await loading.dismiss();
     if (latestVersion && latestVersion > VERSION) {
       const alert = await alertController.create({
         header: t("updateAvailable"),
@@ -129,6 +136,7 @@ const checkForUpdate = async () => {
     }
   } catch (error) {
     console.error("Error checking for updates:", error);
+    await loading.dismiss();
     const alert = await alertController.create({
       header: t("error"),
       message: t("updateFailed"),
