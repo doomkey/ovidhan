@@ -58,10 +58,10 @@ jobs:
       - name: Decode Keystore
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/release.keystore
-        if [ $? -ne 0 ]; then
-          echo "Failed to decode keystore. Make sure the KEYSTORE_BASE64 secret is set correctly."
-          exit 1
-        fi
+          if [ $? -ne 0 ]; then
+            echo "Failed to decode keystore. Make sure the KEYSTORE_BASE64 secret is set correctly."
+            exit 1
+          fi
 
       - name: Make gradlew executable
         run: chmod +x ./android/gradlew
