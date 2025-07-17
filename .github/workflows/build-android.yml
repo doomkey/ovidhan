@@ -44,12 +44,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Generate build-time assets
-        run: |
-          node process-dictionary.js
-          node generate-woty-candidates.js
-          node generate-bangla-index.js
-
       - name: Install Capacitor CLI
         run: npm install -g @capacitor/cli
 
