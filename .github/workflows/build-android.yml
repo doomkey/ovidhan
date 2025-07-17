@@ -73,6 +73,10 @@ jobs:
           SIGNING_KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           SIGNING_KEY_PASSWORD: ${{ secrets.KEY_ALIAS_PASSWORD }}
           SIGNING_STORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+      # debug
+      - name: List files in build output
+        run: find android/app/build/outputs -type f
+        if: always() 
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
