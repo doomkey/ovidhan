@@ -71,6 +71,10 @@ export const translations = {
   githubPage: { en: "GitHub Page", bn: "গিটহাব পেজ" },
   checkForUpdate: { en: "Check for Update", bn: "আপডেট দেখুন" },
   version: { en: "Version", bn: "ভার্সন" },
+  updateChecking: {
+    en: "Checking for update...",
+    bn: "আপডেট চেক করা হচ্ছে...",
+  },
   updateAvailable: { en: "Update Available!", bn: "আপডেট আছে!" },
   updateAvailableMessage: {
     en: "A new version is available. Would you like to download it?",

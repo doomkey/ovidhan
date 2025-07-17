@@ -93,7 +93,7 @@ const openGitHub = async () => {
 
 const checkForUpdate = async () => {
   const loading = await loadingController.create({
-    message: "Checking for updates...",
+    message: t("updateChecking"),
     spinner: "crescent",
   });
   await loading.present();
