@@ -88,8 +88,10 @@ jobs:
         run: find android/app/build/outputs -type f
         if: always() 
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: app-release
-          path: android/app/build/outputs/apk/release/app-release-signed.apk
+          # The name of the release will be the same as the tag (e.g., "v1.0.1")
+          name: Release ${{ github.ref_name }}
+          # The files to upload to the release.
+          files: android/app/build/outputs/apk/release/app-release-signed.apk
