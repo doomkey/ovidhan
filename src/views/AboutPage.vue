@@ -85,7 +85,7 @@ const { t } = useLanguage();
 import { CapacitorHttp, type HttpResponse } from "@capacitor/core";
 import { Browser } from "@capacitor/browser";
 
-const VERSION = "v1.0.3";
+const VERSION = "v1.0.4";
 
 const openGitHub = async () => {
   await Browser.open({ url: "https://github.com/doomkey/ovidhan" });
