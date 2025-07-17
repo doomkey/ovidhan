@@ -47,8 +47,7 @@
         <ion-list-header>
           <ion-label>{{ t("links") }}</ion-label>
         </ion-list-header>
-        <ion-item button :detail="false">
-          <!-- <ion-item button :detail="false" @click="openGitHub"> -->
+        <ion-item button :detail="false" @click="openGitHub">
           <ion-icon :icon="logoGithub" slot="start"></ion-icon>
           <ion-label>{{ t("sourceCode") }}</ion-label>
         </ion-item>
@@ -81,13 +80,11 @@ const appVersion = import.meta.env.PACKAGE_VERSION;
 import { useLanguage } from "@/composables/useLanguage";
 const { t } = useLanguage();
 
-// import { Browser } from "@capacitor/browser";
+import { Browser } from "@capacitor/browser";
 
-// // This function will open the provided URL in the device's browser.
-// const openGitHub = async () => {
-//   // Replace with your actual GitHub repository URL
-//   await Browser.open({ url: "https://github.com/your-repo" });
-// };
+const openGitHub = async () => {
+  await Browser.open({ url: "https://github.com/doomkey/ovidhan" });
+};
 
 // This is a placeholder for the update functionality.
 const checkForUpdate = () => {
