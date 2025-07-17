@@ -13,7 +13,7 @@
       <div class="logo-container">
         <ion-icon :icon="book" class="app-logo"></ion-icon>
         <h3 class="app-title">{{ t("appName") }}</h3>
-        <!-- <p class="app-version">{{ t("version") }} </p> -->
+        <p class="app-version">{{ t("version") }} {{ VERSION }}</p>
       </div>
 
       <ion-list>
@@ -76,19 +76,66 @@ import {
   IonIcon,
 } from "@ionic/vue";
 import { book, logoGithub, cloudDownload } from "ionicons/icons";
-const appVersion = import.meta.env.PACKAGE_VERSION;
+
 import { useLanguage } from "@/composables/useLanguage";
 const { t } = useLanguage();
 
+import { CapacitorHttp, type HttpResponse } from "@capacitor/core";
+import { alertController } from "@ionic/vue";
 import { Browser } from "@capacitor/browser";
+
+const VERSION = "v1.0.3";
 
 const openGitHub = async () => {
   await Browser.open({ url: "https://github.com/doomkey/ovidhan" });
 };
 
-// This is a placeholder for the update functionality.
-const checkForUpdate = () => {
-  alert("(functionality to be added)");
+const checkForUpdate = async () => {
+  const owner = "doomkey";
+  const repo = "ovidhan";
+
+  const options = {
+    url: `https://api.github.com/repos/${owner}/${repo}/releases/latest`,
+    headers: { "Content-Type": "application/json" },
+  };
+
+  try {
+    const response: HttpResponse = await CapacitorHttp.get(options);
+    const latestRelease = response.data;
+    const latestVersion = latestRelease.tag_name;
+
+    if (latestVersion && latestVersion > VERSION) {
+      const alert = await alertController.create({
+        header: "Update Available!",
+        message: `A new version (${latestVersion}) is available. Would you like to download it?`,
+        buttons: [
+          { text: "Later", role: "cancel" },
+          {
+            text: "Download",
+            handler: () => {
+              Browser.open({ url: latestRelease.html_url });
+            },
+          },
+        ],
+      });
+      await alert.present();
+    } else {
+      const alert = await alertController.create({
+        header: "No Updates",
+        message: "You are already on the latest version.",
+        buttons: ["OK"],
+      });
+      await alert.present();
+    }
+  } catch (error) {
+    console.error("Error checking for updates:", error);
+    const alert = await alertController.create({
+      header: "Error",
+      message: "Could not check for updates at this time.",
+      buttons: ["OK"],
+    });
+    await alert.present();
+  }
 };
 </script>
 
