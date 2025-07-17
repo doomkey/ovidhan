@@ -13,7 +13,7 @@
       <div class="logo-container">
         <ion-icon :icon="book" class="app-logo"></ion-icon>
         <h3 class="app-title">{{ t("appName") }}</h3>
-        <p class="app-version">{{ t("version") }} {{ VERSION }}</p>
+        <p class="app-version">{{ t("version") }} {{ appVersion }}</p>
       </div>
 
       <ion-list>
@@ -83,13 +83,25 @@ import { useLanguage } from "@/composables/useLanguage";
 const { t } = useLanguage();
 
 import { CapacitorHttp, type HttpResponse } from "@capacitor/core";
+import { App } from "@capacitor/app";
 import { Browser } from "@capacitor/browser";
-
-const VERSION = "v1.0.4";
+import { onMounted, ref } from "vue";
 
 const openGitHub = async () => {
   await Browser.open({ url: "https://github.com/doomkey/ovidhan" });
 };
+
+const appVersion = ref("");
+
+onMounted(async () => {
+  try {
+    const info = await App.getInfo();
+    appVersion.value = info.version;
+  } catch (e) {
+    console.error("Could not get app version", e);
+    appVersion.value = "1.0.0"; // Fallback version
+  }
+});
 
 const checkForUpdate = async () => {
   const loading = await loadingController.create({
@@ -111,7 +123,7 @@ const checkForUpdate = async () => {
     const latestRelease = response.data;
     const latestVersion = latestRelease.tag_name;
     await loading.dismiss();
-    if (latestVersion && latestVersion > VERSION) {
+    if (latestVersion && latestVersion > appVersion.value) {
       const alert = await alertController.create({
         header: t("updateAvailable"),
         message: t("updateAvailableMessage"),
@@ -167,7 +179,6 @@ const checkForUpdate = async () => {
 }
 .app-version {
   font-size: 0.9rem;
-  color: var(--ion-color-medium);
   margin-top: 4px;
 }
 ion-list {
