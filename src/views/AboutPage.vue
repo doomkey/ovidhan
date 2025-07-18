@@ -99,7 +99,7 @@ onMounted(async () => {
     appVersion.value = info.version;
   } catch (e) {
     console.error("Could not get app version", e);
-    appVersion.value = "1.0.0"; // Fallback version
+    appVersion.value = "1.1.0"; // Fallback version
   }
 });
 
@@ -123,7 +123,7 @@ const checkForUpdate = async () => {
     const latestRelease = response.data;
     const latestVersion = latestRelease.tag_name;
     await loading.dismiss();
-    if (latestVersion && latestVersion > appVersion.value) {
+    if (latestVersion && latestVersion > "v" + appVersion.value) {
       const alert = await alertController.create({
         header: t("updateAvailable"),
         message: t("updateAvailableMessage"),
