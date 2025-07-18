@@ -381,7 +381,6 @@
       "উঠন্ত",
       "গঠনমূলক",
       "স্ফুটনোন্মুখ",
-      "burgeoning",
       "উন্নয়নশীল",
       "তরুণ"
     ],
@@ -502,7 +501,6 @@
       "বংশপরিচয়",
       "জনন",
       "জাতক",
-      "nascence",
       "জায়মানতা"
     ],
     "en_syns": [
@@ -526,13 +524,11 @@
       "Coming to bingo is the only chance I get to relax, chill out and have a bit of a <b>natter</b> with my friends or family."
     ],
     "bn_syns": [
-      "confab",
       "চ্যাট",
       "চোয়াল",
       "হাওয়া অঙ্কুর",
       "খোশগল্প",
       "গল্প করা",
-      "Claver",
       "চর্বি চর্বণ",
       "দর্শন",
       "অনর্থক কথা বলা",
@@ -576,7 +572,6 @@
       "মার্জিত",
       "মাছি",
       "সপ্রতিভ",
-      "Snazzy",
       "তীব্র",
       "সুসজ্জিত",
       "সুসংস্কৃত",
@@ -595,11 +590,9 @@
       "দ্রুতগতি",
       "দ্রুতগামী",
       "আকস্মিক",
-      "kicky",
       "চটকদার",
       "চমত্কার",
       "কেতাদুরস্ত",
-      "sassy",
       "আড়ম্বরপ্রি়"
     ],
     "en_syns": [
@@ -735,9 +728,7 @@
       "They would send me portraits of fabulous guys with beards, smoking hookahs and watching <b>nautch</b> girls.",
       "They had ceased to patronise the <b>nautch</b> , and in its stead preferred English music or military bands."
     ],
-    "bn_syns": [
-      "nauch"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "nauch"
     ],
@@ -996,7 +987,6 @@
       "আকর্ষণীয়তা",
       "অতিপ্রাকৃত",
       "জাদু করা",
-      "occultism",
       "ভবিষ্যৎ কথন"
     ],
     "en_syns": [
@@ -1033,8 +1023,7 @@
       "কবর",
       "কুমোরের ক্ষেত্র",
       "সমাধিক্ষেত্র",
-      "সমাধিস্থল",
-      "Boneyard"
+      "সমাধিস্থল"
     ],
     "en_syns": [
       "boneyard",
@@ -1183,6 +1172,10 @@
   {
     "en": "negro",
     "bn": "নিগার",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈnēgrō",
       "Nigāra"
@@ -1208,10 +1201,6 @@
       "negroid",
       "black",
       "blackamoor"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1287,7 +1276,6 @@
       "I successfully cursed a <b>nemesis</b> in junior high - he probably deserved it, but the fact that it worked was very alarming."
     ],
     "bn_syns": [
-      "archrival",
       "অন্যায়ের প্রতিশোধ",
       "প্রায়শ্চিত্ত",
       "বিচার",
@@ -1481,6 +1469,9 @@
   {
     "en": "neptune",
     "bn": "নেপচুন গ্রহ",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈnept(y)o͞on",
       "Nēpacuna graha"
@@ -1496,9 +1487,6 @@
     ],
     "en_syns": [
       "Neptune"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1617,7 +1605,6 @@
       "Not that he knew he was back, he simply found himself in a room full of monsters, lanky, pasty giants clad in disgusting <b>nether</b> garments, who, rather than beat him compassionately into stability, kept their distance and moaned."
     ],
     "bn_syns": [
-      "chthonic",
       "অধীনে",
       "নিম্ন"
     ],
@@ -1686,7 +1673,6 @@
       "Neuronal inflammation and necrosis leads to severe pain or postherpetic <b>neuralgia</b> , which increases as the infection travels down the nerve."
     ],
     "bn_syns": [
-      "neuralgy",
       "ফিক্",
       "খিঁচুনি",
       "সেলাই"
@@ -2482,7 +2468,6 @@
     ],
     "bn_syns": [
       "অপহরণ",
-      "goldbrick",
       "ছিঁচকে চুরি করা",
       "প্রতারণা করা",
       "ঠকান",
@@ -2535,7 +2520,6 @@
       "Her early <b>nocturne</b>s display an antimodernist nostalgia for pre-reservation Indian life that would have appealed to both non-Indian and Indian viewers."
     ],
     "bn_syns": [
-      "notturno",
       "নৈশ দৃশ্যের ছবি"
     ],
     "en_syns": [
@@ -2676,7 +2660,6 @@
     "bn_syns": [
       "ছোট মগ",
       "গম্বুজ",
-      "Bonce",
       "শিম",
       "হাবাগবা লোক",
       "চিলা"
@@ -3228,7 +3211,6 @@
       "All that means is that he is susceptible to every reactionary <b>nostrum</b> floated by right-wing thinktanks."
     ],
     "bn_syns": [
-      "catholicon",
       "জাদু সূত্র",
       "হাতুড়ে ঔষধ",
       "ঔষধ"
@@ -3360,7 +3342,6 @@
       "But if the proposition is that State amendment rules can displace and effectively set at <b>nought</b> the Commonwealth limitation, then we obviously would have difficulty and reject that proposition."
     ],
     "bn_syns": [
-      "zilch",
       "কিছু না",
       "কোন প্রভাব নেই",
       "ফ্যাস্ শব্দ",
@@ -3368,9 +3349,7 @@
       "কোন কারণ নাই",
       "হাঁস",
       "ফাঁকা",
-      "Nada",
-      "বিন্দু নেই",
-      "diddly-বেঁটে"
+      "বিন্দু নেই"
     ],
     "en_syns": [
       "no effect",
@@ -3423,6 +3402,9 @@
   {
     "en": "november",
     "bn": "নভেম্বর",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "nōˈvembər,nə-",
       "Nabhēmbara"
@@ -3441,9 +3423,6 @@
     ],
     "en_syns": [
       "November"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -3491,7 +3470,6 @@
       "├ö├ç├┐Spot├ö├ç├û had been spirited away by the Panthers with offer of a high-rise kennel and an unlimited supply of <b>nubile</b> young bitches from some of the local hostelries."
     ],
     "bn_syns": [
-      "beddable",
       "আনন্দদায়ক",
       "যৌন আকর্ষণীয়",
       "কাম্য",
@@ -3620,7 +3598,6 @@
       "প্রত্যাহার",
       "অদক্ষতা",
       "অনস্তিত্ব",
-      "nihility",
       "অকার্যকর"
     ],
     "en_syns": [
@@ -3731,8 +3708,7 @@
     ],
     "bn_syns": [
       "মুদ্রা সংগ্রহ",
-      "টঙ্কবিজ্ঞান",
-      "numismatology"
+      "টঙ্কবিজ্ঞান"
     ],
     "en_syns": [
       "coin collecting",
@@ -3772,7 +3748,6 @@
       "Studying Thai <b>numismatics</b> it became apparent that there was a very significant event in Thai coin history in the mid 1800's."
     ],
     "bn_syns": [
-      "Hammerhead",
       "বোকা লোক",
       "কেবলরাম",
       "নিরেট",
@@ -3781,8 +3756,6 @@
       "নির্বোধ",
       "বাধা",
       "স্থূলবুদ্ধি ব্যক্তি",
-      "muttonhead",
-      "lunkhead",
       "কুলসন"
     ],
     "en_syns": [
@@ -3848,7 +3821,6 @@
       "মঠ",
       "বিহার",
       "নারীমঠ",
-      "Priory",
       "ধর্মসম্প্রদায়"
     ],
     "en_syns": [
@@ -3926,7 +3898,6 @@
       "Avoid foods that contain additives or lack <b>nutritive</b> value."
     ],
     "bn_syns": [
-      "alimental",
       "পুষ্টিকর",
       "খাদ্যসরবরাহকর",
       "পরিপোষক"

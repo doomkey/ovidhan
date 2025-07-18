@@ -47,6 +47,7 @@ async function processDictionary() {
   //  Merge the grouped words, combining and uniquing array properties
   console.log("Merging duplicate entries...");
   const mergedWords = [];
+  const englishLetterRegex = /[a-zA-Z]/; // Regex to detect any English letter
   for (const group of groupedByEn.values()) {
     const mergedEntry = group.reduce(
       (acc, current) => {
@@ -67,8 +68,18 @@ async function processDictionary() {
         return acc;
       },
       { en: group[0].en, bn: group[0].bn }
-    ); // Start with the 'en' and 'bn' from the first entry
+    );
 
+    if (mergedEntry.bn_syns) {
+      mergedEntry.bn_syns = mergedEntry.bn_syns.filter(
+        (syn) => !englishLetterRegex.test(syn)
+      );
+    }
+    if (mergedEntry.bn_antonyms) {
+      mergedEntry.bn_antonyms = mergedEntry.bn_antonyms.filter(
+        (ant) => !englishLetterRegex.test(ant)
+      );
+    }
     // Make all array properties unique
     Object.keys(mergedEntry).forEach((key) => {
       if (Array.isArray(mergedEntry[key])) {

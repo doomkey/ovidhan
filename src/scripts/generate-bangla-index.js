@@ -42,11 +42,19 @@ async function generateBanglaIndex() {
     }
   }
 
-  // map to plain
-  const indexObject = Object.fromEntries(banglaIndex);
+  // --- Sort the Bangla keys alphabetically ---
+  console.log("Sorting Bangla keys...");
+  const sortedKeys = Array.from(banglaIndex.keys()).sort((a, b) => {
+    // Use localeCompare with the 'bn' locale for correct Bengali sorting
+    return a.localeCompare(b, "bn");
+  });
 
+  const sortedIndexObject = {};
+  sortedKeys.forEach((key) => {
+    sortedIndexObject[key] = banglaIndex.get(key);
+  });
   // minification
-  const fileContent = JSON.stringify(indexObject);
+  const fileContent = JSON.stringify(sortedIndexObject);
 
   // Ensure the output directory exists
   if (!fs.existsSync(outputDir)) {

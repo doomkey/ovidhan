@@ -293,7 +293,6 @@
       "কৃত্রিম",
       "আক্রান্ত",
       "মিথ্যা",
-      "inauthentic",
       "আচমকা-সুন্দর",
       "অপ্রকৃত",
       "বদলি লোক বস্তু",
@@ -387,7 +386,6 @@
       "গাদা",
       "সমকামী",
       "রাণী",
-      "Nance",
       "উত্কট",
       "স্বকামী পুরুষ-প্রাণী"
     ],
@@ -407,6 +405,10 @@
   {
     "en": "fahrenheit",
     "bn": "তাপমান যন্ত্রবিশেষ",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈfarənˌhīt",
       "Tāpamāna yantrabiśēṣa"
@@ -422,10 +424,6 @@
     ],
     "en_syns": [
       "Fahrenheit"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -506,13 +504,10 @@
       "বিশ্রামের",
       "খালি",
       "সুপ্ত",
-      "unplanted",
       "অকর্ষিত",
       "অব্যবহৃত",
-      "unsown",
       "অকৃষ্ট",
-      "পতিত",
-      "unplowed"
+      "পতিত"
     ],
     "en_syns": [
       "unsown",
@@ -604,9 +599,7 @@
       "ঢের",
       "প্রণয়াকাঙ্ক্ষী",
       "সজ্জাসংক্রান্ত",
-      "Snazzy",
       "কল্পনাকারী",
-      "অভিনব-schmancy",
       "জাঁক করে এমন",
       "কৌতূহলী ব্যক্তি"
     ],
@@ -684,13 +677,11 @@
       "This <b>farrago</b> of nonsense was surprisingly influential."
     ],
     "bn_syns": [
-      "ragbag",
       "জগাখিচুড়ি",
       "ম্যাকারনি",
       "খিচুড়ি",
       "কাটা",
       "মিশ্রিত",
-      "gallimaufry",
       "মিশ্রিত বস্তু",
       "পোটপৌরি",
       "পিণ্ড",
@@ -1146,6 +1137,9 @@
   {
     "en": "february",
     "bn": "ফেব্রুয়ারি",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈfeb(y)o͞oˌerē,ˈfebro͞o-",
       "Phēbruẏāri"
@@ -1164,9 +1158,6 @@
     ],
     "en_syns": [
       "February"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1596,8 +1587,7 @@
       "My favourite luxury dish would be a pork cutlet with olives, dates and <b>fennel</b> that I serve in my restaurant."
     ],
     "bn_syns": [
-      "মৌরি",
-      "finocchio"
+      "মৌরি"
     ],
     "en_syns": [
       "finocchio"
@@ -1939,7 +1929,6 @@
       "├ö├ç├┐We [viz fat people] are normally considered to be lazy, slobbish and lacking in moral <b>fibre</b> ,├ö├ç├û she declares."
     ],
     "bn_syns": [
-      "vulcanized ফাইবার",
       "চরিত্র",
       "তন্তু",
       "সুতা",
@@ -2372,7 +2361,6 @@
       "During compaction of siliciclastic muds the flaky clay particles are realigned to be parallel to each other and impart a fissility (a direction of easy splitting) to the rock, which is commonly called shale."
     ],
     "bn_syns": [
-      "fissionable",
       "বিভাগী"
     ],
     "en_syns": [
@@ -3104,9 +3092,7 @@
       "After that, the <b>floccule</b> was collected, washed with distilled water and ethanol several times to remove ions and possible remnants in the final product.",
       "It shows the microbial structure of the <b>floccule</b> ."
     ],
-    "bn_syns": [
-      "floc"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "floc"
     ],
@@ -3144,7 +3130,6 @@
       "There are many familiar examples of fluorescence and phosphorescence in our daily lives."
     ],
     "bn_syns": [
-      "anthesis",
       "পুষ্পায়নকাল",
       "পুষ্পবিন্যাস",
       "পুষ্পোদ্গম"
@@ -3239,7 +3224,6 @@
       "ধ্বংসাবশেষ",
       "স্ক্র্যাপ",
       "রাবিশ",
-      "dreck",
       "প্রত্যাখ্যান করা",
       "অপব্যয়",
       "জাহাজী মাল"
@@ -3297,7 +3281,6 @@
     ],
     "bn_syns": [
       "কিংকর্তব্যবিমূঢ় করা",
-      "discombobulate",
       "হতভম্ব করা",
       "শিয়াল",
       "গুলান",
@@ -3305,7 +3288,6 @@
       "বীট",
       "ধাঁধা",
       "কুঁদা",
-      "faze",
       "বিভ্রান্ত করা",
       "আমোদিত করা",
       "বিহ্বল করা",
@@ -3456,8 +3438,7 @@
       "The new squadron was to have demonstrated its skills with a <b>flyover</b> and aerobatic maneuvers, but the aerial activities were canceled because of bad weather."
     ],
     "bn_syns": [
-      "উড়ে বাই",
-      "flypast"
+      "উড়ে বাই"
     ],
     "en_syns": [
       "flypast",
@@ -3558,9 +3539,7 @@
       "We observe many small, colorless scales of a <b>foliaceous</b> mineral.",
       "The distribution of species colony forms in the ordination suggests that the Tamana faunules are distinguished by more <b>foliaceous</b> species."
     ],
-    "bn_syns": [
-      "foliose"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "foliose"
     ],
@@ -3946,7 +3925,6 @@
     "bn_syns": [
       "ত্যাগ করা",
       "সর্বস্বান্ত",
-      "antecede",
       "অন্তর্হিত",
       "পূর্ববর্তী হত্তয়া",
       "পরিত্যাগ করা",
@@ -3955,9 +3933,7 @@
       "অগ্রবর্তী হত্তয়া",
       "আগাম",
       "প্রকৃত সময়ের পূর্ববর্তী তারিখ প্রদান করা",
-      "অতীত",
-      "bypast",
-      "predate"
+      "অতীত"
     ],
     "en_syns": [
       "forgo",
@@ -4144,9 +4120,7 @@
       "The jury <b>forewoman</b> on a capital murder trial said this of a fellow juror who believed the defendant deserved to die, yet couldn't vote for death.",
       "A group of jurors who wanted to convict deposed the <b>forewoman</b> ."
     ],
-    "bn_syns": [
-      "forelady"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "forelady"
     ],
@@ -4167,7 +4141,6 @@
     ],
     "bn_syns": [
       "এড়াতে",
-      "forefend",
       "প্রতিহত",
       "প্রতিসংহার করা",
       "ছাড়াইয়া যাত্তয়া",
@@ -4215,7 +4188,6 @@
     "bn_syns": [
       "সম্মেলন",
       "সংগ্রহ করা",
-      "foregather",
       "জড় করা",
       "যুগল",
       "দেখা পাত্তয়া",
@@ -4250,9 +4222,7 @@
       "Earthworms are collected by extraction using <b>formalin</b> or mustard solution, by digging and by handsorting.",
       "Tissue samples from the spleen were fixed in buffered <b>formalin</b> and embedded in paraffin."
     ],
-    "bn_syns": [
-      "formol"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "formol"
     ],
@@ -4320,7 +4290,6 @@
       "একবার",
       "পোস্ট ত্বরা",
       "সোজাসুজি",
-      "pronto",
       "দ্বিধা ছাড়াই",
       "শীঘ্রই",
       "তখনই",
@@ -4755,6 +4724,11 @@
   {
     "en": "french",
     "bn": "ফরাসি",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ],
     "pron": [
       "frenCH",
       "Pharāsi"
@@ -4784,11 +4758,6 @@
       "Gaul",
       "Gallic",
       "frog"
-    ],
-    "pos": [
-      "noun",
-      "verb",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -4857,6 +4826,10 @@
   {
     "en": "freudian",
     "bn": "ফ্রয়েডের",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈfroidēən",
       "Phraẏēḍēra"
@@ -4875,10 +4848,6 @@
       "ফ্রয়েডেয় শিষ্য"
     ],
     "en_syns": [],
-    "pos": [
-      "noun",
-      "adjective"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -4945,8 +4914,7 @@
     "bn_syns": [
       "ত্তষ্ঠ্য ব্যন্জনবর্ণ",
       "হিস্হিস শব্দকর",
-      "উচ্চনাদ",
-      "continuant"
+      "উচ্চনাদ"
     ],
     "en_syns": [
       "spirant",
@@ -4960,6 +4928,9 @@
   {
     "en": "friday",
     "bn": "শুক্রবার",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "-dē,ˈfrīdā",
       "Śukrabāra"
@@ -4977,9 +4948,6 @@
     ],
     "en_syns": [
       "Friday"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -5287,7 +5255,6 @@
       "The procedure is based on the cleavage of sucrose by invertase to glucose and <b>fructose</b> ."
     ],
     "bn_syns": [
-      "levulose",
       "ফল চিনি"
     ],
     "en_syns": [
@@ -5424,7 +5391,6 @@
     "bn_syns": [
       "ঝলসানি",
       "গন্গনে",
-      "glary",
       "জ্বলজ্বলে",
       "দৃষ্টি আচ্ছন্নকারী"
     ],
@@ -5588,7 +5554,6 @@
       "অমিত",
       "প্রচুর",
       "ঢের",
-      "cloying",
       "ন্যক্কারজনক",
       "কলুষিত",
       "কদর্য",
@@ -5681,9 +5646,7 @@
       "So, there is a need to train both the government officials and functionaries of agencies, which take up watershed projects."
     ],
     "bn_syns": [
-      "apparatchik",
       "সিম কাউন্টার",
-      "officeholder",
       "সরকারী",
       "প্রশাসক",
       "সরকারি কর্মচারী",
@@ -5783,9 +5746,7 @@
       "Most wine growers panic at the thought of mildew or molds, and chemical <b><i>fungicide</i></b>s are considered a necessary evil.",
       "cut away any rotten parts before dusting with <b>fungicide</b>"
     ],
-    "bn_syns": [
-      "antifungal"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "antifungal"
     ],
@@ -6017,7 +5978,6 @@
       "পশম দিয়ে ঢেকে",
       "পশমী",
       "নরম",
-      "downy",
       "ঝাপসা",
       "ফুঁয়োফুঁয়ো",
       "লোমশ"
@@ -6068,7 +6028,6 @@
       "These two paints alone, across the full range from masstone to tint, mix a remarkably evocative range of colors - a furzy tan, ripe orange red, deep brown, granite gray, jet black, indigo, a deep dark blue and a cool sky blue."
     ],
     "bn_syns": [
-      "whin",
       "কাঁটাওয়ালা চিরহরিত্ গুল্ম"
     ],
     "en_syns": [
@@ -6277,7 +6236,6 @@
       "he thought it was an exercise in <b>futility</b>"
     ],
     "bn_syns": [
-      "unprofitability",
       "ব্যর্থতা",
       "অসারত্ব",
       "পুরুষত্বহীনতা",

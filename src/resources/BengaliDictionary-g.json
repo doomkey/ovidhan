@@ -149,7 +149,6 @@
       "Outside of the Ghetto the modern Shylock is envisioned as a man of mode, whose proverbial gabardine has been replaced by the latest Parisian cry."
     ],
     "bn_syns": [
-      "gabardine",
       "ঝাড়ন",
       "ধুলো কোট",
       "কুঁচি দেওয়া ঢিলে পোশাক"
@@ -181,8 +180,7 @@
       "উকুন",
       "উদ্দংশ",
       "অভিশাপ",
-      "বাধাদায়ক বিষয়",
-      "pesterer"
+      "বাধাদায়ক বিষয়"
     ],
     "en_syns": [
       "cuss",
@@ -206,7 +204,6 @@
       "We have added seven players, the <b>gaffer</b> has freshened things up and kept competition for places at a premium."
     ],
     "bn_syns": [
-      "honcho",
       "নেতা",
       "মোড়ল",
       "মনিব"
@@ -822,7 +819,6 @@
       "The list of micro-organisms found associated with <b>garget</b> is a very long one."
     ],
     "bn_syns": [
-      "scoke",
       "অকর্মা"
     ],
     "en_syns": [
@@ -993,9 +989,7 @@
       "Would it be another pathetic attempt by a local conglomerate to create yet another monument to French <b>gastronomy</b> by putting sad shriveled up escargots on the menu?",
       "The <b>gastronomy</b> of the area, with its traditional Provencal cuisine, is exceptional, even for a country known for the superb quality of its food."
     ],
-    "bn_syns": [
-      "univalve"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "univalve"
     ],
@@ -1143,7 +1137,6 @@
     ],
     "bn_syns": [
       "আঠাযুক্ত",
-      "mucilaginous",
       "কর্দমাক্ত",
       "আঠালো",
       "জাউতুল্য",
@@ -1186,6 +1179,9 @@
   {
     "en": "gemini",
     "bn": "মিথুনরাশি",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "-ˌnē,ˈjeməˌnī",
       "Mithunarāśi"
@@ -1203,9 +1199,6 @@
     ],
     "en_syns": [
       "Gemini"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1362,8 +1355,7 @@
       "জিন",
       "ভূত",
       "পরী",
-      "অলস",
-      "djinni"
+      "অলস"
     ],
     "en_syns": [
       "jinni",
@@ -1596,6 +1588,10 @@
   {
     "en": "german",
     "bn": "জার্মান",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈjərmən",
       "Jārmāna"
@@ -1633,10 +1629,6 @@
       "Jerry",
       "avuncular",
       "Germanic"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1771,7 +1763,6 @@
       "The stretcher is cleaned with a hospital-grade approved <b>germicide</b> ."
     ],
     "bn_syns": [
-      "antimicrobial",
       "বীজঘ্ন",
       "জীবাণুনাশক"
     ],
@@ -1918,7 +1909,6 @@
       "বক্বক্",
       "কপচান",
       "চমর",
-      "jibber-Jabber",
       "টুইটার",
       "বক্বক্ করা",
       "টগ্বগ্",
@@ -2013,8 +2003,7 @@
     ],
     "bn_syns": [
       "স্ফীত",
-      "কুঁজ",
-      "gibbose"
+      "কুঁজ"
     ],
     "en_syns": [
       "gibbose"
@@ -2089,7 +2078,6 @@
     "bn_syns": [
       "আজেবাজে কথা",
       "চুনট",
-      "cheapo",
       "ক্ষীণ",
       "নিম্ন মানের",
       "সস্তা",
@@ -2104,7 +2092,6 @@
       "ছোটখাট দক্ষতা",
       "কিচেন",
       "তুচ্ছ দোকান",
-      "chintzy",
       "আবর্জনা",
       "বাজে",
       "অস্থায়ী",
@@ -2645,8 +2632,7 @@
     ],
     "bn_syns": [
       "মুখব্যাদান",
-      "জবুথবু ব্যক্তি",
-      "gawp"
+      "জবুথবু ব্যক্তি"
     ],
     "en_syns": [
       "gawk",
@@ -2669,8 +2655,7 @@
       "a woman with a <b>goiter</b>"
     ],
     "bn_syns": [
-      "গলগণ্ড",
-      "struma"
+      "গলগণ্ড"
     ],
     "en_syns": [
       "goitre",
@@ -2691,8 +2676,7 @@
       "A review of 15 cases of fetal goitrous hypothyroidism in the English literature is presented."
     ],
     "bn_syns": [
-      "গলগণ্ড",
-      "struma"
+      "গলগণ্ড"
     ],
     "en_syns": [
       "struma",
@@ -2811,16 +2795,12 @@
       "বিদায়কালীন",
       "এতক্ষণ",
       "ছাড়াছাড়ি",
-      "Ciao",
-      "toodle-ওও",
       "বিদায়ী",
       "পরে দেখা হবে",
-      "Adios",
       "নমস্কার",
       "শুভ যাত্রা",
       "চিয়ার্স",
       "দেখা হবে",
-      "Sayonara",
       "বিদায়সংবর্ধনা"
     ],
     "en_syns": [
@@ -2896,7 +2876,6 @@
     ],
     "bn_antonyms": [
       "পুঁচকে",
-      "Bantam",
       "সামান্য",
       "ছোট",
       "বামন",
@@ -3008,7 +2987,6 @@
       "অতিভোজন",
       "অতিভোজন করা",
       "ঘাট",
-      "englut",
       "সাগ্রহে গিলিয়া ফেলা",
       "পেট পুরিয়া খাত্তয়া",
       "কাপড়",
@@ -3046,8 +3024,7 @@
       "Small, subtly contoured greens lined with <b>gorse</b> and heather tumble beneath vast sandy hills."
     ],
     "bn_syns": [
-      "হলুদ- ফুলওয়ালা একধরনের চিরহরিৎ গুল্ম",
-      "whin"
+      "হলুদ- ফুলওয়ালা একধরনের চিরহরিৎ গুল্ম"
     ],
     "en_syns": [
       "furze",
@@ -3179,7 +3156,6 @@
       "মেষপালক",
       "পানভোজনবিলাসী ব্যক্তি",
       "খাইয়ে লোক",
-      "chowhound",
       "শূকর",
       "লোভী শূকর",
       "প্রচুর খেতে পারে এমন"
@@ -3689,6 +3665,10 @@
   {
     "en": "greek",
     "bn": "গ্রিক",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "grēk",
       "Grika"
@@ -3724,10 +3704,6 @@
       "Greek",
       "rogue",
       "Hellene"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -3865,7 +3841,6 @@
       "At least 11 of the 15 small shops surrounding the square are barricaded with graffiti-covered metal <b>grille</b>s ."
     ],
     "bn_syns": [
-      "grillwork",
       "উইকেট",
       "রেডিয়েটর জাফরি",
       "জাফরি",
@@ -4300,9 +4275,7 @@
       "Brian caught his first fish, a <b>gudgeon</b> , from the river Tees as a young boy in the 1940's fishing with a Bakelite float.",
       "Has the old <b>gudgeon</b> never heard of a celebratory glass of champagne?"
     ],
-    "bn_syns": [
-      "goby"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "goby"
     ],
@@ -4323,7 +4296,6 @@
     ],
     "bn_syns": [
       "জর্মানির অপ্রচলিত মুদ্রাবিশেষ",
-      "Florin",
       "হল্যান্ডের মুদ্রাবিশেষ"
     ],
     "en_syns": [
@@ -4406,8 +4378,7 @@
     ],
     "bn_syns": [
       "হল্যান্ডের মুদ্রাবিশেষ",
-      "জর্মানির অপ্রচলিত মুদ্রাবিশেষ",
-      "Florin"
+      "জর্মানির অপ্রচলিত মুদ্রাবিশেষ"
     ],
     "en_syns": [
       "guilder",

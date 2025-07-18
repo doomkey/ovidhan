@@ -149,8 +149,7 @@
     "bn_syns": [
       "দৃশ্য",
       "নাটকের দৃশ্য",
-      "ছবি",
-      "মূকনাট্য vivant"
+      "ছবি"
     ],
     "en_syns": [
       "scene",
@@ -219,8 +218,7 @@
       "There are also aspects that add to the internal sporty appeal of the car like the metallic dashboard embellishment and the white dials of the instrument cluster, along with the <b>tachometer</b> ."
     ],
     "bn_syns": [
-      "চক্রাকারে আবর্তনের গতিমাপক যঁত্র",
-      "tach"
+      "চক্রাকারে আবর্তনের গতিমাপক যঁত্র"
     ],
     "en_syns": [
       "tach"
@@ -410,6 +408,9 @@
   {
     "en": "talmud",
     "bn": "ইহুদীদের ধর্মীয় আইনের গ্র্রন্থ",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈtalməd,ˈtälˌmo͝od",
       "Ihudīdēra dharmīẏa ā'inēra grrantha"
@@ -430,9 +431,6 @@
     "en_syns": [
       "Talmud"
     ],
-    "pos": [
-      "noun"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -450,9 +448,7 @@
     ],
     "bn_syns": [
       "গোড়ালির হাড়",
-      "পাহাড়ের তলে ঢালু খণ্ডসমষ্টি",
-      "astragalus",
-      "astragal"
+      "পাহাড়ের তলে ঢালু খণ্ডসমষ্টি"
     ],
     "en_syns": [
       "anklebone",
@@ -722,7 +718,6 @@
       "We live in an apartment, and although we do grow some things - mint, sage, thyme, <b>tarragon</b> , rosemary - rhubarb is not one of them."
     ],
     "bn_syns": [
-      "estragon",
       "ট্যারেগন্"
     ],
     "en_syns": [
@@ -809,6 +804,9 @@
   {
     "en": "taurus",
     "bn": "বৃষরাশি",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈtôrəs",
       "Br̥ṣarāśi"
@@ -827,9 +825,6 @@
     ],
     "en_syns": [
       "Taurus"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -992,17 +987,12 @@
       "Then for the crust, you need flour, butter, milk, and a <b>teeny</b> bit of salt."
     ],
     "bn_syns": [
-      "Itsy Bitsy",
-      "itty bitty",
-      "teensy",
       "অতি ক্ষুদ্র",
       "পুঁচকে-অতি ক্ষুদ্র",
-      "bitty",
       "পুঁচকে",
       "খুব ছোট",
       "ক্ষুদ্রাতিক্ষুদ্র",
-      "ক্ষুদ্র",
-      "teensy-weensy"
+      "ক্ষুদ্র"
     ],
     "en_syns": [
       "wee",
@@ -1359,7 +1349,6 @@
       "পিত্ত",
       "গোস্তাকি",
       "প্রগল্ভতা",
-      "chutzpah",
       "সদর",
       "মুখ",
       "নার্ভ",
@@ -1591,7 +1580,6 @@
       "Government advertising campaigns should be objective and explanatory, not <b>tendentious</b> or party political."
     ],
     "bn_syns": [
-      "tendencious",
       "অভিপ্রায়",
       "স্বেচ্ছাকৃত",
       "উদ্দেশ্যমূলক"
@@ -1858,12 +1846,10 @@
     ],
     "bn_syns": [
       "ডিম",
-      "ballock",
       "বললক",
       "বাদাম",
       "অণ্ডকোষ",
-      "বল",
-      "Orchis"
+      "বল"
     ],
     "en_syns": [
       "nut",
@@ -1894,7 +1880,6 @@
       "বদরাগী",
       "প্রগল্ভ",
       "খিট্খিটে",
-      "nettlesome",
       "ঝগড়াটে",
       "খর্খরে"
     ],
@@ -2271,6 +2256,9 @@
   {
     "en": "thermos",
     "bn": "থার্ম্ফ্ল্যাস্ক্",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈTHərməs",
       "Thārmphlyāsk"
@@ -2291,9 +2279,6 @@
     "en_syns": [
       "thermos bottle",
       "thermos flask"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -2325,8 +2310,7 @@
       "ছিঁচকে চুরি করা",
       "ছিনান",
       "সাদাসিধা বল্গাবিশেয",
-      "নিজেকে সাহায্য",
-      "Heist"
+      "নিজেকে সাহায্য"
     ],
     "en_syns": [
       "help oneself to",
@@ -2489,7 +2473,6 @@
       "নৌকার পার্শ্বসংলগ্ন কাঠি",
       "দাঁড়কে ঠিকভাবে ধরে রাখবার জন্যে নৌকার দুপাশে লাগানো যান্ত্রিক ব্যবস্থা",
       "গোঁজ",
-      "oarlock",
       "পিন"
     ],
     "en_syns": [
@@ -2759,6 +2742,9 @@
   {
     "en": "thursday",
     "bn": "বৃহস্পতিবার",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "-dē,ˈTHərzdā",
       "Br̥haspatibāra"
@@ -2776,9 +2762,6 @@
     ],
     "en_syns": [
       "Thursday"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -2895,7 +2878,6 @@
       "টিক্দান",
       "পাস",
       "রেখাঙ্কন করা",
-      "ticktock",
       "ক্লিক",
       "টিক্ টিক্ শব্দ"
     ],
@@ -3091,7 +3073,6 @@
       "Intense ultraviolet radiation, especially at higher elevations, damages soil <b>tilth</b> ."
     ],
     "bn_syns": [
-      "plowland",
       "কৃষিজমি",
       "চাষ জমি",
       "আবাদ"
@@ -3161,7 +3142,6 @@
       "Girls, allegedly <b>timorous</b> and lacking in confidence, now outnumber boys in student government, in honor societies, on school newspapers, and in debating clubs."
     ],
     "bn_syns": [
-      "trepid",
       "ভীতিজনক",
       "ভীরু",
       "ভীতু",
@@ -3219,10 +3199,8 @@
       "Not knowing which of them wrote what, I can only report that the pit contained two cellos, one double-bass, solo woodwind, brass and <b>timpani</b> ."
     ],
     "bn_syns": [
-      "kettledrum",
       "মধ্যকর্ণ",
       "কেতলি",
-      "tympani",
       "টিম্পেনি"
     ],
     "en_syns": [
@@ -3433,8 +3411,7 @@
       "Scandium is an element with the resilience of <b>titanium</b> and the light weight of aluminum."
     ],
     "bn_syns": [
-      "টাইটেইনিঅ্যাম",
-      "TI"
+      "টাইটেইনিঅ্যাম"
     ],
     "en_syns": [
       "ti"
@@ -3519,7 +3496,6 @@
     "bn_syns": [
       "ফিটফাট করিয়া তোলা",
       "আপ পুতুল",
-      "আপ gussy",
       "ব্যবস্থা করা",
       "সতেজ করা",
       "ফিটফাট",
@@ -3606,8 +3582,7 @@
       "ছিন্নাংশ",
       "স্ফুলিঙ্গ",
       "কণা",
-      "ফোঁটা",
-      "smidgen"
+      "ফোঁটা"
     ],
     "en_syns": [
       "iota",
@@ -3633,7 +3608,6 @@
     ],
     "bn_syns": [
       "নামমাত্র",
-      "eponymous",
       "প্রামাণিক",
       "নামেমাত্র",
       "অস্থায়ী"
@@ -3889,8 +3863,7 @@
     "bn_syns": [
       "প্রাণরস",
       "নির্বোধ ব্যক্তি",
-      "মূর্খ",
-      "saphead"
+      "মূর্খ"
     ],
     "en_syns": [
       "saphead",
@@ -4195,7 +4168,6 @@
       "The lizard refused everything and was slipping into <b>torpor</b> ."
     ],
     "bn_syns": [
-      "torpidness",
       "অস্পষ্টতা",
       "দুর্বোধ্যতা",
       "বিষাদ",
@@ -4381,9 +4353,7 @@
       "Dr. Lueck observed the organism in the placental tissue of toxemic mothers and identified it in the circulating blood of toxemic patients.",
       "The injection can alleviate toxemia , raise the blood pressure and improve the general condition of the patients."
     ],
-    "bn_syns": [
-      "toxemia"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "toxemia"
     ],
@@ -4464,7 +4434,6 @@
     ],
     "bn_syns": [
       "এক্তিয়ারভুক্ত",
-      "manipulable",
       "আবদ্ধ",
       "অনুগত",
       "দায়ী",
@@ -4522,7 +4491,6 @@
       "And to attempt to sound dignified and saddened at being <b>traduce</b>d by the ingrate just makes the humiliation complete."
     ],
     "bn_syns": [
-      "উপর aspersions নিক্ষেপ",
       "নাম কালো রং",
       "অপ",
       "কলঙ্কিত করা",
@@ -4617,9 +4585,7 @@
       "The terms black comedy and <b>tragicomedy</b> imply a mix of the mordant and the humorous.",
       "It's like a romantic comedy written by Beckett - a romantic <b>tragicomedy</b> - in which romance dies not in some passionate combustion, but fizzles out into uncomfortable, aseptic banality."
     ],
-    "bn_syns": [
-      "seriocomedy"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "seriocomedy"
     ],
@@ -5009,8 +4975,7 @@
       "বাধাবিঘ্ন",
       "আড়কাঠ",
       "তর্ক করা",
-      "বরগা জানালা",
-      "fanlight"
+      "বরগা জানালা"
     ],
     "en_syns": [
       "fanlight",
@@ -5080,7 +5045,6 @@
     ],
     "bn_syns": [
       "প্রতিকল্পন",
-      "heterotaxy",
       "পক্ষান্তরণ",
       "উলটাপালটা"
     ],
@@ -5369,8 +5333,7 @@
     ],
     "bn_syns": [
       "ঘন ত্ত মিষ্ট",
-      "শর্করাপূর্ণ",
-      "cloying"
+      "শর্করাপূর্ণ"
     ],
     "en_syns": [
       "saccharine",
@@ -5626,7 +5589,6 @@
     ],
     "bn_syns": [
       "ক্ষণেক",
-      "আপ Trice",
       "হৃত্স্পন্দন",
       "মুহূর্ত",
       "চক্ষুর পলক",
@@ -5783,8 +5745,7 @@
     ],
     "bn_syns": [
       "ফেডোরা",
-      "অনুভূত টুপি",
-      "Homburg"
+      "অনুভূত টুপি"
     ],
     "en_syns": [
       "fedora",
@@ -5814,6 +5775,9 @@
   {
     "en": "trinity",
     "bn": "ত্রয়ী",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       null,
       "Traẏī"
@@ -5830,7 +5794,6 @@
       "একের ভিতরে তিন",
       "টার্সেটো",
       "পিপা",
-      "ternion",
       "তিন",
       "তিন ঘোড়ায় টানা গাড়ী",
       "টার্সিট",
@@ -5852,9 +5815,6 @@
       "ternion",
       "triad",
       "tercet"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -6047,7 +6007,6 @@
       "পিপা",
       "শিকল",
       "তিন",
-      "ternion",
       "ট্রে",
       "টার্সেটো"
     ],
@@ -6317,10 +6276,8 @@
     ],
     "bn_syns": [
       "আবর্জনা",
-      "folderol",
       "আজেবাজে কথা",
       "ইচ্ছা-ধোয়ার",
-      "codswallop",
       "তুচ্ছ কারুকার্ষ"
     ],
     "en_syns": [
@@ -6389,8 +6346,7 @@
       "ছোট ডেকচি",
       "রূল",
       "নজির",
-      "নিয়ম",
-      "nightstick"
+      "নিয়ম"
     ],
     "en_syns": [
       "billy",
@@ -6554,7 +6510,6 @@
       "কন্দাকার",
       "কন্দল",
       "যক্ষ্মারোগগত",
-      "lunger",
       "ক্ষয়কারী"
     ],
     "en_syns": [
@@ -6627,6 +6582,9 @@
   {
     "en": "tuesday",
     "bn": "মঙ্গলবার",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "-dē,ˈt(y)o͞ozdā",
       "Maṅgalabāra"
@@ -6653,9 +6611,6 @@
       "good",
       "Mars",
       "Tuesday"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -6797,7 +6752,6 @@
       "ম্যালিগন্যান্ট বৃদ্ধি",
       "সংযোজক কোযের মারাত্মক টিউমার",
       "একপ্রকার কর্কটরোগ",
-      "fibroid",
       "মারাত্মকতা",
       "ক্যান্সার",
       "ক্যান্সারের বৃদ্ধি"
@@ -6855,8 +6809,7 @@
       "The electrode is <b>tungsten</b> coated and water cooled because of the high temperatures involved."
     ],
     "bn_syns": [
-      "দুষ্প্রাপ্য ধাতু",
-      "Wolfram"
+      "দুষ্প্রাপ্য ধাতু"
     ],
     "en_syns": [
       "wolfram"
@@ -7330,7 +7283,6 @@
       "জোয়াল",
       "দুইজনের উপযোগী",
       "শ্লেষ",
-      "duad",
       "মানিকজোড়"
     ],
     "en_syns": [
@@ -7481,8 +7433,7 @@
       "he didn't care <b>twopence</b> for her"
     ],
     "bn_syns": [
-      "দুই পেনি",
-      "tuppence"
+      "দুই পেনি"
     ],
     "en_syns": [
       "tuppence"

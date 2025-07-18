@@ -232,6 +232,10 @@
   {
     "en": "pacific",
     "bn": "শান্ত",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       null,
       "Śānta"
@@ -270,10 +274,6 @@
       "antiwar",
       "conciliatory",
       "calm"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -328,7 +328,6 @@
     ],
     "bn_syns": [
       "প্রশংসা গান",
-      "pean",
       "বিজয়গাথা"
     ],
     "en_syns": [
@@ -651,9 +650,7 @@
       "Any intelligent foam mattress and polyurethane paillasse is available in separate thickness and, additionally, denseness.",
       "There were two chamber pots between 1000 men and there were 4 kilometres of corridors along which the wounded, sick and dying lay on straw <b>palliasse</b>s , their filthy greatcoats their only blanket."
     ],
-    "bn_syns": [
-      "paillasse"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "paillasse"
     ],
@@ -732,7 +729,6 @@
     ],
     "bn_syns": [
       "উপশমক",
-      "calmative",
       "ঘুমের ঔষধ",
       "নীরস মন্তব্য",
       "বাঁচার অসুস্থ জন্য",
@@ -776,8 +772,7 @@
       "অমায়িক",
       "স্নিগ্ধ",
       "অকপট",
-      "মৃদু",
-      "পক্ষাঘাত-walsy"
+      "মৃদু"
     ],
     "en_syns": [
       "matey",
@@ -816,7 +811,6 @@
       "The young marsh rabbit has made it to the far bank, a knee-high jungle of ragged <b>palmetto</b>s like miniature palm trees."
     ],
     "bn_syns": [
-      "palmister",
       "গণক",
       "হস্তরের্খাবিচারক",
       "জ্যোতিষী",
@@ -1127,8 +1121,7 @@
     "bn_syns": [
       "মর্যাদাপূর্ণ",
       "উঁচুতে",
-      "খুব গুরুত্বপূর্ণ ব্যক্তি",
-      "উচ্চ muckamuck"
+      "খুব গুরুত্বপূর্ণ ব্যক্তি"
     ],
     "en_syns": [
       "high muckamuck",
@@ -1226,8 +1219,7 @@
       "সমস্ত-সমেত",
       "প্রশস্ত",
       "ব্যাপক",
-      "কম্বল",
-      "সব encompassing"
+      "কম্বল"
     ],
     "en_syns": [
       "all-embracing",
@@ -1397,8 +1389,7 @@
     ],
     "bn_syns": [
       "রোমান",
-      "পোপধর্র্মসম্বন্ধীয়",
-      "papistic"
+      "পোপধর্র্মসম্বন্ধীয়"
     ],
     "en_syns": [
       "papistic",
@@ -1461,8 +1452,7 @@
       "Paradiddles are a rudimentary exercise for stick drummers and can be useful for learning the \"handing\" for djembe."
     ],
     "bn_syns": [
-      "স্বর্গীয় উদ্যান-সংক্রান্ত",
-      "paradisaical"
+      "স্বর্গীয় উদ্যান-সংক্রান্ত"
     ],
     "en_syns": [
       "paradisal",
@@ -1679,11 +1669,9 @@
       "নির্বাসিত",
       "কুলাঙ্গার",
       "কুষ্ঠী",
-      "লাল কেশ stepchild",
       "একজন অগ্রহণযোগ্য ব্যক্তি",
       "ফালতু লোক",
       "অকাম্য",
-      "nonperson",
       "দাক্ষিণাত্যের নীচ জাতি",
       "পাপাসক্ত"
     ],
@@ -1811,7 +1799,6 @@
       "কুহকী",
       "আলাপালোচনা",
       "আলোচনায় বসবে",
-      "confab",
       "পদ নিয়ে আলোচনা"
     ],
     "en_syns": [
@@ -2064,7 +2051,6 @@
       "This file will not be available indefinitely - I am far too <b>parsimonious</b> with webspace for that."
     ],
     "bn_syns": [
-      "tightfisted",
       "সস্তা",
       "কিপটে",
       "ব্যয়কুণ্ঠ",
@@ -2242,9 +2228,7 @@
       "In apomictic plants, embryos develop parthenogenetically (without fertilization) from unreduced somatic or gametophytic cells.",
       "Some make their hosts parthenogenetic , rendering the need for sexual reproduction irrelevant."
     ],
-    "bn_syns": [
-      "parthenogeny"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "parthenogeny"
     ],
@@ -2289,8 +2273,7 @@
       "But they do so independently, <b>partitive</b>ly , concurrently, and differentially."
     ],
     "bn_syns": [
-      "বিয়োজক",
-      "separative"
+      "বিয়োজক"
     ],
     "en_syns": [
       "separative"
@@ -2314,8 +2297,7 @@
     "bn_syns": [
       "ভুঁইফোঁড়",
       "ভুঁইফোঁড় ব্যক্তি",
-      "সামাজিক লতা",
-      "arriviste"
+      "সামাজিক লতা"
     ],
     "en_syns": [
       "upstart",
@@ -2392,6 +2374,9 @@
   {
     "en": "passover",
     "bn": "পাসোভার",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈpasˌōvər",
       "Pāsōbhāra"
@@ -2418,9 +2403,6 @@
       "skip over",
       "transit",
       "wipe"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -2523,9 +2505,7 @@
       "To make your own, add a few drops of a sensual oil like ylang-ylang or <b>patchouli</b> to spray bottle filled with tap or distilled water.",
       "But the chanters wear pinstripes and not <b>patchouli</b> oil."
     ],
-    "bn_syns": [
-      "pachouli"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "pachouli"
     ],
@@ -2781,7 +2761,6 @@
       "the <b>patronymic</b> naming of children"
     ],
     "bn_syns": [
-      "patronym",
       "পদবি",
       "খেতাব",
       "গোত্রনাম",
@@ -3225,7 +3204,6 @@
       "হেয়ার বিদারণ",
       "তার্কিক",
       "কূটতার্কিক",
-      "doctrinaire",
       "বিদ্যাবাগীশ",
       "শিক্ষক",
       "প্রকৃতিবাদী"
@@ -3384,10 +3362,8 @@
     ],
     "bn_syns": [
       "বহিরাগত নর্তকী",
-      "ecdysiast",
       "স্ট্রিপটিজ",
       "নগ্ন",
-      "stripteaser",
       "স্ট্রিপটিজ শিল্পী",
       "লুণ্ঠক",
       "বাজপাখি"
@@ -3417,7 +3393,6 @@
     ],
     "bn_syns": [
       "সাম্ভ্রান্ত্য",
-      "সহকর্মীরা এবং peeresses",
       "আভিজাত্য",
       "অভিজন",
       "অভিজাত বর্গ"
@@ -3534,11 +3509,7 @@
       "It just means that you do have license to break; that you are not just being <b>peevish</b> .",
       "Arilss was deposited on Morgan's other side, looking equally <b>peevish</b> ."
     ],
-    "bn_syns": [
-      "pewit",
-      "peewee",
-      "Pewee"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "pewee",
       "pewit",
@@ -3631,8 +3602,7 @@
       "স্পষ্ট",
       "সুস্পষ্ট",
       "বোধগম্য",
-      "বিচক্ষণ",
-      "luculent"
+      "বিচক্ষণ"
     ],
     "en_syns": [
       "lucid",
@@ -3725,7 +3695,6 @@
       "দোদুল্যমান",
       "দুল",
       "ঝাড়",
-      "droopy",
       "কর্ণভূষণ"
     ],
     "en_syns": [
@@ -3752,7 +3721,6 @@
       "Analyses of the photosynthetic system in <b>pendulous</b> leaves such as those of Eucalyptus were also made."
     ],
     "bn_syns": [
-      "droopy",
       "দোদুল্যমান",
       "ফ্লপি",
       "দুল",
@@ -3765,8 +3733,7 @@
       "ধাপ্পাবাজি",
       "ঝুলন",
       "ভগ্নপ্রায়",
-      "ঝুলন্ত",
-      "saggy"
+      "ঝুলন্ত"
     ],
     "en_syns": [
       "saggy",
@@ -3953,7 +3920,6 @@
       "Its policy, he wrote, ├ö├ç├┐is reasonably related to legitimate penological interests.├ö├ç├û"
     ],
     "bn_syns": [
-      "poenology",
       "কারাপালন"
     ],
     "en_syns": [
@@ -3992,7 +3958,6 @@
       "A spokesman for the agency said the <b>penstock</b> sluice gates were opened after the last bout of flooding to allow trapped water to return to the river, but after an ‘oversight’ they were left open."
     ],
     "bn_syns": [
-      "sluiceway",
       "জলকপাট"
     ],
     "en_syns": [
@@ -4118,8 +4083,7 @@
       "উপান্ত",
       "দ্বিতীয় গত",
       "দ্বিতীয় টু গত",
-      "পরবর্তী টু গত",
-      "penultima"
+      "পরবর্তী টু গত"
     ],
     "en_syns": [
       "second-last",
@@ -4260,8 +4224,7 @@
     "bn_syns": [
       "হতে পারে",
       "দৈবাৎ",
-      "সম্ভবত",
-      "mayhap"
+      "সম্ভবত"
     ],
     "en_syns": [
       "perhaps",
@@ -4320,14 +4283,12 @@
       "On traffic the laws say that no person shall bring into the parks any bicycle, skateboard, roller-skates, roller blades, or other vehicle, except an invalid chair, carriage or <b>perambulator</b> ."
     ],
     "bn_syns": [
-      "Pram",
       "শিশু পরিবহন",
       "পেরাম্বুলেটার",
       "পাল্কি",
       "বহন",
       "ভবঘুরে",
-      "বিমানপোত",
-      "pushchair"
+      "বিমানপোত"
     ],
     "en_syns": [
       "go-cart",
@@ -4645,7 +4606,6 @@
     "bn_syns": [
       "অবিশ্বস্ত",
       "প্রতারণাময়",
-      "duplicitous",
       "শঠ",
       "অবিশ্বাসযোগ্য",
       "ছলন",
@@ -4949,9 +4909,7 @@
       "It also stresses the revenger's isolation from the world and the <b>peripeteia</b> of his actions which always lead to his own destruction.",
       "His intelligent cultivation and deferment of expectations through titles has built much of the resonance for this <b>peripeteia</b> by amplifying both the metaphorical and the mutual significance of what we have seen."
     ],
-    "bn_syns": [
-      "peripety"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "peripety"
     ],
@@ -4972,8 +4930,7 @@
     ],
     "bn_syns": [
       "বাগাড়ম্বর",
-      "বাক্যবাহুল্য",
-      "ambage"
+      "বাক্যবাহুল্য"
     ],
     "en_syns": [
       "circumlocution",
@@ -5204,9 +5161,7 @@
       "I thought he was just being <b>pernickety</b> , but I'll not argue in future.",
       "But is a rescue really the time and place to become <b>pernickety</b> ?"
     ],
-    "bn_syns": [
-      "persnickety"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "persnickety"
     ],
@@ -5254,8 +5209,7 @@
       "অন্তিক",
       "আনন্তর্য",
       "নৈকট্য",
-      "নিত্যতা",
-      "sempiternity"
+      "নিত্যতা"
     ],
     "en_syns": [
       "sempiternity"
@@ -5404,7 +5358,6 @@
       "নাম",
       "মর্যাদাপূর্ণ",
       "তারকা",
-      "বড় kahuna",
       "সার্বজনিক ব্যক্তিত্ব",
       "কারো",
       "সুযোগ্য",
@@ -5558,8 +5511,7 @@
       "ভাস্বর",
       "পরিষ্কার",
       "বর্ণহীন",
-      "অচ্ছ",
-      "luculent"
+      "অচ্ছ"
     ],
     "en_syns": [
       "pellucid",
@@ -5885,7 +5837,6 @@
       "Fulmarus glacialis, a cliff-dwelling, gull-like bird of northern seas and coasts; it belongs to a group of seabirds commonly known as <b>petrel</b>s and shearwaters."
     ],
     "bn_syns": [
-      "petrification",
       "পাষাণীকরণ",
       "জীবাশ্ম",
       "পাথর",
@@ -5951,7 +5902,6 @@
       "She clapped her hands three times and in walked half a dozen servant girls, carrying undergarments and <b>petticoat</b>s ."
     ],
     "bn_syns": [
-      "farthingale",
       "ঘাগরা বা সেমিজ",
       "চিলতা",
       "বস্ত্রবিশেষ",
@@ -6000,7 +5950,6 @@
       "It is their incorrigible <b>pettish</b>ness and ignominious attitude towards their voters that makes the whole nation suffer."
     ],
     "bn_syns": [
-      "nettlesome",
       "খিট্খিটে",
       "খর্খরে",
       "খামখেয়ালী",
@@ -6142,7 +6091,6 @@
       "দৈত্য",
       "পরী",
       "আবির্ভাব",
-      "phantasma",
       "মিথ্যা আভাস"
     ],
     "en_syns": [
@@ -6523,7 +6471,6 @@
       "Pidgins and Creoles do not have a single <b>phonology</b> and <b>phonology</b> remains the least stable system in otherwise stabilized pidgins."
     ],
     "bn_syns": [
-      "phonemics",
       "ধ্বনিবিজ্ঞান"
     ],
     "en_syns": [
@@ -7328,7 +7275,6 @@
     ],
     "bn_syns": [
       "পো গাছ",
-      "peepul",
       "পিপুল-গাছ"
     ],
     "en_syns": [
@@ -7403,6 +7349,9 @@
   {
     "en": "pisces",
     "bn": "মীনরাশি",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈpisēz,ˈpīsēz",
       "Mīnarāśi"
@@ -7420,9 +7369,6 @@
     ],
     "en_syns": [
       "Pisces"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -7500,8 +7446,7 @@
     ],
     "bn_syns": [
       "পিটুইটারি গ্রন্থি",
-      "পিটুইটারি শরীর",
-      "hypophysis"
+      "পিটুইটারি শরীর"
     ],
     "en_syns": [
       "hypophysis",
@@ -7834,7 +7779,6 @@
       "The egg-laying <b>platypus</b> and its cousin, the anteater, along with marsupials, make up the most primitive group of living mammals."
     ],
     "bn_syns": [
-      "duckbill",
       "হাঁস - বিল প্লাটিপাস"
     ],
     "en_syns": [
@@ -7976,7 +7920,6 @@
       "নিম্ন বর্গ",
       "অসভ্য",
       "বিত্তহীন",
-      "pleb",
       "সাধারণ"
     ],
     "en_syns": [
@@ -8030,8 +7973,7 @@
     ],
     "bn_syns": [
       "বাছাই",
-      "মেজরাব",
-      "plectron"
+      "মেজরাব"
     ],
     "en_syns": [
       "pick",
@@ -8343,8 +8285,7 @@
       "স্তম্ভমূল",
       "থামাল",
       "নাতি",
-      "পোতা",
-      "footstall"
+      "পোতা"
     ],
     "en_syns": [
       "footstall",
@@ -8630,6 +8571,9 @@
   {
     "en": "pluto",
     "bn": "গ্রহবিশেষ",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈplo͞otō",
       "Grahabiśēṣa"
@@ -8647,9 +8591,6 @@
     "en_syns": [
       "Pluto",
       "Uranus"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -8777,6 +8718,9 @@
   {
     "en": "polaroid",
     "bn": "পোলারয়েড",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈpōləˌroid",
       "Pōlāraẏēḍa"
@@ -8791,9 +8735,6 @@
     ],
     "bn_syns": [],
     "en_syns": [],
-    "pos": [
-      "noun"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -9073,7 +9014,6 @@
     ],
     "bn_syns": [
       "রাজনৈতিক নেতা",
-      "Pol",
       "রাজনীতিজ্ঞ"
     ],
     "en_syns": [
@@ -9150,9 +9090,7 @@
       "Radon can enter the body through the lungs, where it undergoes alpha decay to form <b>polonium</b> , a radioactive solid that remains in the lungs and continues to emit cancer-causing radiation.",
       "The uranium eventually decays to radium and, eventually to <b>polonium</b> -210, a substance that, when inhaled, can endanger tissue health and damage the immune system."
     ],
-    "bn_syns": [
-      "PO"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "po"
     ],
@@ -9246,10 +9184,7 @@
       "When you're a special sort of elf, like Sy, something as simple as watching people having a conversation could become a <b>polychromatic</b> piece of art.",
       "Consequently, any movement that seeks to deprive us of this unique, <b>polychromatic</b> identity is anti-national."
     ],
-    "bn_syns": [
-      "polychromic",
-      "polychrome"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "polychrome",
       "polychromic"
@@ -9397,7 +9332,6 @@
       "Hermite made important contributions to number theory and algebra, orthogonal <b>polynomial</b>s , and elliptic functions."
     ],
     "bn_syns": [
-      "MULTINOMIAL",
       "বহুপদ"
     ],
     "en_syns": [
@@ -9540,7 +9474,6 @@
     ],
     "bn_syns": [
       "তীব্র আঘাত",
-      "saddlebow",
       "পেটা"
     ],
     "en_syns": [
@@ -9644,8 +9577,7 @@
       "ক্ষতিকর মনে করা",
       "রচনা করা",
       "উপদেশ দেওয়া",
-      "গাহা",
-      "bloviate"
+      "গাহা"
     ],
     "en_syns": [
       "declaim",
@@ -9751,7 +9683,6 @@
     ],
     "bn_syns": [
       "রোমান ক্যাথলিক সম্প্রদায়ের লোক",
-      "papistic",
       "রোমান"
     ],
     "en_syns": [
@@ -9818,9 +9749,6 @@
       "আবোল-তাবোল",
       "আবর্জনা",
       "আবোলতাবোল বকা",
-      "gobbledygook",
-      "crapola",
-      "bushwa",
       "মৌখিক ডায়রিয়া",
       "আজেবাজে কথা",
       "অর্থহীন কথা",
@@ -9831,13 +9759,11 @@
       "পচা",
       "অর্থহীন আচার অনুষ্ঠান",
       "ডাহা মূর্খতা",
-      "hogwash",
       "চাঁদের দীপ্তি",
       "বিরক্তি-প্রকাশক ধ্বনি",
       "পালান",
       "কজ্জল",
       "আবোল-তাবোল বলা",
-      "Malarkey",
       "অর্থহীন কিছু",
       "ফাঁকা কথা"
     ],
@@ -10366,7 +10292,6 @@
       "পেয়",
       "নিরাপদ",
       "পানীয়",
-      "uncontaminated",
       "পান করতে হইয়া",
       "অকলঙ্কিত",
       "সুস্বাদু",
@@ -10571,8 +10496,7 @@
       "Since organic <b>poulterer</b>s don't use artificial light to force their hens to keep laying, you can boost their income by buying their high-summer egg surplus - and using them in this wonderful dish."
     ],
     "bn_syns": [
-      "কুক্কুটাদি",
-      "poultryman"
+      "কুক্কুটাদি"
     ],
     "en_syns": [
       "poultryman"
@@ -10995,8 +10919,7 @@
     ],
     "bn_syns": [
       "পূর্বাহ্নেই নির্দিষ্ট করা",
-      "দৈবনির্দিষ্ট",
-      "foreordain"
+      "দৈবনির্দিষ্ট"
     ],
     "en_syns": [
       "foreordained",
@@ -11019,7 +10942,6 @@
       "These are troubling times we are in mired in, for the Lord is witness to the crimes of his children and has <b>predestine</b>d us to suffer for our sins."
     ],
     "bn_syns": [
-      "foreordain",
       "পূর্বাহ্নেই ধার্য করিয়া দেওয়া",
       "পূর্বাহ্নে স্থির করা",
       "পূর্বাহ্নেই নির্দিষ্ট করা",
@@ -11389,9 +11311,7 @@
       "The Prelacy of the Armenian Apostolic Church of America is affiliated with and under the jurisdiction of the Holy See of the Great House of Cilicia",
       "Initially this was limited to the ├ö├ç├┐ <b>prelacy</b> ├ö├ç├û of Anglican episcopacy; but in time he turned against Presbyterian religious/political ordering, and later against other forms of religious control."
     ],
-    "bn_syns": [
-      "prelature"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "prelature"
     ],
@@ -11411,7 +11331,6 @@
       "Finally, a Vatican-appointed committee of three U.S. <b>prelate</b>s was commissioned to resolve the crisis."
     ],
     "bn_syns": [
-      "Archpriest",
       "উচ্চশ্রেণীর যাজক",
       "প্রাইমেট",
       "মহাপুরোহিত",
@@ -11503,7 +11422,6 @@
     "bn_syns": [
       "পূর্বাহ্নেই নির্দিষ্ট করা",
       "সাজাইয়া রাখা",
-      "foreordain",
       "পূর্বাহ্নে স্থির করা",
       "নির্ধারণ",
       "ধার্য করা",
@@ -11615,7 +11533,6 @@
     "bn_syns": [
       "কুসংস্কার",
       "পূর্বকল্পিত মতামত",
-      "Parti প্রিস",
       "পূর্বকল্পিত ধারণা",
       "পূর্বে অধিকার",
       "পক্ষপাত",
@@ -11661,6 +11578,9 @@
   {
     "en": "presbyterian",
     "bn": "প্রেসবিটারিয়ান",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˌpres-,ˌprezbəˈtirēən",
       "Prēsabiṭāriẏāna"
@@ -11675,9 +11595,6 @@
     ],
     "bn_syns": [],
     "en_syns": [],
-    "pos": [
-      "noun"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -12210,7 +12127,6 @@
       "শিখান",
       "গৃহশিক্ষক",
       "প্রধান",
-      "fuze",
       "কার্তুজ কোট"
     ],
     "en_syns": [
@@ -12264,7 +12180,6 @@
       "আপ ডুমুর",
       "আউট রত",
       "আউট পোশাকপরিচ্ছদ",
-      "আপ gussy",
       "অভিনব আপ",
       "সাজানো",
       "পোশাক পরিধান করা",
@@ -12326,9 +12241,7 @@
       "There is also reference to the Wasp, formerly the Guepe, a French <b>privateer</b> captured in 1801 and later under the command of Lt. Joseph Packwood in 1805.",
       "Piracy against the ships of a hostile nation was perfectly legal - <b>privateer</b>ing , as it was called, was a lucrative industry."
     ],
-    "bn_syns": [
-      "privateersman"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "privateersman"
     ],
@@ -13087,7 +13000,6 @@
       "Hydrodynamic and small angle x-ray scattering measurements show that plant MSP has an extended, <b>prolate</b> ellipsoid shape in solution."
     ],
     "bn_syns": [
-      "ovate",
       "ডিম্বাকার",
       "অণ্ডাকৃতি",
       "ডিম্বাকৃতির",
@@ -13723,7 +13635,6 @@
       "The theatre is now equipped with full lighting banks, there is a false <b>proscenium</b> and trapdoors in the stage, the audience seating has been much improved and better access has been arranged."
     ],
     "bn_syns": [
-      "forestage",
       "পরিচ্চদ-রক্ষক বহিরাবরণ"
     ],
     "en_syns": [
@@ -13957,6 +13868,10 @@
   {
     "en": "protestant",
     "bn": "আপত্তিকারী",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈprätəstənt",
       "Āpattikārī"
@@ -13975,10 +13890,6 @@
       "আপত্তিকারী"
     ],
     "en_syns": [],
-    "pos": [
-      "noun",
-      "adjective"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -14515,7 +14426,6 @@
       "বাজে",
       "ভণ্ড",
       "নকল",
-      "pseud",
       "কূট",
       "সাজা",
       "কৃত্রিম",
@@ -14831,9 +14741,7 @@
       "After about 10 weeks you can start feeding <b>pullet</b>s (young hens) about 10 percent scratch grain (a mix of small grain and cracked corn) and 90 percent mash to lower the total protein a bit."
     ],
     "bn_syns": [
-      "বাচ্চা মুরগি",
-      "Fryer",
-      "frier"
+      "বাচ্চা মুরগি"
     ],
     "en_syns": [
       "fryer",
@@ -14875,7 +14783,6 @@
       "প্রোটোকল",
       "শালীনতা",
       "সুবুদ্ধি",
-      "politesse",
       "অনুসার",
       "শিষ্টাচার",
       "ভদ্রতা",
@@ -14918,7 +14825,6 @@
       "খুঁতখুঁতে",
       "ব্যস্তবাগীশ",
       "যথাযথ",
-      "persnickety",
       "ন্যায়বান",
       "পরিশ্রমী",
       "বিশেষ",
@@ -15052,7 +14958,6 @@
       "The <b>purgative</b> activity of RH appears to be due to rhein and the sennoside components."
     ],
     "bn_syns": [
-      "evacuant",
       "বিরেচক",
       "রেচক পদার্থ",
       "রেচক",
@@ -15104,7 +15009,6 @@
     "bn_syns": [
       "চুরি করা",
       "ছিনান",
-      "Heist",
       "হরণ করা",
       "গ্রহণ করা",
       "যথাযথ",
@@ -15251,7 +15155,6 @@
     ],
     "bn_syns": [
       "অবীর",
-      "gutless",
       "ভীতু",
       "মনিমুখো লোক",
       "দুর্বল",
@@ -15264,7 +15167,6 @@
       "ভীরু",
       "ভীতিজনক",
       "হলুদ",
-      "হলুদ-bellied",
       "মুরগির মাংস",
       "নীচ",
       "মেরূদণ্ডহীন"
@@ -15326,13 +15228,11 @@
     "bn_syns": [
       "ফোলা",
       "হোয়াইটহেড",
-      "zit",
       "পদ্মরাগমণি",
       "ফোস্কা",
       "রোগবিশেষ",
       "কাল আঁচিল",
       "ফুটান",
-      "papule",
       "ফুস্কুড়ি",
       "ব্রণ",
       "অগ্ন্যুত্পাত",
@@ -15530,9 +15430,7 @@
       "পায়জামা",
       "প্যান্ট",
       "পাজামা",
-      "নিদ্রা",
-      "jammies",
-      "nightgown"
+      "নিদ্রা"
     ],
     "en_syns": [
       "nightgown",
@@ -15593,7 +15491,6 @@
       "├ö├ç├┐It's not what you'd want as a player,├ö├ç├û said Barry Ferguson, meaning the closed-doors match rather than the <b>pyrotechnics</b> ."
     ],
     "bn_syns": [
-      "pyrotechny",
       "আড়ম্বর",
       "জাঁকজমক",
       "ধুমধাম",

@@ -188,6 +188,9 @@
   {
     "en": "easter",
     "bn": "স্টার",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈēstər",
       "Sṭāra"
@@ -206,9 +209,6 @@
       "স্টার"
     ],
     "en_syns": [],
-    "pos": [
-      "noun"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -559,9 +559,7 @@
       "দুর্বলতা",
       "ব্যর্থতা",
       "পুরুষত্বহীনতা",
-      "শক্তিহীনতা",
-      "sissiness",
-      "effeminateness"
+      "শক্তিহীনতা"
     ],
     "en_syns": [
       "effeminateness",
@@ -855,8 +853,7 @@
     ],
     "bn_syns": [
       "বনগোলাপ",
-      "কাঁটাঝোপ",
-      "sweetbriar"
+      "কাঁটাঝোপ"
     ],
     "en_syns": [
       "briar",
@@ -1274,7 +1271,6 @@
       "বিশাল বিশাল",
       "জবুথবু",
       "অসাধারণ",
-      "ginormous",
       "বৃহদায়তন",
       "খুব বড়",
       "গুরু"
@@ -1309,7 +1305,6 @@
     "bn_antonyms": [
       "পুঁচকে",
       "ক্ষুদ্রাতিক্ষুদ্র",
-      "Bantam",
       "অতি ক্ষুদ্র",
       "মাইক্রো",
       "ক্ষুদ্র",
@@ -1526,7 +1521,6 @@
       "Again a shift occurs at the <b>ellipsis</b> : Before it, the doctor speaks monologically, addressing Golyadkin only indirectly."
     ],
     "bn_syns": [
-      "eclipsis",
       "ঊহ্য শব্দ",
       "ফাঁকা",
       "উদ্ধৃতি"
@@ -1751,7 +1745,6 @@
       "দিব্যধাম",
       "স্বপ্নরাজ্য",
       "নন্দনকানন",
-      "এ Avalon",
       "ভবিষ্যতে",
       "ভবিষ্যৎ জীবন",
       "স্বর্গ"
@@ -1872,7 +1865,6 @@
       "খোজা করা",
       "ক্ষয় করা",
       "মেয়েলি লোক",
-      "sissified",
       "মনিমুখো লোক",
       "তরল করা",
       "এর বাইরে দাঁত টান",
@@ -2000,7 +1992,6 @@
       "The British navy's first iron steamer, the Nemesis, drawing only six feet of water, went in beneath the angle of depression of the Chinese battery's guns and poured grape and canister straight through the <b>embrasure</b>s ."
     ],
     "bn_syns": [
-      "porthole",
       "বন্দর"
     ],
     "en_syns": [
@@ -2068,11 +2059,9 @@
       "বাড়ান",
       "সংশোধন করা",
       "উন্নত করা",
-      "copyedit",
       "ঠিক করা",
       "পুন: পরিক্ষা",
       "পরিবর্তন করা",
-      "rework",
       "পরিশোধন করা",
       "পুনর্গঠন",
       "ঠিক",
@@ -2196,7 +2185,6 @@
       "চরিত্রগত",
       "উচ্চতা",
       "টিলা",
-      "preeminence",
       "খ্যাতি"
     ],
     "en_syns": [
@@ -2244,7 +2232,6 @@
       "ঘষা",
       "সুগন্ধ পদার্থ",
       "ক্রিম",
-      "humectant",
       "প্রলেপ",
       "পুলতিস",
       "স্তর",
@@ -2331,7 +2318,6 @@
       "This is on 13 April when the panel is present and before the actual <b>empanel</b>ment of the jury, but after the arraignment."
     ],
     "bn_syns": [
-      "impanel",
       "প্যানেল"
     ],
     "en_syns": [
@@ -2522,7 +2508,6 @@
       "সমাধি",
       "গ্রেপ্তার",
       "ধরা",
-      "becharm",
       "আমোদিত করা"
     ],
     "en_syns": [
@@ -2572,7 +2557,6 @@
       "Soon people within the city began to experience symptoms similar to <b>encephalitis</b> , an inflammation of the brain."
     ],
     "bn_syns": [
-      "phrenitis",
       "কেফেলাইটিস",
       "মস্তিষ্কপ্রদাহ"
     ],
@@ -2741,8 +2725,7 @@
       "Salt crystals <b>encrust</b> your shoes and coat your pants cuffs, and you begin to think your own cells are turning to salt."
     ],
     "bn_syns": [
-      "কঠিন আবরণে পরিণত হত্তয়া",
-      "incrust"
+      "কঠিন আবরণে পরিণত হত্তয়া"
     ],
     "en_syns": [
       "incrust"
@@ -2797,8 +2780,7 @@
       "সমস্ত-সমেত",
       "বহুদূরবিস্তৃত",
       "বিশ্বব্যাপী",
-      "অন্তর্ভুক্ত",
-      "সব encompassing"
+      "অন্তর্ভুক্ত"
     ],
     "en_syns": [
       "in-depth",
@@ -3101,6 +3083,10 @@
   {
     "en": "english",
     "bn": "ইংরেজি",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈiNG(g)liSH",
       "Inrēji"
@@ -3127,10 +3113,6 @@
     ],
     "en_syns": [
       "side"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -3303,7 +3285,6 @@
     "bn_syns": [
       "ফাঁদ",
       "ধরে ফেলুন",
-      "ensnarl",
       "পেঁচান",
       "জটিল",
       "চুক্তিবদ্ধ করান",
@@ -3671,7 +3652,6 @@
       "পরাস্ত",
       "পরাজয়",
       "প্রাণপণ চেষ্টা করা",
-      "disenfranchise",
       "জুলুম করা",
       "বাঁধাই করা"
     ],
@@ -3780,9 +3760,7 @@
       "This chapter briefly describes these extrinsic regulatory systems of nerves and the ways in which they interact with the intrinsic <b>enteric</b> nervous system.",
       "The <b>enteric</b> nervous system contains a large number of neurons organized in intricate neuronal circuits."
     ],
-    "bn_syns": [
-      "enteral"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "enteral"
     ],
@@ -3915,8 +3893,7 @@
       "খনন করা",
       "পরিখা দ্বারা সুরক্ষিত করা",
       "স্থাপন করা",
-      "পরিখা",
-      "intrench"
+      "পরিখা"
     ],
     "en_syns": [
       "intrench",
@@ -4176,6 +4153,10 @@
   {
     "en": "episcopalian",
     "bn": "বিশপ-সংক্রান্ত",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       null,
       "Biśapa-saṅkrānta"
@@ -4193,10 +4174,6 @@
     ],
     "en_syns": [
       "episcopal"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -4406,9 +4383,7 @@
       "It will only be these rough notes which will be liable to <b>erasure</b> .",
       "The process of historical <b>erasure</b> may have started then."
     ],
-    "bn_syns": [
-      "expunction"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "expunction"
     ],
@@ -4598,7 +4573,6 @@
       "There is nothing <b>ersatz</b> in this polished Edwardian pile, save fake coal fires in secondary rooms."
     ],
     "bn_syns": [
-      "wannabe",
       "জাল",
       "কৃত্রিম",
       "বদলি লোক বস্তু",
@@ -4727,7 +4701,6 @@
       "The <b>escutcheon</b>s are presented by a variety of actors and animals - wild men and women, dancers, lions, and so forth."
     ],
     "bn_syns": [
-      "scutcheon",
       "ঢাল",
       "ঢল",
       "আঙুল প্লেট"
@@ -4742,6 +4715,9 @@
   {
     "en": "eskimo",
     "bn": "এস্কিমো",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈeskəˌmō",
       "Ēskimō"
@@ -4761,9 +4737,6 @@
     "en_syns": [
       "Esquimau",
       "Eskimo"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -5348,7 +5321,6 @@
       "A few minutes later, as his story goes, he glanced at his full bookshelf and <b>eureka</b> !"
     ],
     "bn_syns": [
-      "constantan",
       "লোটোখেলা",
       "এটাই"
     ],
@@ -5379,6 +5351,10 @@
   {
     "en": "european",
     "bn": "ইউরোপীয়",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˌyo͝orə-,ˌyərəˈpēən",
       "I'urōpīẏa"
@@ -5407,10 +5383,6 @@
       "foreign",
       "Anglican",
       "European"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -6466,8 +6438,7 @@
       "তরল করা",
       "কোনো বইয়ের অশ্লীল অংশ বাদ দেওয়া",
       "সংশোধন করা",
-      "গ্রহণযোগ্য",
-      "sanitize"
+      "গ্রহণযোগ্য"
     ],
     "en_syns": [
       "bowdlerize",
@@ -6548,7 +6519,6 @@
       "ভদ্রতাবিহীন",
       "না ভাবিয়া চিন্তিয়া",
       "অপ্রত্যাশিত",
-      "বিজ্ঞাপন-liberal এর সংক্ষিপ্ত রূপ",
       "উপস্থিতমত",
       "অনিয়মিত"
     ],
@@ -6871,8 +6841,7 @@
       "প্রদর্শন",
       "নাটকের দৃশ্য",
       "আনুষ্ঠানিক",
-      "প্রদর্শনী",
-      "blowout"
+      "প্রদর্শনী"
     ],
     "en_syns": [
       "gala",
@@ -6989,8 +6958,6 @@
       "উদ্বোধন",
       "গোলাকার ক্ষুদ্র ছিদ্র",
       "ক্রীংল",
-      "grummet",
-      "grommet",
       "লুপ"
     ],
     "en_syns": [

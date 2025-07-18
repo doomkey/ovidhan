@@ -38,16 +38,13 @@
       "হুররে",
       "নরপশু",
       "পশু",
-      "Yee-বেড়া",
       "অমার্জিত গেঁয়ো লোক",
       "চাষা",
       "মাটির চেলা",
       "লাল ঘাড়ের",
-      "Wahoo",
       "আনন্দধ্বনিবিশেষ",
       "অসভ্য",
       "বলিহারি",
-      "roughneck",
       "হ্যাঁ",
       "প্রাক্মানব",
       "গণ্ডমূর্খ",
@@ -116,6 +113,10 @@
   {
     "en": "yankee",
     "bn": "আমেরিকার লোক",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈyaNGkē",
       "Āmērikāra lōka"
@@ -141,10 +142,6 @@
       "northerner",
       "yank"
     ],
-    "pos": [
-      "noun",
-      "adjective"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -161,7 +158,6 @@
       "Gather early summer flowers like violets, <b>yarrow</b> and red clover to dry for teas and for tincturing."
     ],
     "bn_syns": [
-      "milfoil",
       "উগ্রগন্ধ ফুল"
     ],
     "en_syns": [
@@ -223,7 +219,6 @@
       "A market revolution occurred as a <b>yeoman</b> and cash crop agriculture and capitalist manufacturing replaced artisan economy."
     ],
     "bn_syns": [
-      "beefeater",
       "ইঔম্যান্",
       "টাওয়ার অব লণ্ডনের প্রহরী"
     ],
@@ -237,6 +232,9 @@
   {
     "en": "yiddish",
     "bn": "ইডীশ্",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈyidiSH",
       "Iḍīś"
@@ -257,9 +255,6 @@
     ],
     "en_syns": [
       "Yiddish"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []

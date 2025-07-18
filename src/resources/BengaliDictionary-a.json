@@ -397,7 +397,6 @@
       "The <b>abbess</b> questions the existence of the reincarnations."
     ],
     "bn_syns": [
-      "prioress",
       "মঠাধ্যক্ষ",
       "মঠধারিণী",
       "উচ্চতর মা"
@@ -423,8 +422,7 @@
     ],
     "bn_syns": [
       "মঠাধ্যক্ষ",
-      "মঠধারিণী",
-      "archimandrite"
+      "মঠধারিণী"
     ],
     "en_syns": [
       "archimandrite"
@@ -991,7 +989,6 @@
     ],
     "bn_syns": [
       "খত্তয়া",
-      "corrade",
       "পরিমার্জন"
     ],
     "en_syns": [
@@ -1249,8 +1246,7 @@
     "bn_syns": [
       "একনায়কতন্ত্র",
       "স্বৈরতন্ত্র",
-      "স্বৈরশাসন",
-      "totalism"
+      "স্বৈরশাসন"
     ],
     "en_syns": [
       "dictatorship",
@@ -1632,13 +1628,11 @@
       "সুর ​​মেলান",
       "নিজেকে পরিচিত",
       "সমর্পণ করা",
-      "একজনের bearings হয় পেতে",
       "অভ্যস্ত করান",
       "নিজেকে মিলনসাধন",
       "সহান",
       "ব্যবহার",
       "খাপ খাওয়ানো",
-      "inured পরিণত",
       "নূতন জলবায়ু সহ্য করিতে অভ্যস্ত করান",
       "ন্যাচারাইজড পরিণত",
       "অন্য সংস্কৃতির সঙ্গে খাপ খাইয়ে নেওয়া"
@@ -2013,10 +2007,7 @@
       "To transport gaseous substances such as propane or <b>acetylene</b> economically, they must be compressed greatly to fit into containers of a reasonable size.",
       "We use the heat produced by the burning of <b>acetylene</b> in the flame of the oxy<b>acetylene</b> torch to make welds."
     ],
-    "bn_syns": [
-      "ethyne",
-      "alkyne"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "alkyne",
       "ethyne"
@@ -2099,11 +2090,9 @@
       "সহযোগী",
       "সমকক্ষ ব্যক্তি",
       "শিষ্য",
-      "Sidekick",
       "চেড়",
       "সহায়ক",
       "সহায়তাকারী",
-      "Groupie",
       "চাটুকার",
       "দৃঢ় সমর্থক",
       "ভৃত্য",
@@ -2176,8 +2165,7 @@
       "সুদৃঢ়",
       "অর্জনেচ্ছু",
       "লোভী",
-      "লুণ্ঠনমূলক",
-      "টাকা grubbing"
+      "লুণ্ঠনমূলক"
     ],
     "en_syns": [
       "mercenary",
@@ -2615,7 +2603,6 @@
       "চিয়ার্স",
       "যতক্ষণ না আমরা আবার দেখা",
       "বিদায়",
-      "toodle-ওও",
       "এতক্ষণ",
       "নমস্কার",
       "বিদায়কালীন",
@@ -2624,11 +2611,7 @@
       "বর্তমান",
       "উপহার",
       "অপসারণ",
-      "চীয়ারীত্ত",
-      "Sayonara",
-      "Ciao",
-      "Adios",
-      "TA-Ta"
+      "চীয়ারীত্ত"
     ],
     "en_syns": [
       "until we meet again",
@@ -3000,7 +2983,6 @@
       "Due to the proximity of and propensity for renal cell carcinoma to spread to the <b>adrenal</b> cortex, this possibility should be excluded."
     ],
     "bn_syns": [
-      "suprarenal গ্রন্থি",
       "মূত্রগ্র্রন্থিসম্বন্ধীয়",
       "অ্যাড্রিনাল গ্রন্থি"
     ],
@@ -3288,7 +3270,6 @@
     ],
     "bn_syns": [
       "সুযোগ",
-      "serendipitous",
       "অপরিকলি্পত",
       "সদৃশ",
       "আপতিক",
@@ -3536,7 +3517,6 @@
       "The <b>aerodrome</b> , only recently constructed by the French army, consisted of freshly cut wheat fields lined with canvas hangars."
     ],
     "bn_syns": [
-      "airdrome",
       "বিমানবন্দর",
       "বিমানশালা"
     ],
@@ -3587,7 +3567,6 @@
       "জেট বিমান",
       "ফিনকি",
       "সমতল",
-      "jetliner",
       "উড়ন্ত মেশিন"
     ],
     "en_syns": [
@@ -3957,6 +3936,10 @@
   {
     "en": "african",
     "bn": "আফ্রিকান",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈafrikən",
       "Āphrikāna"
@@ -3976,10 +3959,6 @@
     ],
     "en_syns": [
       "African"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -4202,8 +4181,7 @@
       "জোড়া",
       "আত্মসাৎ করা",
       "মেনে চলে",
-      "স্ফটিকে পরিণত করা",
-      "agglutinative"
+      "স্ফটিকে পরিণত করা"
     ],
     "en_syns": [
       "agglutinative"
@@ -4476,7 +4454,6 @@
       "ভূস্বামী",
       "জমির মালিক",
       "গ্রামাঞ্চলের",
-      "georgic",
       "দেহাতি",
       "গ্রামীণ",
       "কৃষি"
@@ -4691,8 +4668,7 @@
       "It is home to many birds such as <b>albatross</b> , penguins, cormorants, gulls and gannets, and the New Zealand fur seal, which can easily be seen from the road lazing around in rocky areas."
     ],
     "bn_syns": [
-      "বৃহদাকার সামুদ্রি পক্ষিবিশেষ",
-      "mollymawk"
+      "বৃহদাকার সামুদ্রি পক্ষিবিশেষ"
     ],
     "en_syns": [
       "mollymawk"
@@ -4787,8 +4763,7 @@
       "Trees which are especially suited for erosion control include varieties of birch, cedar, <b>alder</b> , fir, pine and redwood."
     ],
     "bn_syns": [
-      "ভূর্জজাতীয় বৃক্ষবিশেষ",
-      "Alder গাছ"
+      "ভূর্জজাতীয় বৃক্ষবিশেষ"
     ],
     "en_syns": [
       "alder tree"
@@ -4929,7 +4904,6 @@
     ],
     "bn_syns": [
       "পুষ্টিকর",
-      "alimental",
       "খাদ্যসরবরাহকর",
       "পরিপোষক"
     ],
@@ -4946,6 +4920,9 @@
   {
     "en": "allah",
     "bn": "আল্লাহ",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈalə,ˈälə",
       "Āllāha"
@@ -4964,9 +4941,6 @@
     "en_syns": [
       "god",
       "Allah"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -5751,7 +5725,6 @@
       "It's great to have a job where you serve people the <b>ambrosia</b> of the gods"
     ],
     "bn_syns": [
-      "beebread",
       "অমৃত",
       "অমিয়",
       "সারাংশ"
@@ -5788,7 +5761,6 @@
       "অনুমান",
       "অদৃশ্য থাকা",
       "পথিমধ্যে আটক করা",
-      "bushwhack",
       "ফাঁদ"
     ],
     "en_syns": [
@@ -5838,8 +5810,7 @@
       "Dr Arnmon addressed <b>ambulatory</b> surgery for patients with diabetes, saying that a tight schedule is never a reason to perform a procedure."
     ],
     "bn_syns": [
-      "আমির",
-      "emeer"
+      "আমির"
     ],
     "en_syns": [
       "amir",
@@ -5852,6 +5823,9 @@
   {
     "en": "america",
     "bn": "আমেরিকা",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "əˈmerikə",
       "Āmērikā"
@@ -5872,15 +5846,16 @@
       "America",
       "American"
     ],
-    "pos": [
-      "noun"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
   {
     "en": "american",
     "bn": "মার্কিন",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "əˈmerikən",
       "Mārkina"
@@ -5908,10 +5883,6 @@
       "Yankee",
       "American",
       "America"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -6035,7 +6006,6 @@
       "Missile one hit <b>amidships</b> , wrecking a set of berthing compartments."
     ],
     "bn_syns": [
-      "midships",
       "জাহাজের মধ্যাংশে"
     ],
     "en_syns": [
@@ -6126,9 +6096,7 @@
       "This increase in disparity also corresponded to a phyletic radiation, as all the earliest Jurassic <b>ammonite</b>s derived from scarce <b>ammonite</b>s of rather homogeneous and medium-sized species.",
       "The fossil content consists of <b>ammonite</b>s , belemnites, brachiopods, echinoderms, bivalves, crinoids, gastropods, ostracodes and benthic foraminifers."
     ],
-    "bn_syns": [
-      "ammonoid"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "ammonoid"
     ],
@@ -6359,14 +6327,11 @@
     ],
     "bn_syns": [
       "প্রতিমা",
-      "Juju",
       "মাদুলি",
       "টোট্যাম",
       "ফেটিশ",
       "কবচ",
       "মোজো",
-      "phylactery",
-      "churinga",
       "কবজ",
       "সিদ্ধি",
       "বর্ম",
@@ -6626,7 +6591,6 @@
       "I fail to see the <b>analogy</b> between banning a behavior that is being repressed by violence and banning a behavior that is being enforced by violence."
     ],
     "bn_syns": [
-      "psychoanalyze",
       "ভাঙ্গিয়া পড়া",
       "পরীক্ষা করা",
       "ক্যানভাস"
@@ -6739,7 +6703,6 @@
       "সহায়ক",
       "চেড়",
       "সহযোগিতা",
-      "adminicular",
       "অতিরিক্ত",
       "সম্পূরক",
       "সাহায্য",
@@ -6797,8 +6760,7 @@
       "The schooling fish here are the big attraction but the walls are covered in orange soft corals and large red dahlia <b>anemone</b>s ."
     ],
     "bn_syns": [
-      "বায়ুপরাগী পুষ্পবিশেষ",
-      "windflower"
+      "বায়ুপরাগী পুষ্পবিশেষ"
     ],
     "en_syns": [
       "windflower"
@@ -6845,6 +6807,10 @@
   {
     "en": "anglican",
     "bn": "বিলাতী",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈaNGglikən",
       "Bilātī"
@@ -6869,10 +6835,6 @@
       "foreign",
       "Anglican",
       "English"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -6906,9 +6868,7 @@
       "The United States <b>anglicize</b>d the name to ├ö├ç├┐Porto Rico├ö├ç├û when it occupied the island in 1898 after the Spanish-American War.",
       "In 1816 Saartje Bartman, a South African woman whose original name is unknown and whose Dutch name had been <b>anglicize</b>d to Sarah Bartmann, died in Paris."
     ],
-    "bn_syns": [
-      "anglicise"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "anglicise"
     ],
@@ -6979,9 +6939,7 @@
       "O'Neill identified dahlia as a blue violet developed from <b>aniline</b> red, while Schultz identified it variously as methyl violet and a mixture of magenta and methyl violet.",
       "In the non-lignified portion, even the highly sensitive <b>aniline</b> blue staining failed to detect the presence of callose, which would be indicative of sieve tube formation."
     ],
-    "bn_syns": [
-      "phenylamine"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "phenylamine"
     ],
@@ -7548,8 +7506,7 @@
     "bn_syns": [
       "পর্বতারোহণাদিতে ব্যবহৃত মাথার ঢাকনাওয়ালা জলাভেদ্য জামাবিশেষ",
       "পশমের কোটবিশেষ",
-      "বায়ুঊর্মিভঙ্গ",
-      "windcheater"
+      "বায়ুঊর্মিভঙ্গ"
     ],
     "en_syns": [
       "windbreaker",
@@ -7562,6 +7519,10 @@
   {
     "en": "antarctic",
     "bn": "দখিনা",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "antˈär(k)tik",
       "Dakhinā"
@@ -7582,10 +7543,6 @@
     ],
     "en_syns": [
       "south-polar"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -7708,7 +7665,6 @@
       "Given the fact that the British road network largely <b>antedate</b>s the highway authorities themselves, the court is not in a position to say what the appropriate standard of improvement would be."
     ],
     "bn_syns": [
-      "predate",
       "পূর্ববর্তী হত্তয়া"
     ],
     "en_syns": [
@@ -7772,8 +7728,7 @@
       "<b>antenatal</b> clinic"
     ],
     "bn_syns": [
-      "জন্মপূর্ব",
-      "antepartum"
+      "জন্মপূর্ব"
     ],
     "en_syns": [
       "antepartum",
@@ -7794,9 +7749,7 @@
       "A nauplius consists of the first three cephalic segments and the appendages belonging to those segments, the <b>antennule</b>s , antennae, and mandibles.",
       "Like many crabs, lobsters, and other crustaceans, stomatopods flick their <b>antennule</b>s, probably to increase the velocity of their <b>antennule</b>s relative to the surrounding fluid and reduce the boundary layer thickness."
     ],
-    "bn_syns": [
-      "prenuptial"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "prenuptial"
     ],
@@ -7878,7 +7831,6 @@
       "হোটেলের বড় হলঘর",
       "পার্শ্বকক্ষ",
       "চাঁদনি",
-      "narthex",
       "লবি",
       "সাক্ষাৎ ঘর"
     ],
@@ -7928,8 +7880,7 @@
     ],
     "bn_syns": [
       "পশুরোগবিশেষ",
-      "পৃষ্ঠব্রণ",
-      "splenic জ্বর"
+      "পৃষ্ঠব্রণ"
     ],
     "en_syns": [
       "splenic fever"
@@ -8718,7 +8669,6 @@
       "যুগোপযোগী",
       "মনোরম",
       "উপযুক্ত",
-      "বিজ্ঞাপন REM",
       "সঙ্গত",
       "আনুষঙ্গিক"
     ],
@@ -8861,6 +8811,9 @@
   {
     "en": "april",
     "bn": "এপ্রিল",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈāprəl",
       "Ēprila"
@@ -8880,9 +8833,6 @@
     ],
     "en_syns": [
       "April"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -9040,6 +8990,9 @@
   {
     "en": "aquarius",
     "bn": "কুম্ভরাশি",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "əˈkwe(ə)rēəs",
       "Kumbharāśi"
@@ -9057,9 +9010,6 @@
     ],
     "en_syns": [
       "Aquarius"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -9189,6 +9139,10 @@
   {
     "en": "arabic",
     "bn": "আরবি",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈarəbik",
       "Ārabi"
@@ -9215,10 +9169,6 @@
       "Arabian",
       "Arabic",
       "Arab"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -9299,7 +9249,6 @@
       "Cracids are <b>arboreal</b> birds, nesting, roosting and foraging in the trees."
     ],
     "bn_syns": [
-      "arborous",
       "বৃক্ষবাসী",
       "ব্রাক্ষ",
       "অরণ্যময়",
@@ -9857,6 +9806,9 @@
   {
     "en": "aries",
     "bn": "মেষরাশি",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈe(ə)rē-ēz,ˈe(ə)rēz",
       "Mēṣarāśi"
@@ -9874,9 +9826,6 @@
     ],
     "en_syns": [
       "ram"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -10126,9 +10075,7 @@
       "The <b>arquebus</b> was fairly common throughout the length of Japan by 1580, but often in short supply in the more remote regions."
     ],
     "bn_syns": [
-      "সেকেলে বন্দুকবিশেষ",
-      "hackbut",
-      "hagbut"
+      "সেকেলে বন্দুকবিশেষ"
     ],
     "en_syns": [
       "hackbut",
@@ -10150,9 +10097,7 @@
       "Also popular is arak , the anise-flavored alcohol produced in the region.",
       "A heavy little cast-iron pan with one of the hessian napkins folded around the handle contained a fistful of gorgeous, buoyant prawns that had been cooked off in <b>arrack</b> to leave a heady aniseed whisper in the flesh."
     ],
-    "bn_syns": [
-      "Arak"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "arak"
     ],
@@ -10251,7 +10196,6 @@
       "Competitors, using formulae whose ingredients included <b>arrowroot</b> , sago flour, or potato starch, coloured with turmeric or chrome yellow, and flavoured with cassia or bitter almonds, also entered the market."
     ],
     "bn_syns": [
-      "achira",
       "অ্যারারূট"
     ],
     "en_syns": [
@@ -10732,6 +10676,10 @@
   {
     "en": "asian",
     "bn": "এশিয়ান",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈāZHən",
       "Ēśiẏāna"
@@ -10752,10 +10700,6 @@
     "en_syns": [
       "Asian",
       "Asiatic"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -11042,7 +10986,6 @@
     ],
     "bn_syns": [
       "আশাপূর্ণ",
-      "wannabe",
       "উচ্চাকাঙ্ক্ষী",
       "প্রার্থী",
       "আবেদক",
@@ -11266,8 +11209,7 @@
       "জোট",
       "গোষ্ঠী",
       "গ্রুপ",
-      "মিলন",
-      "hookup"
+      "মিলন"
     ],
     "en_syns": [
       "hookup",
@@ -11743,8 +11685,7 @@
       "সংক্ষেপ",
       "প্রত্যাহার",
       "কোষ্ঠকাঠিন্য",
-      "কাঠিন্য",
-      "astringence"
+      "কাঠিন্য"
     ],
     "en_syns": [
       "astringence"
@@ -12179,7 +12120,6 @@
     ],
     "bn_syns": [
       "আতর",
-      "ottar",
       "আটার"
     ],
     "en_syns": [
@@ -12292,7 +12232,6 @@
       "When it was first shown, their work seemed to represent a new low in superficiality and attitudinizing ."
     ],
     "bn_syns": [
-      "attitudinise",
       "অঙ্গবিন্যাস",
       "ভঙ্গি করা"
     ],
@@ -12315,7 +12254,6 @@
       "Word combination often leads to strings of adjectives and <b>attributive</b> nouns, a style that began in Time magazine in the 1920s, with the aim of providing impact and ├ö├ç├┐colour├ö├ç├û."
     ],
     "bn_syns": [
-      "prenominal",
       "গুণবাচক"
     ],
     "en_syns": [
@@ -12405,7 +12343,6 @@
       "This is not <b>atypical</b> of the way media treats any specialist pursuit."
     ],
     "bn_syns": [
-      "untypical",
       "অনিয়মিত",
       "অস্বাভাবিক"
     ],
@@ -12483,7 +12420,6 @@
     "bn_syns": [
       "শ্রাবণ",
       "পাঠকবর্গ",
-      "auditive",
       "ধ্বনিমনস্ক"
     ],
     "en_syns": [
@@ -12576,7 +12512,6 @@
       "I wasn't thinking you meant <b>aught</b> by it, lad, and I'd not give two coppers for a youngster as didn't want to see his elders brought down a peg or two once in a while."
     ],
     "bn_syns": [
-      "Nada",
       "কোন বস্তু",
       "কিছু",
       "হংসী ডিম",
@@ -12585,7 +12520,6 @@
       "শূন্য",
       "ফ্যাস্ শব্দ",
       "জলের ভূত",
-      "zilch",
       "কিছু না"
     ],
     "en_syns": [
@@ -12709,7 +12643,6 @@
       "সতর্ক",
       "পূর্বসূচনা",
       "শাসান",
-      "auspex",
       "ইঙ্গিত",
       "লক্ষণ দেখান"
     ],
@@ -12743,6 +12676,10 @@
   {
     "en": "august",
     "bn": "অগাস্ট",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈôgəst",
       "Agāsṭa"
@@ -12794,10 +12731,6 @@
       "grand",
       "dignified",
       "lordly"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -12951,7 +12884,6 @@
       "ভোর",
       "মেরূপ্রভা",
       "দিনের বিরতি",
-      "sunup",
       "সূর্যোদয়",
       "প্রথম আলো",
       "প্রাত: কাল",
@@ -13248,8 +13180,7 @@
     ],
     "bn_syns": [
       "পাখি অভয়ারণ্য",
-      "পক্ষিশালা",
-      "volary"
+      "পক্ষিশালা"
     ],
     "en_syns": [
       "bird sanctuary",

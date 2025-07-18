@@ -17,19 +17,24 @@ interface WordLocation {
   i: number; // index
 }
 
-// --- Singleton (shared across the app) ---
-const allLoadedWords = ref<Word[]>([]);
-const loadedLetters = ref(new Set<string>());
+// --- Singleton State (shared across the app) ---
+const wordsByLetterCache = ref(new Map<string, Word[]>());
 const isLoading = ref(false);
 const isLoadingWord = ref(false);
 let banglaIndex: Record<string, WordLocation> | null = null;
 
 export function useDictionaryData() {
+  /**
+   * Loads a dictionary file into the cache if it hasn't been loaded already.
+   */
   const loadWordsByLetter = async (letter: string) => {
     const lowerLetter = letter.toLowerCase();
-    if (loadedLetters.value.has(lowerLetter) || !/^[a-z]$/.test(lowerLetter))
+    if (
+      wordsByLetterCache.value.has(lowerLetter) ||
+      !/^[a-z]$/.test(lowerLetter)
+    )
       return;
-    // Don't show the main search spinner if we are already showing the word loading spinner
+
     if (!isLoadingWord.value) {
       isLoading.value = true;
     }
@@ -37,8 +42,8 @@ export function useDictionaryData() {
       const module = await import(
         `../resources/BengaliDictionary-${lowerLetter}.json`
       );
-      allLoadedWords.value.push(...(module.default || module));
-      loadedLetters.value.add(lowerLetter);
+      const words: Word[] = module.default || module;
+      wordsByLetterCache.value.set(lowerLetter, words);
     } catch (error) {
       console.error(
         `Could not load dictionary for letter: ${lowerLetter}`,
@@ -49,18 +54,34 @@ export function useDictionaryData() {
     }
   };
 
+  const getWordByLocation = async (
+    loc: WordLocation
+  ): Promise<Word | undefined> => {
+    await loadWordsByLetter(loc.f);
+    const wordsInFile = wordsByLetterCache.value.get(loc.f);
+    return wordsInFile ? wordsInFile[loc.i] : undefined;
+  };
+
   const findWordByEnglish = async (
     englishWord: string
   ): Promise<Word | undefined> => {
-    const firstLetter = englishWord.charAt(0).toLowerCase();
-    await loadWordsByLetter(firstLetter);
-    return allLoadedWords.value.find(
-      (w) => w.en.toLowerCase() === englishWord.toLowerCase()
-    );
+    isLoadingWord.value = true;
+    try {
+      const firstLetter = englishWord.charAt(0).toLowerCase();
+      await loadWordsByLetter(firstLetter);
+      const wordsInFile = wordsByLetterCache.value.get(firstLetter);
+      return wordsInFile?.find(
+        (w) => w.en.toLowerCase() === englishWord.toLowerCase()
+      );
+    } finally {
+      isLoadingWord.value = false;
+    }
   };
+
   const setWordLoading = (state: boolean) => {
     isLoadingWord.value = state;
   };
+
   const loadBanglaIndex = async () => {
     if (banglaIndex) return;
     isLoading.value = true;
@@ -69,7 +90,7 @@ export function useDictionaryData() {
       banglaIndex = indexModule.default;
     } catch (e) {
       console.error("Failed to load bangla-index.json", e);
-      banglaIndex = {}; // Avoid trying to load again
+      banglaIndex = {};
     } finally {
       isLoading.value = false;
     }
@@ -82,7 +103,8 @@ export function useDictionaryData() {
     if (language === "en") {
       const firstLetter = query.charAt(0).toLowerCase();
       await loadWordsByLetter(firstLetter);
-      return allLoadedWords.value
+      const wordsInFile = wordsByLetterCache.value.get(firstLetter) || [];
+      return wordsInFile
         .filter((word) => word.en.toLowerCase().startsWith(query.toLowerCase()))
         .slice(0, 10);
     } else {
@@ -101,16 +123,7 @@ export function useDictionaryData() {
 
       const uniqueLocations = Array.from(locationsMap.values()).slice(0, 10);
 
-      const wordPromises = uniqueLocations.map(async (loc) => {
-        await loadWordsByLetter(loc.f);
-        // This is a safe way to find the word after its file has been loaded into the global array
-        return allLoadedWords.value.find(
-          (w) =>
-            w.en.charAt(0).toLowerCase() === loc.f &&
-            allLoadedWords.value.indexOf(w) === loc.i
-        );
-      });
-
+      const wordPromises = uniqueLocations.map((loc) => getWordByLocation(loc));
       const results = (await Promise.all(wordPromises)).filter(
         Boolean
       ) as Word[];
@@ -121,20 +134,21 @@ export function useDictionaryData() {
   const checkWordsExist = async (
     englishWords: string[]
   ): Promise<Set<string>> => {
+    if (!englishWords || englishWords.length === 0) {
+      return new Set<string>();
+    }
     const lettersToLoad = new Set(
       englishWords.map((w) => w.charAt(0).toLowerCase())
     );
-    const promises = Array.from(lettersToLoad).map((letter) =>
-      loadWordsByLetter(letter)
+    await Promise.all(
+      Array.from(lettersToLoad).map((letter) => loadWordsByLetter(letter))
     );
-    await Promise.all(promises);
 
     const existingWords = new Set<string>();
-    const loadedWordSet = new Set(
-      allLoadedWords.value.map((w) => w.en.toLowerCase())
-    );
     englishWords.forEach((word) => {
-      if (loadedWordSet.has(word.toLowerCase())) {
+      const firstLetter = word.charAt(0).toLowerCase();
+      const wordsInFile = wordsByLetterCache.value.get(firstLetter);
+      if (wordsInFile?.some((w) => w.en.toLowerCase() === word.toLowerCase())) {
         existingWords.add(word);
       }
     });
@@ -144,37 +158,28 @@ export function useDictionaryData() {
   const findEnglishEquivalents = async (
     banglaWords: string[]
   ): Promise<Map<string, string>> => {
+    if (!banglaWords || banglaWords.length === 0) {
+      return new Map<string, string>();
+    }
     await loadBanglaIndex();
     const resultMap = new Map<string, string>();
     if (!banglaIndex) return resultMap;
 
-    const lookupsByFile = new Map<
-      string,
-      { originalWord: string; index: number }[]
-    >();
+    const lookups: { originalWord: string; loc: WordLocation }[] = [];
     banglaWords.forEach((word) => {
       const loc = banglaIndex![word];
       if (loc) {
-        if (!lookupsByFile.has(loc.f)) {
-          lookupsByFile.set(loc.f, []);
-        }
-        lookupsByFile.get(loc.f)!.push({ originalWord: word, index: loc.i });
+        lookups.push({ originalWord: word, loc });
       }
     });
 
-    for (const [file, lookups] of lookupsByFile.entries()) {
-      await loadWordsByLetter(file);
-      lookups.forEach((lookup) => {
-        const wordObject = allLoadedWords.value.find(
-          (w) =>
-            w.en.charAt(0).toLowerCase() === file &&
-            allLoadedWords.value.indexOf(w) === lookup.index
-        );
-        if (wordObject) {
-          resultMap.set(lookup.originalWord, wordObject.en);
-        }
-      });
-    }
+    const wordPromises = lookups.map(async (lookup) => {
+      const wordObject = await getWordByLocation(lookup.loc);
+      if (wordObject) {
+        resultMap.set(lookup.originalWord, wordObject.en);
+      }
+    });
+    await Promise.all(wordPromises);
     return resultMap;
   };
 

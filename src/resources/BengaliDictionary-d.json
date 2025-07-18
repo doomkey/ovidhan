@@ -92,8 +92,7 @@
     ],
     "bn_syns": [
       "অপটু কর্মী",
-      "অপেশাদার",
-      "dabbling হাঁস"
+      "অপেশাদার"
     ],
     "en_syns": [
       "amateur",
@@ -125,9 +124,7 @@
       "Majeed was a <b>dacoit</b> and had committed various crimes in his area.",
       "The judge said it was negligence on the part of the Karnataka state government not to take steps to arrest the forest <b>dacoit</b> and his colleagues."
     ],
-    "bn_syns": [
-      "dakoit"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "dakoit"
     ],
@@ -173,7 +170,6 @@
       "├ö├ç├┐He was a well known thief and his <b>daemon</b> is a black dragon,├ö├ç├û said Ana."
     ],
     "bn_syns": [
-      "numen",
       "দৈত্য",
       "অপদেবতা",
       "প্রেতাত্মা",
@@ -557,6 +553,10 @@
   {
     "en": "danish",
     "bn": "ডেনমার্কের",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈdāniSH",
       "Ḍēnamārkēra"
@@ -576,10 +576,6 @@
     "en_syns": [
       "Dane",
       "Danish"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -632,7 +628,6 @@
       "অতি ক্ষুদ্র দাগ",
       "মার্বেল",
       "দোরোখা কাপড়",
-      "maculation",
       "তালি",
       "ডট",
       "কষ",
@@ -793,11 +788,9 @@
       "অটল",
       "তেজস্বী",
       "অপ্রতিহত",
-      "skookum",
       "নিরাতঙ্ক",
       "অশঙ্কিত",
       "নির্ধারিত",
-      "gutty",
       "কুস্বভাব",
       "বীর"
     ],
@@ -967,8 +960,7 @@
       "নিষ্ক্রিয়",
       "বন্ধ করা",
       "নিশ্চল",
-      "অকার্যকর করা",
-      "defuse"
+      "অকার্যকর করা"
     ],
     "en_syns": [
       "disable",
@@ -1201,7 +1193,6 @@
       "নিষেধ করা",
       "নিষেধাজ্ঞা",
       "প্রতিহত করা",
-      "forefend",
       "প্রতিরোধ"
     ],
     "en_syns": [
@@ -1432,7 +1423,6 @@
       "বন্ধ ঢালা",
       "ড্রেন",
       "টোকা",
-      "বন্ধ siphon",
       "সরিয়া যাত্তয়া"
     ],
     "en_syns": [
@@ -1475,10 +1465,7 @@
       "ULTRAfluid ALK is a liquid alkaline decarboniser , cleaner, rust remover and paint stripper for use on ferrous metals.",
       "Once the contents of the whole can is mostly used up, drop to an idle while expending the remaining <b>decarbonize</b>r till the engine stalls."
     ],
-    "bn_syns": [
-      "decarburize",
-      "decoke"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "decoke",
       "decarburize"
@@ -1631,6 +1618,9 @@
   {
     "en": "december",
     "bn": "ডিসেম্বর",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "diˈsembər",
       "Ḍisēmbara"
@@ -1649,9 +1639,6 @@
     ],
     "en_syns": [
       "December"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1829,8 +1816,7 @@
       "তির্যক্তা",
       "চিলতা",
       "শ্রেণী",
-      "পড়া",
-      "downslope"
+      "পড়া"
     ],
     "en_syns": [
       "declension",
@@ -1930,7 +1916,6 @@
     ],
     "bn_syns": [
       "অসংকুচিত",
-      "depressurize",
       "বিস্তৃত করা",
       "শান্ত হও",
       "পোক খোলা"
@@ -1960,7 +1945,6 @@
     "bn_syns": [
       "ধোয়া",
       "সুবাসিত করা",
-      "sanitize",
       "শোধন করা",
       "পরিপাটি করা",
       "পরিষ্কার",
@@ -2963,9 +2947,7 @@
       "For example, once upon a time everyone knew that the tomato was deadly poison, and that one could <b>demagnetize</b> a permanent magnet by rubbing garlic on it.",
       "If the bit becomes too small, the magnetic energy holding the bit in place may also become so small that thermal energy can cause it to <b>demagnetize</b> ."
     ],
-    "bn_syns": [
-      "degauss"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "degauss"
     ],
@@ -3173,9 +3155,7 @@
       "Business analysts are now predicting the imminent <b>demise</b> of several important industries as a result of the abolition act.",
       "My ignorance of his <b>demise</b> may have caused offence, and I apologize for that."
     ],
-    "bn_syns": [
-      "defog"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "defog"
     ],
@@ -3265,6 +3245,9 @@
   {
     "en": "democrat",
     "bn": "গণতন্ত্রবাদী",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       null,
       "Gaṇatantrabādī"
@@ -3282,9 +3265,6 @@
     ],
     "en_syns": [
       "populist"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -3859,8 +3839,7 @@
       "স্থানীয়",
       "অধিবাসী",
       "নাগরিক",
-      "পুত্র",
-      "townswoman"
+      "পুত্র"
     ],
     "en_syns": [
       "townsman",
@@ -4145,7 +4124,6 @@
       "Mounce gives the figure of approximately seventy-five percent of the middle forms in the NT should be classified as <b>deponent</b> ."
     ],
     "bn_syns": [
-      "deposer",
       "বন্ধন",
       "মুচলেকা"
     ],
@@ -4302,7 +4280,6 @@
     "bn_syns": [
       "নিরাপদ",
       "দোকান",
-      "strongroom",
       "গুদাম",
       "সংগ্রহস্থলের",
       "খিলান",
@@ -4767,7 +4744,6 @@
       "দু: স্থ",
       "নামমাত্র",
       "অতিলোভী",
-      "piffling",
       "ছোটো",
       "টোকেন",
       "অতি ক্ষুদ্র",
@@ -4967,7 +4943,6 @@
       "The techniques have become more sophisticated, but distillation and filtering are still the primary methods of desalination for most of the world."
     ],
     "bn_syns": [
-      "desalinize",
       "লবণমুক্ত করা"
     ],
     "en_syns": [
@@ -5007,7 +4982,6 @@
       "The supernatant was <b>desalt</b>ed by centrifugal gel filtration and concentrated by ultrafiltration as previously described."
     ],
     "bn_syns": [
-      "desalinize",
       "লবণমুক্ত করা"
     ],
     "en_syns": [
@@ -5283,7 +5257,6 @@
       "This quantity of dangerous but potentially precious materials offers a temptation for adventurers and <b>desperado</b>s ,├ö├ç├û said the report."
     ],
     "bn_syns": [
-      "bandito",
       "ডাকাত",
       "জলদসু্য",
       "দুর্জন",
@@ -5615,7 +5588,6 @@
       "The primary <b>determinant</b> of sexual identity in Drosophila, the X chromosome karyotype, was discovered nearly a century ago."
     ],
     "bn_syns": [
-      "epitope",
       "মীমাংসাকারী",
       "টেবিল",
       "ছক",
@@ -5788,7 +5760,6 @@
       "আবর্জনা",
       "অপব্যয়",
       "ধ্বংসাবশেষ",
-      "dreck",
       "প্রত্যাখ্যান করা",
       "পাথরকুঁচি",
       "ভাসমান অবস্থায় প্রাপ্ত ধবংসাবশেষ এবং যাহার চালচুলো নেই এখন ভবঘুরে লোক",
@@ -6185,8 +6156,7 @@
       "The New Yorker is probably the last popular magazine in the English-speaking world where the editors insist on the <b>diaeresis</b> (not umlaut) in ├ö├ç├┐cÔö£├éoperate├ö├ç├û."
     ],
     "bn_syns": [
-      "অভিশ্রুতি",
-      "dieresis"
+      "অভিশ্রুতি"
     ],
     "en_syns": [
       "dieresis",
@@ -6327,10 +6297,8 @@
     ],
     "bn_syns": [
       "আলগা টুল",
-      "turista",
       "আম",
       "রান",
-      "trots",
       "ফোয়ারা",
       "সর্দি"
     ],
@@ -6404,7 +6372,6 @@
       "I believe such dichotomies are misleading and unrealistic."
     ],
     "bn_syns": [
-      "shirtfront",
       "গাধা",
       "গাধাবত",
       "কৃষ্ণাঙ্গ"
@@ -6428,9 +6395,7 @@
       "Monocotyledons, such as maize, have a single cotyledon; <b>dicotyledon</b>s , such as Arabidopsis, have two."
     ],
     "bn_syns": [
-      "exogen",
-      "দ্বিবীজপত্রী",
-      "dicot"
+      "দ্বিবীজপত্রী"
     ],
     "en_syns": [
       "exogen",
@@ -6485,7 +6450,6 @@
     ],
     "bn_syns": [
       "নীতি",
-      "preceptive",
       "শিক্ষামূলক",
       "তথ্যপূর্ণ",
       "নীতিমূলক",
@@ -6592,7 +6556,6 @@
       "আত্মসচেতনতা",
       "নম্র",
       "ভীরু",
-      "unconfident",
       "আত্মবিলোপী",
       "ভীতু",
       "অবিশ্বাসী",
@@ -6610,7 +6573,6 @@
       "নিরভিমান",
       "স্ব-সন্দেহ",
       "স্বল্পভাষী",
-      "unassertive",
       "অবিশ্বাস্য"
     ],
     "en_syns": [
@@ -6872,10 +6834,7 @@
     "bn_syns": [
       "অপেশাদার",
       "অপটু কর্মী",
-      "nonspecialist",
-      "সাধারণ লোক",
-      "nonprofessional",
-      "layperson"
+      "সাধারণ লোক"
     ],
     "en_syns": [
       "layperson",
@@ -6912,7 +6871,6 @@
       "In either case the two notes will typically be slurred and played with a <b>diminuendo</b> ."
     ],
     "bn_syns": [
-      "decrescendo",
       "হ্রাস",
       "ক্ষতি",
       "পড়া"
@@ -6999,7 +6957,6 @@
       "The dark was broken only by a few <b>dinky</b> lampposts here and there along the stretch of bumpy road."
     ],
     "bn_syns": [
-      "dinkey",
       "তুচ্ছ",
       "কোন অ্যাকাউন্টের",
       "গুরুত্বহীন",
@@ -7102,9 +7059,7 @@
       "She watched as her new friend poured the rest of the water from the <b>dipper</b> back into the well, and did the same with the contents of the bucket."
     ],
     "bn_syns": [
-      "পানি ouzel",
       "ঋক্ষমণ্ডল",
-      "butterball",
       "ডুদুরি"
     ],
     "en_syns": [
@@ -7128,8 +7083,7 @@
       "He gossips about the <b>dipsomania</b> in town whilst tracking down and smashing stills."
     ],
     "bn_syns": [
-      "মদ্যাশক্তি",
-      "potomania"
+      "মদ্যাশক্তি"
     ],
     "en_syns": [
       "potomania",
@@ -7428,7 +7382,6 @@
       "ব্যয় করা",
       "আপ টাট্টু",
       "দিতে",
-      "Dole আউট",
       "আউট পরিশোধ",
       "টাকাপয়সা মিটাইয়া দেত্তয়া",
       "একসাথে",
@@ -7506,7 +7459,6 @@
     "bn_syns": [
       "কুণ্ঠিত করা",
       "বিরক্তি",
-      "faze",
       "মর্মপীড়া",
       "মর্মাহত",
       "বিকল করা",
@@ -7534,8 +7486,7 @@
       "চিনিতে না দেত্তয়া",
       "আলান",
       "খনখন শব্দ",
-      "অস্বস্তি",
-      "discombobulate"
+      "অস্বস্তি"
     ],
     "en_syns": [
       "embarrass",
@@ -7647,8 +7598,7 @@
       "বিশৃঙ্খল করা",
       "হতবুদ্ধি করা",
       "ছত্রভঙ্গ করা",
-      "মর্মাহত",
-      "untune"
+      "মর্মাহত"
     ],
     "en_syns": [
       "disconcert",
@@ -7685,8 +7635,7 @@
     "bn_syns": [
       "দু: খিত",
       "অন্ধকার",
-      "সান্ত্বনার অসাধ্য",
-      "unconsolable"
+      "সান্ত্বনার অসাধ্য"
     ],
     "en_syns": [
       "sad",
@@ -8066,9 +8015,7 @@
       "Other people living near GM trial sites are similarly disenfranchised .",
       "The party's decline is a function of a deliberate and sustained attempt to disenfranchise the working class, which has provided the political basis for an unprecedented growth of social inequality."
     ],
-    "bn_syns": [
-      "disenfranchise"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "disenfranchise"
     ],
@@ -8395,7 +8342,6 @@
       "কপট",
       "অসাধু",
       "মিথ্যা",
-      "duplicitous",
       "অধিকৃত",
       "মায়াময়",
       "জাল",
@@ -8747,8 +8693,7 @@
       "খণ্ডন",
       "অপ্রমাণ",
       "নজির",
-      "কাটা",
-      "refutal"
+      "কাটা"
     ],
     "en_syns": [
       "refutation",
@@ -9386,7 +9331,6 @@
     "bn_syns": [
       "এটা দিয়ে না",
       "আনমনা",
-      "absentminded",
       "একটি বাদামী গবেষণায়",
       "শোষিত",
       "দূরবর্তী",
@@ -10192,9 +10136,7 @@
       "It is a sound reaching back to the farthest recesses of his throat, to an Etonian schooling in the late 1940s, and to classroom discipline as a Bo'ness Academy <b>dominie</b> in the late 1950s."
     ],
     "bn_syns": [
-      "মাস্টার",
-      "domine",
-      "dominee"
+      "মাস্টার"
     ],
     "en_syns": [
       "domine",
@@ -10481,8 +10423,6 @@
       "নিরাতঙ্ক",
       "কুস্বভাব",
       "অটল",
-      "ballsy",
-      "gutty",
       "নির্ধারিত",
       "অভী",
       "যারা নির্ভয়চিত্ত",
@@ -10622,7 +10562,6 @@
     ],
     "bn_syns": [
       "অংশ",
-      "dowery",
       "বুদ্ধি দ্বারা অলঙ্কৃত করা",
       "যৌতুক"
     ],
@@ -10739,7 +10678,6 @@
       "dean"
     ],
     "bn_antonyms": [
-      "Tyro",
       "অশ্বশাবক",
       "আরোগ্যলাভ করা",
       "নবদীক্ষিত ব্যক্তি",
@@ -10990,9 +10928,7 @@
       "Certainly, one or more artists of extraordinary talent - not only gifted draftsmen but also keen observers of wildlife - lived in the vicinity.",
       "For some years he had worked in the advertising field as a mechanical draftsman , and he had learned, among other techniques, the use of the airbrush."
     ],
-    "bn_syns": [
-      "draftsperson"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "draftsperson"
     ],
@@ -11011,9 +10947,7 @@
       "This evening I discovered that window seats are <b>draughty</b> , so taped up all the hinges and gaps I could find.",
       "Patchy repairs: ‘If windows are <b>draughty</b> , leave them alone - people will know they have to be replaced.’"
     ],
-    "bn_syns": [
-      "drafty"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "drafty"
     ],
@@ -11063,8 +10997,7 @@
       "There is already among the British soldiers an immense vocabulary of slang or colloquialisms, <b>driblet</b>s of which reach us now and then."
     ],
     "bn_syns": [
-      "ঝরা",
-      "drib"
+      "ঝরা"
     ],
     "en_syns": [
       "drop",
@@ -11178,8 +11111,7 @@
       "Dr Johnson was overweight and suffered from chronic bronchitis, gout and <b>dropsy</b> , as well as nervous tics and compulsive gesticulations."
     ],
     "bn_syns": [
-      "শোথ",
-      "hydrops"
+      "শোথ"
     ],
     "en_syns": [
       "hydrops"
@@ -11233,8 +11165,6 @@
       "বিশ্রাম",
       "বন্ধ চোখের",
       "চেয়ারে অল্পক্ষণের নিদ্রা করা",
-      "চল্লিশ winks পেতে",
-      "চল্লিশ winks",
       "কিছু বন্ধ চোখের পেতে"
     ],
     "en_syns": [
@@ -11375,7 +11305,6 @@
       "There is also <b>dubiety</b> about the completion date of a few roads."
     ],
     "bn_syns": [
-      "unsureness",
       "অস্পষ্টতা",
       "বিশৃঙ্খলা",
       "সন্দেহ",
@@ -11808,7 +11737,6 @@
       "বর্জিত করা",
       "নিষ্পত্তি",
       "নিমজ্জন",
-      "underprice",
       "পরিখা"
     ],
     "en_syns": [
@@ -11852,13 +11780,10 @@
       "স্থূলবুদ্ধি ব্যক্তি",
       "বোকা লোক",
       "মূর্খ লোক",
-      "lunkhead",
       "ঘৃণিত ব্যক্তি",
       "নিরেট",
       "কেবলরাম",
-      "muttonhead",
       "কুলসন",
-      "Hammerhead",
       "ফাকহেড"
     ],
     "en_syns": [
@@ -12057,6 +11982,10 @@
   {
     "en": "dutch",
     "bn": "ডাচ",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "dəCH",
       "Ḍāca"
@@ -12077,10 +12006,6 @@
       "হল্যান্ড-দেশীয়"
     ],
     "en_syns": [],
-    "pos": [
-      "noun",
-      "adjective"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -12141,7 +12066,6 @@
       "And to keep warm, they had to pile three <b>duvet</b>s and a blanket on their bed at night."
     ],
     "bn_syns": [
-      "eiderdown",
       "মহাদেশীয় লেপ"
     ],
     "en_syns": [

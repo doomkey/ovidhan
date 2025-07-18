@@ -98,7 +98,6 @@
       "চীন কাদামাটি",
       "চীন",
       "চীন পাথর",
-      "Terra Alba",
       "চীনামাটির বাসন মৃন্ময়"
     ],
     "en_syns": [
@@ -145,9 +144,7 @@
     ],
     "bn_syns": [
       "কাবাব",
-      "ভাজা",
-      "kabob",
-      "shish কাবাব"
+      "ভাজা"
     ],
     "en_syns": [
       "shish kebab",
@@ -301,8 +298,6 @@
       "সদয়",
       "কুটুম্ব",
       "লোক",
-      "phratry",
-      "kinfolk",
       "পরিবার",
       "পরিবার লাইন",
       "সেপ্টেম্বর"
@@ -364,7 +359,6 @@
       "Breakfast is positively Scottish - porridge (with a wee dram if you like), <b>kipper</b>s and haddock are all available, and there's usually a chef's special surprise as well."
     ],
     "bn_syns": [
-      "kippered হেরিং",
       "শুষ্ক করিয়া রাখা"
     ],
     "en_syns": [
@@ -431,9 +425,7 @@
       "the tug blew its <b>klaxon</b> three times",
       "Alarm <b>klaxon</b>s started to sound throughout the corridors."
     ],
-    "bn_syns": [
-      "claxon"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "claxon"
     ],
@@ -549,8 +541,7 @@
       "দাস",
       "গোলাম",
       "পরিচারক",
-      "অকর্মণ্য ব্যক্তি",
-      "scalawag"
+      "অকর্মণ্য ব্যক্তি"
     ],
     "en_syns": [
       "rapscallion",
@@ -661,6 +652,9 @@
   {
     "en": "koran",
     "bn": "কোরান",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "kô-,kəˈrän,ˈkôrän",
       "Kōrāna"
@@ -679,9 +673,6 @@
     ],
     "en_syns": [
       "book"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []

@@ -379,8 +379,7 @@
       "They have a similar effect to tea or coffee, since they contain the same alkaloid, <b>caffeine</b> ."
     ],
     "bn_syns": [
-      "ঢোলা-হাতা জামাবিশেষ",
-      "kaftan"
+      "ঢোলা-হাতা জামাবিশেষ"
     ],
     "en_syns": [
       "kaftan"
@@ -683,13 +682,10 @@
       "Thus, the suite of sulfates found in the oxide zone of the Chuquicamata copper deposit and the nitrates and iodates found in the <b>caliche</b> deposits of northern Chile owe their existence to the extreme aridness of the great Atacama Desert."
     ],
     "bn_syns": [
-      "kalif",
-      "kaliph",
       "খলিফা",
       "শিল্পী",
       "দরজী",
-      "দরজি",
-      "Khalif"
+      "দরজি"
     ],
     "en_syns": [
       "kalif",
@@ -734,13 +730,10 @@
       "Imam Ali is the fourth <b>caliph</b> to the Muslim, to the Sunni Muslims, and he is the first successor of the Prophet according to the Shia Muslims."
     ],
     "bn_syns": [
-      "kaliph",
       "খলিফা",
       "শিল্পী",
       "দরজী",
-      "দরজি",
-      "Khalif",
-      "kalif"
+      "দরজি"
     ],
     "en_syns": [
       "kaliph",
@@ -1156,10 +1149,7 @@
       "Lesser stitchwort, Stellaia graminea, has tiny white flowers with deeply divided petals while red <b>campion</b> , Silene dioica, is much more pink than red.",
       "The white <b>campion</b> , Silene latifolia (previously Melandrium album), is a common eudicot weed found in both North America and Europe."
     ],
-    "bn_syns": [
-      "catchfly",
-      "silene"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "silene",
       "catchfly"
@@ -1170,6 +1160,10 @@
   {
     "en": "canadian",
     "bn": "কানাডিয়ান",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       null,
       "Kānāḍiẏāna"
@@ -1188,10 +1182,6 @@
     ],
     "en_syns": [
       "Canadian"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1366,8 +1356,7 @@
       "পরাশ্রয়ী",
       "মনোরম",
       "চিত্তাকর্ষক",
-      "মজাদার",
-      "sugarcoat"
+      "মজাদার"
     ],
     "en_syns": [
       "sugarcoat",
@@ -1691,9 +1680,7 @@
       "Wolff traces his development as organist, composer, <b>cantor</b>, court musician and teacher, culminating in Bach's 27 years as <b>cantor</b> and music director in Leipzig.",
       "Many boys also read the weekly Torah portion, having studied it in advance with a <b>cantor</b> or scholar experienced in reading the Torah."
     ],
-    "bn_syns": [
-      "Hazan"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "hazan"
     ],
@@ -1833,6 +1820,9 @@
   {
     "en": "capricorn",
     "bn": "মকর",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈkapriˌkôrn",
       "Makara"
@@ -1853,9 +1843,6 @@
     ],
     "en_syns": [
       "goat"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -2182,9 +2169,7 @@
       "His ears didn't pick up anything but the digital tick of the <b>cardiograph</b> , not the plodding footsteps or melodic dry thumps of a cane.",
       "My son is now a house husband and part-time senior <b>cardiograph</b> technician working between two hospitals looking after two children."
     ],
-    "bn_syns": [
-      "ballistocardiograph"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "ballistocardiograph"
     ],
@@ -2585,7 +2570,6 @@
       "It is formed by <b>cartilaginous</b> , bony and connective tissue structures."
     ],
     "bn_syns": [
-      "rubbery",
       "তরূণাস্থিতুল্য",
       "মজ্জা দ্বারা গঠিত"
     ],
@@ -2609,8 +2593,7 @@
       "The freshwater sawfish, a ray, is related to stingrays, skates, sharks, and other fishes with <b>cartilaginous</b> skeletons."
     ],
     "bn_syns": [
-      "মানচিত্রকার",
-      "Map Maker"
+      "মানচিত্রকার"
     ],
     "en_syns": [
       "map maker"
@@ -2747,7 +2730,6 @@
       "Using a sharp knife, <b>carve</b> the fillet into wafer thin slices."
     ],
     "bn_syns": [
-      "sculpt",
       "ফালি",
       "খুদা",
       "কাটা",
@@ -2829,7 +2811,6 @@
       "ফোয়ারা",
       "বসন্ত",
       "উৎস",
-      "Linn",
       "পড়া",
       "ঝরনা"
     ],
@@ -3076,8 +3057,7 @@
       "The land produces taro, yams, sweet potatoes, <b>cassava</b> , and breadfruit."
     ],
     "bn_syns": [
-      "কাসাভা",
-      "manioc"
+      "কাসাভা"
     ],
     "en_syns": [
       "manioc"
@@ -3124,7 +3104,6 @@
       "আট ট্র্যাক",
       "ভিডিও",
       "ফিতা",
-      "audiocassette",
       "কার্তুজ"
     ],
     "en_syns": [
@@ -3321,7 +3300,6 @@
     ],
     "bn_syns": [
       "ছিদ্রযুক্ত বুরূজসহ",
-      "castled",
       "রেডিও তেহরান"
     ],
     "en_syns": [
@@ -3927,7 +3905,6 @@
     "bn_syns": [
       "গুল্তি ছোড়া",
       "চালিত করা",
-      "bricole",
       "লঞ্চার",
       "গুলতি"
     ],
@@ -4188,9 +4165,7 @@
       "Appalled by his indolence, gaming, and iconoclastic opinions, his psychology professor tried to <b>catechize</b> him: ├ö├ç├┐Tut, tut, what does Saint Paul say, Mr. Crane?├ö├ç├û",
       "When I was about nine or ten years old, I literally fled from a little church near Warsaw, because the <b>catechize</b>r had terrified me."
     ],
-    "bn_syns": [
-      "catechise"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "catechise"
     ],
@@ -4262,7 +4237,6 @@
     "bn_syns": [
       "শ্রেণীভুক্ত করা",
       "ফাইল",
-      "typecast",
       "শ্রেণী",
       "তালিকা",
       "ব্যবস্থা করা",
@@ -4637,7 +4611,6 @@
       "ল্যাটিচুডিনারিয়ান",
       "বিচিত্র",
       "সারগ্রাহী",
-      "সব encompassing",
       "ব্যাপক"
     ],
     "en_syns": [
@@ -4712,7 +4685,6 @@
       "Pin oaks produce drooping wind-pollinated male flowers called <b>catkin</b>s ; the female flowers come in groups of one to three just as the leaves begin to unfold."
     ],
     "bn_syns": [
-      "ament",
       "কাশফুল"
     ],
     "en_syns": [
@@ -5225,7 +5197,6 @@
       "জল্পনা",
       "খোশগল্প",
       "স্বল্প কথা",
-      "gabfest",
       "বাজে বক্বক্ করা",
       "চিবুক ফক্কড়",
       "পরচর্চা"
@@ -5302,7 +5273,6 @@
     "bn_syns": [
       "তীব্র",
       "জারক",
-      "acerbic",
       "তীব্র ব্যঙ্গপূর্ণ",
       "শ্লেষাত্মক"
     ],
@@ -5858,7 +5828,6 @@
       "The new building was erected on the site of Swords House, an important 18th century residence which stood there until the 1980s and whose evergreen oaks and <b>cedar</b>s still remain in front of the new offices."
     ],
     "bn_syns": [
-      "Cedar বৃক্ষ",
       "দারূবৃক্ষবিশেষ"
     ],
     "en_syns": [
@@ -5927,7 +5896,6 @@
       "A member of the poppy family, the <b>celandine</b> plant is distinct for its golden yellow flower and bright orange milky juice."
     ],
     "bn_syns": [
-      "swallowwort",
       "অর্কবৃক্ষ",
       "বৃহত্তর অর্কবৃক্ষ"
     ],
@@ -6200,7 +6168,6 @@
       "কুমার",
       "অবিবাহিত",
       "অনূঢ়া",
-      "spouseless",
       "সতী",
       "কুমারী",
       "একক",
@@ -6467,7 +6434,6 @@
     ],
     "bn_syns": [
       "কুমোরের ক্ষেত্র",
-      "Boneyard",
       "কবরখানা",
       "সমাধিক্ষেত্র",
       "সমাধিস্থল",
@@ -6556,7 +6522,6 @@
       "সংশোধন করা",
       "মধ্যে কাট করতে",
       "কাটা",
-      "sanitize",
       "সম্পাদন করা",
       "শোধন করা"
     ],
@@ -7753,8 +7718,7 @@
     "bn_syns": [
       "গলদেশ",
       "গলা",
-      "জরায়ুজ জরায়ুর",
-      "জরায়ুর uteri"
+      "জরায়ুজ জরায়ুর"
     ],
     "en_syns": [
       "cervix uteri",
@@ -7879,8 +7843,7 @@
     ],
     "bn_syns": [
       "মলকুণ্ড",
-      "ডুবা",
-      "sump"
+      "ডুবা"
     ],
     "en_syns": [
       "sump",
@@ -7904,7 +7867,6 @@
     ],
     "bn_syns": [
       "মলকুণ্ড",
-      "sump",
       "ডুবা"
     ],
     "en_syns": [
@@ -8213,8 +8175,7 @@
       "She's added a <b>chaise</b> to her living room since the last time I fondled her belongings, so I had some alone time with it yesterday."
     ],
     "bn_syns": [
-      "অনাচ্ছাদিত হালকা গাড়ী",
-      "Shay"
+      "অনাচ্ছাদিত হালকা গাড়ী"
     ],
     "en_syns": [
       "shay"
@@ -8303,7 +8264,6 @@
       "ব্রাশ",
       "মেথামফেটামিন",
       "মেথ",
-      "methedrine",
       "কাচ"
     ],
     "en_syns": [
@@ -8544,8 +8504,7 @@
       "স্ট্যাম্প",
       "চিবান",
       "শিরোনামধারী",
-      "রক্ষক",
-      "chomp"
+      "রক্ষক"
     ],
     "en_syns": [
       "title-holder",
@@ -8568,9 +8527,7 @@
       "After we sat down, the waiter brought us two bottles of cheap <b>champagne</b> ."
     ],
     "bn_syns": [
-      "spumante",
       "বুদ্বুদপূর্ণ",
-      "Cava",
       "স্পার্কলিং ওয়াইন",
       "শ্যাম্পেন",
       "সাঁ-সাঁ শব্দ"
@@ -8604,7 +8561,6 @@
       "বিজয়ী",
       "নাইট",
       "দিগ্বিজয়ী বীর",
-      "prizewinning",
       "উকিল",
       "চিবান",
       "রক্ষক",
@@ -8721,7 +8677,6 @@
       "I did not know that Bach's remains had been transferred to the <b>chancel</b> of the church, and his memorial stone moved me to the depths."
     ],
     "bn_syns": [
-      "Bema",
       "বেদি",
       "বক্তৃতামঁচ",
       "আশ্রয়স্থল"
@@ -8815,7 +8770,6 @@
     ],
     "bn_syns": [
       "ঝুঁকিপূর্ণ",
-      "iffy",
       "বিপজ্জনক",
       "চতুর",
       "সঙ্কটময়",
@@ -9136,7 +9090,6 @@
       "বিহ্বলতা",
       "ছত্রভঙ্গ",
       "ব্যাপক ধ্বংস",
-      "hoopla",
       "শোরগোল",
       "বাজারে কসাইর দোকান",
       "ব্যাপক ও ধ্বংস কর প্রভাব"
@@ -9477,8 +9430,7 @@
       "কাঠকয়লা",
       "অঙ্গার",
       "কারবন",
-      "কয়লা",
-      "fusain"
+      "কয়লা"
     ],
     "en_syns": [
       "fusain"
@@ -9502,7 +9454,6 @@
     "bn_syns": [
       "অভিযোগ",
       "নিয়োগ",
-      "burster",
       "আক্রমণ",
       "পেমেন্ট জিজ্ঞাসা",
       "গচ্ছিত রাখা",
@@ -9530,7 +9481,6 @@
       "এর বিরুদ্ধে অভিযোগ",
       "ফী",
       "বর্ষণ করা",
-      "cathexis",
       "চার্জ করা",
       "বিল",
       "জিন",
@@ -9856,10 +9806,7 @@
       "I've explored before the early modern practice of <b>charivari</b>s , or rough music, but was surprised to read of a late 19th-century example, and in London.",
       "Deeply influenced by cultural anthropology, they have found in the often surprisingly rich documentation about festivals, processions, <b>charivari</b>s etc."
     ],
-    "bn_syns": [
-      "shivaree",
-      "callithump"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "callithump",
       "shivaree"
@@ -9933,7 +9880,6 @@
       "গ্রেপ্তার",
       "প্রলুব্ধ করা",
       "সৌভাগ্য কবজ",
-      "becharm",
       "কবচ",
       "আবেদন",
       "তুষ্ট করা",
@@ -10147,7 +10093,6 @@
       "মিতব্যয়ী",
       "সঠিক",
       "সহজে বুঝিতে সক্ষম",
-      "iffy",
       "সুচতুর",
       "ধূর্ত",
       "আস্থাহীন",
@@ -10322,7 +10267,6 @@
     "bn_syns": [
       "সমভূমি",
       "কুমারী",
-      "nonsexual",
       "সতী",
       "পরিষ্কার",
       "বিশুদ্ধ",
@@ -10446,7 +10390,6 @@
       "তর্জন",
       "কেউ জাহান্নাম দিতে",
       "উচ্ছলতা",
-      "knuckles উপর র্যাপ",
       "শায়েস্তা করা",
       "বক্তৃতা",
       "আউট রীম",
@@ -10630,7 +10573,6 @@
       "আগড়ম-বাগড়ম",
       "চোয়াল",
       "বক্বক্ করা",
-      "yakety-ইয়াক",
       "ক্লিক",
       "চ্যাট"
     ],
@@ -10720,7 +10662,6 @@
       "If they look <b>cheap</b> , in comparison, it can send the wrong message about the candidate."
     ],
     "bn_syns": [
-      "chintzy",
       "সস্তা",
       "ঘৃণ্য",
       "অতিলোভী",
@@ -10875,7 +10816,6 @@
       "ব্যাংক চেক",
       "উপহাস",
       "বাধাবিঘ্ন",
-      "আউট suss",
       "পরীক্ষা",
       "ফাটল",
       "রেখাঙ্কন করা",
@@ -11115,7 +11055,6 @@
       "গাত্তয়া",
       "উঁকি",
       "কিচ্কিচ্",
-      "chitter",
       "গুঁজন করা",
       "কূজন",
       "কিচিরমিচির করা",
@@ -11416,7 +11355,6 @@
       "Fleet-footed animals, such as gazelles and <b>cheetah</b>s , aren't the only livings things that rely on speed for their survival."
     ],
     "bn_syns": [
-      "chetah",
       "চিতা",
       "চিতাবাঘ",
       "বনবিড়াল",
@@ -11446,8 +11384,7 @@
     ],
     "bn_syns": [
       "রাসায়নিক পদার্থ",
-      "রাসায়নিক",
-      "chemic"
+      "রাসায়নিক"
     ],
     "en_syns": [
       "chemical substance",
@@ -11639,7 +11576,6 @@
       "শর্ত",
       "নিশ্চিত করা",
       "চেকআউট",
-      "আউট suss",
       "ফাটল",
       "পরীক্ষক",
       "ব্যাংক চেক",
@@ -12142,11 +12078,9 @@
     "bn_syns": [
       "ভীরু",
       "পাখি",
-      "হলুদ-bellied",
       "হলুদ",
       "হাঁস",
       "মুরগি",
-      "chickenhearted",
       "মুরগির মাংস",
       "মুরগীর মাংস",
       "কুক্কুট",
@@ -12210,8 +12144,7 @@
       "The cafÔö£┬« is considered to be the home of beignet and <b>chicory</b> coffee."
     ],
     "bn_syns": [
-      "চিকোরি",
-      "succory"
+      "চিকোরি"
     ],
     "en_syns": [
       "succory"
@@ -12252,9 +12185,7 @@
       "বক্তৃতা",
       "করিবার চেষ্টা করা",
       "আচ্র্ছারকম মারা",
-      "knuckles উপর র্যাপ",
       "শাস্তি দেত্তয়া",
-      "woodshed নিতে",
       "তাড়ন",
       "সতর্ক করা",
       "আউট রীম",
@@ -12471,8 +12402,7 @@
       "January, February, and March bring a great cold, and inhumane conditions of food and weather for the girls - long marches to church in the blistering cold wind, swollen and flayed fingers and feet, and <b>chilblain</b>s on the hands."
     ],
     "bn_syns": [
-      "পাদস্ফোট",
-      "Perniö"
+      "পাদস্ফোট"
     ],
     "en_syns": [
       "pernio"
@@ -12718,7 +12648,6 @@
       "টুংটাং শব্দে বাজান",
       "রিং",
       "ঘণ্টা বাজার শব্দ",
-      "Bong",
       "ধ্বনিত",
       "বাজা",
       "উপশুল্ক",
@@ -12844,9 +12773,7 @@
       "দায়িত্ব",
       "হাপর",
       "উচ্চারণ",
-      "গাদা",
-      "smokestack",
-      "stovepipe"
+      "গাদা"
     ],
     "en_syns": [
       "vent",
@@ -12940,9 +12867,7 @@
       "Look to fashion magazines and mail-order catalogs for silhouette ideas and to determine whether you prefer a long-pile fur such as fox or Mongolian lamb, or shorter ones such as <b>chinchilla</b> , sheared beaver or leopard.",
       "You can find leopard, cheetah, <b>chinchilla</b> , mink and fox."
     ],
-    "bn_syns": [
-      "Chinchilla"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "chinchilla"
     ],
@@ -12986,7 +12911,6 @@
     ],
     "bn_syns": [
       "চেক",
-      "Tink",
       "উদ্বোধন",
       "ফাটল",
       "চিড়",
@@ -13149,7 +13073,6 @@
       "Here discourse is always already reduced to silence, the dumbness of a <b>chirp</b> , the murmur of a coo."
     ],
     "bn_syns": [
-      "tweedle",
       "কিচ্মিচ্ শব্দ",
       "অনর্থক কথা বলা",
       "উত্ফুল্ল",
@@ -13272,14 +13195,12 @@
     ],
     "bn_syns": [
       "খোশগল্প",
-      "Claver",
       "পরচর্চা",
       "চ্যাট",
       "গল্প করা",
       "হাওয়া অঙ্কুর",
       "অনর্থক কথা বলা",
       "স্বল্প কথা",
-      "confab",
       "চর্বি চর্বণ",
       "বিড়বিড় করা",
       "কপচান",
@@ -13362,8 +13283,7 @@
     "bn_syns": [
       "প্রণয়লীলা",
       "সৌজন্য",
-      "নাইট্বৃন্দ",
-      "নাইট errantry"
+      "নাইট্বৃন্দ"
     ],
     "en_syns": [
       "gallantry",
@@ -13660,7 +13580,6 @@
       "ধুয়া",
       "ঐকতানিক সমাজ",
       "উল্লাস ক্লাব",
-      "chorale",
       "গায়কদল"
     ],
     "en_syns": [
@@ -13888,11 +13807,9 @@
     ],
     "bn_syns": [
       "খুঁতখুঁতে",
-      "persnickety",
       "চাহিদা",
       "ব্যস্তবাগীশ",
-      "চমৎকার",
-      "overparticular"
+      "চমৎকার"
     ],
     "en_syns": [
       "demanding",
@@ -14003,7 +13920,6 @@
       "Our last concert was a programme bursting with superb concert band, symphonic, jazz and <b>choral</b> sounds."
     ],
     "bn_syns": [
-      "chorale",
       "ঐকতানিক"
     ],
     "en_syns": [
@@ -14697,11 +14613,9 @@
       "নির্ভুল",
       "বেঁটে ত্ত গোলমাল",
       "ভালভাবে মোটা",
-      "zaftig",
       "গোলাকার",
       "মহৎ",
       "চর্বি",
-      "blubbery",
       "পরিপূর্ণরুপে",
       "ভূট্টা খাওয়ানো",
       "বড় অস্থিমান",
@@ -14840,7 +14754,6 @@
       "ছাপ",
       "নরম স্পর্শ",
       "মূর্খ",
-      "Patsy",
       "মগ"
     ],
     "en_syns": [
@@ -14987,7 +14900,6 @@
     ],
     "bn_syns": [
       "কৃপণ",
-      "grump",
       "চাষা",
       "কৃষক",
       "গ্রাম্য মজুর",
@@ -15060,7 +14972,6 @@
       "স্লাইড্",
       "জলপ্রপাত",
       "নির্ঝর",
-      "Linn",
       "পড়া",
       "সংকীর্ণ",
       "পয়: প্রণালী",
@@ -15109,9 +15020,7 @@
       "She folds her arms across her chest, letting the crickets and <b>cicada</b>s hidden in the garden fill up the silence.",
       "Today, over a breakfast of orange juice and cereal, the two of them sit on Michael's back patio in the summer and listen to the <b>cicada</b>s sing."
     ],
-    "bn_syns": [
-      "cicala"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "cicala"
     ],
@@ -16378,7 +16287,6 @@
       "উভলিঙ্গ",
       "মনিমুখো লোক",
       "মেয়েলি",
-      "sissified",
       "পুরুষত্বহীন"
     ],
     "en_syns": [
@@ -16408,8 +16316,7 @@
       "ট্যাংক",
       "জলাধার",
       "জলপাত্র",
-      "চৌবাচ্চা",
-      "Cisterna"
+      "চৌবাচ্চা"
     ],
     "en_syns": [
       "water tank",
@@ -16634,7 +16541,6 @@
       "The conversation points may have been slight in content, but there is something to be said for taking the time to be <b>civil</b> to people."
     ],
     "bn_syns": [
-      "nonmilitary",
       "অভ্যন্তরীণ",
       "বেসামরিক",
       "অসামরিক",
@@ -16689,10 +16595,7 @@
       "বিধিজ্ঞ",
       "অসামরিক",
       "সাধারণ নাগরিক",
-      "বেসরকারী নাগরিক",
-      "noncombatant",
-      "nonmilitary ব্যক্তি",
-      "civvy"
+      "বেসরকারী নাগরিক"
     ],
     "en_syns": [
       "nonmilitary person",
@@ -16957,7 +16860,6 @@
       "আধ্যাত্মিক",
       "স্ফটিক জ্যোতিবিজ্ঞানী বা জ্যোতিষী",
       "মন পাঠক",
-      "telepath",
       "স্বপ্নদর্শী",
       "দ্বিতীয় দূরদর্শী",
       "মধ্যম"
@@ -17126,7 +17028,6 @@
       "বন্ধন করা",
       "প্রেস",
       "স্ক্রু",
-      "jumar",
       "নিরাপদ"
     ],
     "en_syns": [
@@ -17226,7 +17127,6 @@
       "টংকার",
       "ঠং আত্তয়াজ",
       "ঠুং",
-      "Bong",
       "প্রতিহত করা",
       "ধ্বনিত"
     ],
@@ -17353,7 +17253,6 @@
       "In later days, the real power stemmed from his clansmen around his hometown."
     ],
     "bn_syns": [
-      "clanswoman",
       "গোষ্ঠীভুক্ত লোক"
     ],
     "en_syns": [
@@ -17376,8 +17275,6 @@
       "Could he really have been on his way to join Nathaniel's mother in her <b>clapboard</b> house outside Philadelphia?"
     ],
     "bn_syns": [
-      "weatherboard",
-      "weatherboarding",
       "তক্তাসমূহ"
     ],
     "en_syns": [
@@ -17400,8 +17297,7 @@
       "Sadly their belated participation in the event was short lived - the bell's <b>clapper</b> fell off within minutes."
     ],
     "bn_syns": [
-      "জিহ্বা",
-      "GLOSSA"
+      "জিহ্বা"
     ],
     "en_syns": [
       "glossa",
@@ -17911,7 +17807,6 @@
     ],
     "bn_syns": [
       "বিভাগ",
-      "compartmentalization",
       "শ্রেণীবিন্যাস",
       "ব্যবস্থা",
       "শাখাপ্রশাখা",
@@ -18170,7 +18065,6 @@
     "bn_syns": [
       "ফালা",
       "পরিষ্কার করা",
-      "unobjectionable",
       "ফাঁকা",
       "বিশুদ্ধ",
       "ন্যায্য",
@@ -18178,7 +18072,6 @@
       "বাছাই",
       "তাজা",
       "অসংক্রামিত",
-      "houseclean",
       "পরিষ্কার এবং হেঁচকা",
       "ঝরঝরে",
       "পরিষ্কার",
@@ -18417,7 +18310,6 @@
       "করা",
       "অনুমোদন করা",
       "অনিরুদ্ধ",
-      "unclutter",
       "খোলা",
       "নিরূপদ্রব",
       "পাস",
@@ -18434,7 +18326,6 @@
       "পরিষ্কারভাবে",
       "পুনরালোচনা করা",
       "স্বচ্ছ",
-      "unmortgaged",
       "নির্দোষ প্রমাণ করা",
       "অপসারণ"
     ],
@@ -18553,7 +18444,6 @@
       "করা",
       "সমাধান",
       "শীর্ষ",
-      "unclutter",
       "অপসারণ",
       "নির্দোষ প্রমাণ করা"
     ],
@@ -18779,9 +18669,7 @@
       "Weed killers remove wildflowers and traditional grasses, then more aggressive species such as <b>cleavers</b> , thistles and nettles colonise."
     ],
     "bn_syns": [
-      "clivers",
-      "হংসী ঘাস",
-      "catchweed"
+      "হংসী ঘাস"
     ],
     "en_syns": [
       "goose grass",
@@ -18820,7 +18708,6 @@
       "দ্বিখণ্ডিত করা",
       "মেনে চলে",
       "বিভক্ত করা",
-      "scissure",
       "টোল",
       "ছিন্নবিচি্ছন্ন"
     ],
@@ -19746,7 +19633,6 @@
       "People <b>cling</b> stubbornly to the worldview that sustains them."
     ],
     "bn_syns": [
-      "clingstone",
       "বাঁধাই করা",
       "লাঠি",
       "রাখা",
@@ -20165,7 +20051,6 @@
       "গোপনীয়তা",
       "দরদালান",
       "আবৃত হাঁটার",
-      "Loggia",
       "তোরণ - শ্রেণী",
       "হাঁটা পথ ধরে"
     ],
@@ -20333,7 +20218,6 @@
       "দেরাজ",
       "আলমারি",
       "গোপন",
-      "armoire",
       "অলক্ষিত",
       "নি: সঙ্গ করা",
       "পোশাক",
@@ -20377,7 +20261,6 @@
       "In a centered <b>closure</b> , the zipper is concealed by two flaps of cloth running along either side."
     ],
     "bn_syns": [
-      "cloture",
       "বন্ধ",
       "সমাধান",
       "ঠাট্টা আইন",
@@ -20505,7 +20388,6 @@
       "পোশাক",
       "বিভূষিত করা",
       "আবরণ",
-      "enclothe",
       "সাজপোশাক",
       "বস্ত্র",
       "চেল",
@@ -20743,7 +20625,6 @@
       "আদিবাসী",
       "স্থানীয়",
       "অসভ্য জাতির লোক",
-      "goofball",
       "চাষা প্রায়",
       "মিলনান্ত নাটকের অভিনেতা",
       "প্রায় মূর্খ"
@@ -20845,7 +20726,6 @@
       "পাঁজা",
       "দুটো ধাতব পদার্থের ঠোকাঠুকিতে যেরকম শব্দ হয়",
       "পিণ্ড",
-      "clomp",
       "বল",
       "গুল্ম",
       "ঝাড়",
@@ -21021,7 +20901,6 @@
     ],
     "bn_syns": [
       "খপ্পর",
-      "prehend",
       "ছোঁ প্যাডাল",
       "দল",
       "গ্রুপ",
@@ -21170,8 +21049,7 @@
       "চাপ",
       "পাকান",
       "মোরব্বা",
-      "ঘনান",
-      "grumous"
+      "ঘনান"
     ],
     "en_syns": [
       "grumous",
@@ -21210,7 +21088,6 @@
       "দৃঢ় করা",
       "একসাথে যোগদান",
       "সম্পূর্ণ",
-      "homogenize",
       "একই বিন্দুতে মিলিত হত্তয়া",
       "সমবেত হত্তয়া",
       "একসঙ্গে জন্মান"
@@ -21354,7 +21231,6 @@
       "উপকূলবর্তী এলাকা",
       "সরোবর ইত্যাদির সন্নিহিত শহরাঞ্চল",
       "সমুদ্রতীরবর্তী অঁচল",
-      "Foreshore",
       "ফ্রিহুইল",
       "কূল",
       "পিছলে পড়া",
@@ -21542,7 +21418,6 @@
       "নাক মিছরি",
       "শিলা",
       "কোকেন",
-      "Freebase",
       "কোক-কয়লা",
       "ঘা"
     ],
@@ -21929,7 +21804,6 @@
       "বৃথাভিমানী",
       "ফিটফাট",
       "আত্মম্ভরী",
-      "overconfident",
       "নিরর্থক",
       "কোন বেয়াদব",
       "অহংকারী",
@@ -22012,7 +21886,6 @@
       "বৃথাভিমানী",
       "আত্মসাম্মুখ্যপূর্ণ",
       "উদ্ধত",
-      "overconfident",
       "কোন বেয়াদব",
       "স্ব-গুরুত্বপূর্ণ"
     ],
@@ -22270,7 +22143,6 @@
       "গঠন",
       "সাজান",
       "সূচক",
-      "systemize",
       "ব্যবস্থা করা",
       "বিধিবদ্ধ করা",
       "চুম্বক করা",
@@ -22400,7 +22272,6 @@
       "Stratigraphically, the former precedes the latter, but chronologically they are supposed to be partly <b>coeval</b> !"
     ],
     "bn_syns": [
-      "coetaneous",
       "সমসাময়িক",
       "সমবয়স্ক"
     ],
@@ -22693,7 +22564,6 @@
     ],
     "bn_syns": [
       "তুলনাযোগ্য",
-      "Sib",
       "সংযুক্ত",
       "সজাতি",
       "স্বজাতীয়",
@@ -23060,11 +22930,9 @@
       "মস্তকাবরণবিশেষ",
       "হেয়ার স্টাইল",
       "ব্যবস্থা করা",
-      "coiffe",
       "পোশাক",
       "কেশবিন্যাস-প্রণালী",
       "করা",
-      "hairstyle",
       "",
       "সেট"
     ],
@@ -23575,7 +23443,6 @@
     ],
     "bn_syns": [
       "প্রমাণক্ষম",
-      "verificatory",
       "বীমা",
       "জামিন",
       "ক্ষতিপূরণ",
@@ -24010,7 +23877,6 @@
       "We have been fortunate in the stream of overseas students and visitors who have enriched our <b>collegiate</b> life."
     ],
     "bn_syns": [
-      "collegial",
       "কলেজ-সম্বন্ধীয়"
     ],
     "en_syns": [
@@ -24253,7 +24119,6 @@
       "চলিত",
       "গতানুগতিক",
       "বর্তমান",
-      "nonliterary",
       "প্রতিদিন",
       "লৌকিক",
       "স্বদেশীয়",
@@ -24508,7 +24373,6 @@
     ],
     "bn_syns": [
       "কলামের সারি",
-      "stoa",
       "দরদালান",
       "তোরণ - শ্রেণী",
       "স্তম্ভশ্রেণী",
@@ -24661,7 +24525,6 @@
       "বড়",
       "মহান",
       "ব্যাপক",
-      "ginormous",
       "বিরাটকায়",
       "হস্তী",
       "পাহাড়ী",
@@ -24704,7 +24567,6 @@
       "পকেট",
       "ক্ষুদ্রাতিক্ষুদ্র",
       "মাইক্রো",
-      "Bantam",
       "অতি ক্ষুদ্র"
     ],
     "en_antonyms": [
@@ -24859,8 +24721,7 @@
       "My favorite imitator, the Hinckley <b>columbine</b> , is like a butter-yellow, otherworldly bird."
     ],
     "bn_syns": [
-      "ঘুঘুসংক্রান্ত",
-      "aquilegia"
+      "ঘুঘুসংক্রান্ত"
     ],
     "en_syns": [
       "aquilegia"
@@ -25221,8 +25082,7 @@
       "শোভন",
       "সুশ্রী",
       "সুদর্শন",
-      "সুন্দর",
-      "আস মাস faut"
+      "সুন্দর"
     ],
     "en_syns": [
       "becoming",
@@ -25453,7 +25313,6 @@
       "She couldn't help but snuggle against the warm <b>comforter</b> , taking in its scent and texture."
     ],
     "bn_syns": [
-      "pacifier",
       "রেজাই",
       "সান্ত্বনাকারী"
     ],
@@ -25798,7 +25657,6 @@
       "স্বতন্ত্র করিয়া রাখা",
       "হাইজ্যেক করা",
       "গ্রহণ করা",
-      "preempt",
       "গর্ব প্রকাশ করা",
       "অধিযাচন",
       "দাবি"
@@ -25933,8 +25791,7 @@
       "ছাপ",
       "উদযাপন",
       "মনে রাখা",
-      "স্মৃতিরক্ষা করা",
-      "memorialise"
+      "স্মৃতিরক্ষা করা"
     ],
     "en_syns": [
       "remember",
@@ -26335,7 +26192,6 @@
       "বিক্রয়",
       "পদোন্নতি",
       "প্রদর্শন",
-      "infomercial",
       "ব্যবসায়িক",
       "বাণিজি্যক",
       "প্লাগ"
@@ -26380,8 +26236,7 @@
       "সান্ত্বনা",
       "সহানুভূতির সাথে",
       "সহানুভূতিশীল হতে",
-      "দুঃখিত অনুভব করছি",
-      "সঙ্গে empathize"
+      "দুঃখিত অনুভব করছি"
     ],
     "en_syns": [
       "offer condolences to",
@@ -26599,13 +26454,11 @@
       "টান",
       "দিতে",
       "গচ্ছিত রাখা",
-      "institutionalize",
       "সমর্পণ করা",
       "উত্পাদ",
       "আত্মসমর্পণ",
       "প্রশংসা করা",
       "করা",
-      "এখন প্রথমে rehash",
       "ভয়ে চমকাইয়া ত্তঠা",
       "প্রতিশ্রুতি",
       "দায়িত্বগ্রহণ করা",
@@ -26684,7 +26537,6 @@
       "করতে পারেন",
       "সিংহাসন",
       "মল",
-      "crapper",
       "তুচ্ছ"
     ],
     "en_syns": [
@@ -26997,7 +26849,6 @@
       "Aaron held him down though, preventing any <b>commotion</b> that would endanger our lives as well as the captains."
     ],
     "bn_syns": [
-      "হু-Hah",
       "দ্রুত আবর্তন",
       "দাঙ্গা",
       "তোলপাড়",
@@ -27084,7 +26935,6 @@
     "bn_syns": [
       "বিপরীত",
       "প্রজাসভা",
-      "kibbutz",
       "কথা বলা",
       "সমষ্টিগত",
       "ইন্টারফেস",
@@ -27416,7 +27266,6 @@
       "With Glasgow and Edinburgh easily <b>commutable</b> and located in such outstanding scenery, the attractions are easy to see."
     ],
     "bn_syns": [
-      "substitutable",
       "বিনিময়কারী"
     ],
     "en_syns": [
@@ -28315,7 +28164,6 @@
       "In terms of the victims' <b>compensation</b>, the Attorney and I have spent some time this week working on a new model to assist in <b>compensation</b> for the victims."
     ],
     "bn_syns": [
-      "Emcee",
       "ভবিষ্যদ্বক্তা",
       "গ্রন্থিক",
       "জ্যোতিষী"
@@ -28751,8 +28599,7 @@
       "ক্ষতিকর মনে করা",
       "উদ্দেশ্য",
       "ক্রন্দন",
-      "অতিরিক্ত মনোযোগ দেত্তয়া",
-      "kvetch"
+      "অতিরিক্ত মনোযোগ দেত্তয়া"
     ],
     "en_syns": [
       "snivel",
@@ -28899,7 +28746,6 @@
       "সৌজন্য",
       "উদারতা",
       "সম্মতি",
-      "compliancy",
       "সশ্রদ্ধ বাধ্যতা"
     ],
     "en_syns": [
@@ -29238,7 +29084,6 @@
       "এক্তিয়ারভুক্ত",
       "অনুগত",
       "মৌনসন্মতিযুক্ত",
-      "persuasible",
       "বিশ্বাস বা প্রত্যয় উত্পাদন",
       "শিক্ষাগ্রহণে তত্পর",
       "সেবকোচিত",
@@ -29723,7 +29568,6 @@
     ],
     "bn_syns": [
       "গায়ক পক্ষী",
-      "tunesmith",
       "সুরকার",
       "গীতিকার",
       "ঐক্যতান-রচয়িতা",
@@ -29734,8 +29578,7 @@
       "সংকলনকারী",
       "নির্মাতা",
       "স্থপতি",
-      "কামার",
-      "songsmith"
+      "কামার"
     ],
     "en_syns": [
       "symphonist",
@@ -30787,7 +30630,6 @@
       "অবনমিত",
       "মগ্ন",
       "বাঁকা অভ্যন্তরস্থ",
-      "incurvate",
       "খিলান",
       "বাঁক",
       "অবতল",
@@ -31163,7 +31005,6 @@
       "One painting is dense with cell-like <b>concentric</b> circles of rust against a flat gold surface."
     ],
     "bn_syns": [
-      "homocentric",
       "সমকেন্দ্রি"
     ],
     "en_syns": [
@@ -33218,9 +33059,7 @@
       "The so-called ‘dawn horse’, or Eohippus, was most likely not related to horses at all, but was very like a modern-day hyrax - that is, a rock badger or <b>coney</b> ."
     ],
     "bn_syns": [
-      "খরগোশ",
-      "pika",
-      "hyrax"
+      "খরগোশ"
     ],
     "en_syns": [
       "rabbit",
@@ -33252,8 +33091,7 @@
       "মোরব্বা",
       "জেলি",
       "মিষ্টি",
-      "মিঠাই",
-      "confect"
+      "মিঠাই"
     ],
     "en_syns": [
       "comfit",
@@ -33882,8 +33720,7 @@
       "সন্তানপ্রসব",
       "কারারোধ",
       "অবরোধ",
-      "সঙ্ঘের সদস্য",
-      "parturiency"
+      "সঙ্ঘের সদস্য"
     ],
     "en_syns": [
       "labor",
@@ -34070,7 +33907,6 @@
       "শান্তিভঙ্গ",
       "ঘটনা",
       "আলোকচ্ছটা",
-      "firestorm",
       "নরক"
     ],
     "en_syns": [
@@ -35557,7 +35393,6 @@
       "অনুরোধ",
       "আবেদন",
       "প্রার্থনা",
-      "conjury",
       "প্রতারণা"
     ],
     "en_syns": [
@@ -36284,8 +36119,7 @@
       "জীবিত",
       "অত্যাবশ্যক",
       "পরিচিত",
-      "ইচ্ছাকৃত",
-      "witting"
+      "ইচ্ছাকৃত"
     ],
     "en_syns": [
       "witting",
@@ -37358,7 +37192,6 @@
       "বোঝা",
       "জাহাজে প্রেরিত কাজ",
       "দল",
-      "boatload",
       "জাহাজী মাল",
       "ট্রাকবোঝাই",
       "হাতে আমাকে-ডাউন"
@@ -38612,8 +38445,7 @@
       "সংকোচন করা",
       "লুৎফর",
       "সংকীর্ণ",
-      "সীমাবদ্ধ করা",
-      "constringe"
+      "সীমাবদ্ধ করা"
     ],
     "en_syns": [
       "constringe",
@@ -39031,9 +38863,7 @@
     "bn_syns": [
       "পরামর্শদায়ক",
       "মিনতিপূর্ণ",
-      "উপদেশক",
-      "consultatory",
-      "consultive"
+      "উপদেশক"
     ],
     "en_syns": [
       "consultive",
@@ -39292,7 +39122,6 @@
     ],
     "bn_syns": [
       "যক্ষ্মামূলক",
-      "lunger",
       "ক্ষয়কারী",
       "বিনাশশীল"
     ],
@@ -39341,7 +39170,6 @@
       "বনাবনি",
       "প্রভাব",
       "মৈত্রী",
-      "tangency",
       "সংযোগ",
       "আকর্ষণীয়",
       "সন্নিহিত করা"
@@ -39988,7 +39816,6 @@
     ],
     "bn_syns": [
       "প্রতিদ্বন্দ্বিতা করা",
-      "repugn",
       "স্বীকার্য",
       "বেড়া",
       "যুদ্ধ",
@@ -40883,8 +40710,7 @@
       "অবৈধ",
       "অবৈধ ট্রাফিক",
       "হাইবুটের পায়া",
-      "কাউন্টার অধীনে",
-      "কালো marketeering"
+      "কাউন্টার অধীনে"
     ],
     "en_syns": [
       "bootleg",
@@ -41191,8 +41017,7 @@
       "যন্ত্র",
       "মতলব",
       "যন্ত্রপাতি",
-      "উইজেট",
-      "doohickey"
+      "উইজেট"
     ],
     "en_syns": [
       "doohickey",
@@ -41618,7 +41443,6 @@
       "শিল্প",
       "কারচুপি",
       "উত্তেজনা-আপ",
-      "devisal",
       "গ্যাজেট"
     ],
     "en_syns": [
@@ -41737,7 +41561,6 @@
       "নিরোধ",
       "বিঘ্ন",
       "বিরোধী দল",
-      "ascendance",
       "কেন্দ্রস্থান",
       "নিপূণভাবে ব্যবহার করা",
       "আত্মসংযম",
@@ -42313,7 +42136,6 @@
       "কৌতুক",
       "অবলীলা",
       "মঠ",
-      "Priory",
       "আশ্রম"
     ],
     "en_syns": [
@@ -42486,8 +42308,7 @@
     ],
     "bn_syns": [
       "ছেদ",
-      "অভিসৃতি",
-      "convergency"
+      "অভিসৃতি"
     ],
     "en_syns": [
       "intersection",
@@ -42517,7 +42338,6 @@
       "পাশাপাশি",
       "ভাল কোবিদ",
       "সঙ্গে পরিচিত",
-      "অহ Courant সঙ্গে",
       "উপর গতি বাড়াতে আপ",
       "পরিচিত",
       "ঘনিষ্ঠ",
@@ -42576,14 +42396,12 @@
       "I'd taken control of where this <b>conversation</b> was going and at the same time stopped it dead."
     ],
     "bn_syns": [
-      "gabfest",
       "আলাপ",
       "খোশগল্প",
       "চোয়াল",
       "আলোচনা",
       "সংলাপ",
       "পরচর্চা",
-      "confab",
       "বিনিময়",
       "হৃদয় থেকে হৃদয়",
       "গল্প",
@@ -43088,7 +42906,6 @@
     ],
     "bn_syns": [
       "ঘূর্ণি",
-      "gyrus",
       "কুণ্ডলী",
       "সংবর্তন",
       "বায়ু",
@@ -43199,8 +43016,7 @@
       "আন্দোলিত করা",
       "দোল",
       "জাগান",
-      "ফক্কড়",
-      "uncontrollably ঝাঁকান"
+      "ফক্কড়"
     ],
     "en_syns": [
       "shake uncontrollably",
@@ -43272,7 +43088,6 @@
       "ঝাঁকুনিপূর্ণ",
       "আকস্মিক",
       "উদ্দাম",
-      "herky-ঝাঁকুনিপূর্ণ",
       "হিংসাত্মক"
     ],
     "en_syns": [
@@ -43845,7 +43660,6 @@
       "বন্ধুত্বপূর্ণ",
       "মনোরম",
       "বন্ধুসুলভ",
-      "warmhearted",
       "সদয়",
       "ভদ্র",
       "অনুরক্ত",
@@ -43999,8 +43813,7 @@
       "Flat-leafed parsley looks like <b>coriander</b> but can easily be distinguished by smell."
     ],
     "bn_syns": [
-      "ধনিয়া",
-      "cilantro"
+      "ধনিয়া"
     ],
     "en_syns": [
       "cilantro"
@@ -44119,9 +43932,7 @@
       "For Christmas or New Year's, fortunes in the form of coins, <b>cornel</b> cherry twigs, or slips of paper are inserted in banitsa or bread.",
       "The army's striking force was provided by the Companion Cavalry, who wielded spears of tough <b>cornel</b> wood."
     ],
-    "bn_syns": [
-      "Carnelian"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "carnelian"
     ],
@@ -44290,18 +44101,13 @@
       "ভাবপ্রবণ",
       "গোলগাল",
       "শর্করাবৎ",
-      "cornball",
       "প্রাকৃত",
-      "stereotyped",
       "ক্লান্ত",
       "অত্যন্ত ভাবপ্রবণ",
       "আবেগপ্রবণ",
       "অত্যন্ত জীর্ণ",
-      "cutesy",
       "শাস্তা",
-      "cloying",
       "ধূসরাভ",
-      "platitudinous",
       "পঙ্কিল",
       "শর্করাপূর্ণ"
     ],
@@ -44437,7 +44243,6 @@
       "The last ceremony in which it took place was at the <b>coronation</b> of George IV in 1821."
     ],
     "bn_syns": [
-      "enthronization",
       "বিভূষণ",
       "রাজ্যাভিষেক"
     ],
@@ -44697,10 +44502,8 @@
       "স্থুলকায়",
       "স্থূলমূল",
       "ভালভাবে মোটা",
-      "blubbery",
       "গেঁটা",
       "প্রয়োজনাতিরিক্ত ত্তজন",
-      "বিয়ার bellied",
       "ভাল আচ্ছাদিত",
       "ভূট্টা খাওয়ানো",
       "গাঁট্টাগোট্টা"
@@ -45057,8 +44860,7 @@
       "সম্পর্ক",
       "প্রসঙ্গ",
       "সংযোগ",
-      "পারস্পরিক সম্পর্কের সহগের",
-      "correlativity"
+      "পারস্পরিক সম্পর্কের সহগের"
     ],
     "en_syns": [
       "correlation coefficient",
@@ -45194,7 +44996,6 @@
       "কাগজের লোক",
       "গুপ্তচর",
       "লেখক",
-      "newspaperwoman",
       "স্ট্রিংগার",
       "অংশদাতা"
     ],
@@ -45242,7 +45043,6 @@
       "চলাফেরার পথ",
       "উত্তরণ",
       "হল পথের",
-      "passageway",
       "বারান্দা",
       "লবি",
       "গলি",
@@ -45893,7 +45693,6 @@
     "bn_syns": [
       "মহাকাশ থেকে",
       "স্থান",
-      "একটি extraterrestrial",
       "সৃষ্টিসংক্রান্ত"
     ],
     "en_syns": [
@@ -45907,7 +45706,6 @@
       "ক্ষুদ্রাতিক্ষুদ্র",
       "সঙ্কুচিত",
       "মিনিট",
-      "Bantam",
       "ক্ষুদ্র",
       "মাইক্রো",
       "পুঁচকে",
@@ -45942,8 +45740,7 @@
       "For example, we could imagine spherical shock waves bouncing back and forth between the centre and edge of an expanding ball of gas or plasma, such as in the tentative <b>cosmogony</b> I outline."
     ],
     "bn_syns": [
-      "সৃষ্টিতত্ব",
-      "cosmogeny"
+      "সৃষ্টিতত্ব"
     ],
     "en_syns": [
       "cosmogeny",
@@ -46221,7 +46018,6 @@
     ],
     "bn_syns": [
       "একই সীমানাবিশিষ্ট",
-      "coextensive",
       "সীমান্তস্থিত"
     ],
     "en_syns": [
@@ -46844,7 +46640,6 @@
     "bn_syns": [
       "ঘুষা",
       "শত্রুভাবাপন্ন",
-      "counterpunch",
       "কাজ পৃষ্ঠ",
       "কহা",
       "ফিরে এসো",
@@ -47184,9 +46979,7 @@
       "Since the film rarely stops to take stock of its overcomplicated story (complete with political <b>counterplot</b>s and a largely unexplored backstory), things can get a little confusing at times.",
       "Guy never allows the labyrinth of plots and <b>counterplot</b>s to muddle his story."
     ],
-    "bn_syns": [
-      "counterplan"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "counterplan"
     ],
@@ -47230,7 +47023,6 @@
       "Though he goes into great detail about the complexities of the rhetoric of self in <b>counterpoise</b> with society, Vasquez seems to leave the dichotomy intact, giving us a sense of two disparate rhetorical models."
     ],
     "bn_syns": [
-      "counterpose",
       "সমভার",
       "ইকুয়ালাইজার",
       "ভারসাম্য",
@@ -47282,8 +47074,7 @@
     ],
     "bn_syns": [
       "সেট",
-      "কাউন্টার্সিঁক্",
-      "counterbore"
+      "কাউন্টার্সিঁক্"
     ],
     "en_syns": [
       "set",
@@ -47380,12 +47171,9 @@
       "কোটি",
       "লোড",
       "এর স্ট্যাকগুলি",
-      "এর bajillions",
       "এর গাদাগাদা",
       "বহু",
-      "এর gazillions",
       "বহুসংখ্যক",
-      "এর zillions",
       "নম্বর ছাড়া",
       "গাদা",
       "অশেষ"
@@ -47429,7 +47217,6 @@
       "I soon found out that such simple <b>countrified</b> musical tastes were laughed at here."
     ],
     "bn_syns": [
-      "georgic",
       "গ্রামীণ",
       "যাজকসংক্রান্ত",
       "অরণ্যময়",
@@ -47441,8 +47228,7 @@
       "অভদ্র",
       "চাষী",
       "গ্রাম্য",
-      "সরল শান্ত ত্ত মনোরম",
-      "unspoiled"
+      "সরল শান্ত ত্ত মনোরম"
     ],
     "en_syns": [
       "unspoiled",
@@ -47524,7 +47310,6 @@
     ],
     "bn_syns": [
       "স্বদেশবাসী",
-      "ruralist",
       "দেশ অধিষ্ঠাতা",
       "ভাই",
       "গ্রামবাসী",
@@ -47681,8 +47466,7 @@
       "সেলাই",
       "সঙ্গে মেশা",
       "সংযোগ করা",
-      "স্বামী এবং স্ত্রী",
-      "duad"
+      "স্বামী এবং স্ত্রী"
     ],
     "en_syns": [
       "duad",
@@ -47739,7 +47523,6 @@
       "দম্পতি",
       "যমজ",
       "শ্লেষ",
-      "duad",
       "দ্বৈতসঙ্গীত",
       "মানিকজোড়",
       "দ্বৈত",
@@ -47878,8 +47661,6 @@
       "যকৃৎ",
       "বক্ষ",
       "প্রণয়লীলা",
-      "hardihood",
-      "cojones",
       "মৌল কণা",
       "সাহসী",
       "তেজ"
@@ -47924,13 +47705,11 @@
       "দু: সাহসী",
       "অকুতোভয়",
       "তেজস্বী",
-      "lionhearted",
       "অভী",
       "দুর্দম",
       "সাহসী",
       "দ্বিধাহীন",
       "তেজী",
-      "skookum",
       "বীর",
       "অদম্য",
       "নির্ভীক",
@@ -47941,9 +47720,7 @@
       "বীরত্বপূর্ণ",
       "অপ্রতিহত",
       "খেলা",
-      "gutty",
       "যারা নির্ভয়চিত্ত",
-      "ballsy",
       "নিরাতঙ্ক",
       "ঝুঁকিপূর্ণ",
       "ডানপিটে"
@@ -48377,7 +48154,6 @@
       "রানীর সহচরী",
       "গোমস্তা",
       "ভদ্রমহিলা",
-      "Squire",
       "পারিপার্শ্বিক",
       "সহচর",
       "পার্ষদ",
@@ -48874,8 +48650,7 @@
       "আবরণ",
       "রেজাই",
       "লেপ",
-      "সান্ত্বনাকারী",
-      "eiderdown"
+      "সান্ত্বনাকারী"
     ],
     "en_syns": [
       "comforter",
@@ -49049,7 +48824,6 @@
       "গুচ্ছ",
       "সেনাদল",
       "পার্টি",
-      "Posse",
       "তিতির পক্ষীদল",
       "গ্রুপ",
       "পাল"
@@ -49088,13 +48862,11 @@
     ],
     "bn_syns": [
       "হলুদ পেট",
-      "scaredy-বিড়াল",
       "মুরগির মাংস",
       "বাচ্চা",
       "মনিমুখো লোক",
       "গোবেচারা",
       "কেবলরাম",
-      "milquetoast",
       "ভাবপ্রবণ",
       "এড়ানো",
       "ভীরু",
@@ -49241,9 +49013,7 @@
       "There are flowers running the gamut from native wildflowers such as the <b>cowslip</b> to exotic foreigners.",
       "The P. veris of Linnaeus's time is still to this day known as the <b>cowslip</b> ."
     ],
-    "bn_syns": [
-      "paigle"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "paigle"
     ],
@@ -49411,7 +49181,6 @@
       "ভাঙ্গিয়া পড়া",
       "বিভক্ত করা",
       "রসিকতা",
-      "scissure",
       "প্রয়াস",
       "শট",
       "ফাটল",
@@ -49475,7 +49244,6 @@
       "বোমা",
       "ডিম",
       "লাল ঘাড়ের",
-      "firecracker",
       "ক্র্যাকার বনবন"
     ],
     "en_syns": [
@@ -49513,7 +49281,6 @@
       "বিন্দু দ্বারা চিহ্নিত",
       "কর্কশ",
       "বাদুড়ে",
-      "kooky",
       "সফেন",
       "পাগল",
       "বাদাম কাটিবার যন্ত্র",
@@ -49571,7 +49338,6 @@
       "A <b>crackle</b> of thunder ripped through the darkening sky and the rain became more intense."
     ],
     "bn_syns": [
-      "crackleware",
       "কড়্কড়্ শব্দ",
       "চট্ চট্ শব্দ হত্তয়া",
       "শোঁ শব্দ",
@@ -49628,7 +49394,6 @@
       "But the blogosphere's tendency toward <b>crackpot</b> theorizing could not be suppressed for long."
     ],
     "bn_syns": [
-      "fruitcake",
       "ছিটগ্রস্ত ব্যক্তি",
       "অদ্ভুতস্বভাব",
       "বাদাম",
@@ -49656,9 +49421,7 @@
       "The <b>cracksman</b> didn't even require any nitro-glycerine to open the safe.",
       "For a time, he worked as an assistant for other, better trained cracksmen ."
     ],
-    "bn_syns": [
-      "safecracker"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "safecracker"
     ],
@@ -49901,7 +49664,6 @@
     "bn_syns": [
       "চরকী",
       "খাটান",
-      "Derrick",
       "টানা",
       "ব্লক এবং সাজসরঁজাম",
       "নৌকা",
@@ -49951,7 +49713,6 @@
       "There were no significant skull fractures and so this really is a case of the brain rattling within the <b>cranium</b> ."
     ],
     "bn_syns": [
-      "brainpan",
       "ছোট মগ",
       "মস্তিষ্ক ক্ষেত্রে",
       "মাথা",
@@ -49999,9 +49760,7 @@
       "ব্যঙ্গ",
       "আঁকাবাঁকা",
       "স্টার্টার",
-      "grump",
       "শুরু",
-      "fruitcake",
       "নড়বড়ে",
       "আপ ঢিলা"
     ],
@@ -50441,9 +50200,7 @@
       "This answer, amazingly, wasn't <b>craven</b> enough."
     ],
     "bn_syns": [
-      "gutless",
       "কলঙ্কজনক",
-      "হলুদ-bellied",
       "ভীরু",
       "নীচ",
       "কম",
@@ -50529,8 +50286,7 @@
       "প্রত্যাহার",
       "পশ্চাদপসরণ",
       "বাগদা চিংড়ি",
-      "হঠা",
-      "crawdad"
+      "হঠা"
     ],
     "en_syns": [
       "back out",
@@ -50599,7 +50355,6 @@
       "চিঁড়ি মাছ",
       "বাগদা চিংড়ি",
       "চিংড়ি",
-      "crawdad",
       "কষ্টকর গলদা চিংড়ি"
     ],
     "en_syns": [
@@ -51171,7 +50926,6 @@
       "প্রত্যয়",
       "আস্থা",
       "সন্তোষ",
-      "credenza",
       "বিশ্বাসযোগ্যতা",
       "গ্রহণযোগ্যতা"
     ],
@@ -51220,7 +50974,6 @@
     ],
     "bn_syns": [
       "সম্ভরপরতা",
-      "credibleness",
       "বিশ্বাসযোগ্যতা"
     ],
     "en_syns": [
@@ -52045,9 +51798,6 @@
       "অর্ধ চন্দ্র",
       "অর্ধচন্দ্রাকার",
       "নম",
-      "lunette",
-      "lunula",
-      "semilunar",
       "অর্ধচন্দ্র জ্যোতির্বিৎ",
       "সিকেল-আকৃতি",
       "বাঁক",
@@ -52258,8 +52008,7 @@
       "চেরা",
       "গর্ত",
       "ছিদ্র",
-      "উদ্বোধন",
-      "scissure"
+      "উদ্বোধন"
     ],
     "en_syns": [
       "crack",
@@ -52606,7 +52355,6 @@
       "কোঁচকান",
       "চুনট",
       "স্তর",
-      "আপ scrunch",
       "বলি",
       "লাইন"
     ],
@@ -52661,7 +52409,6 @@
       "The skirt actually had a <b>crinoline</b> under it, and it rustled when I moved."
     ],
     "bn_syns": [
-      "hoopskirt",
       "বস্ত্রবিশেষ"
     ],
     "en_syns": [
@@ -52770,7 +52517,6 @@
     "bn_syns": [
       "টোস্ট",
       "আলুর চিপস",
-      "frizzly",
       "মসৃণ",
       "প্রাণবন্ত",
       "আকস্মিক",
@@ -52782,7 +52528,6 @@
       "খাস্তা",
       "চুক্তি",
       "মুচড়ান",
-      "crispy",
       "কড়্কড়়্ শব্দকারী",
       "চাঁচাছোলা",
       "তীব্র"
@@ -52958,7 +52703,6 @@
       "কলঙ্কিত করা",
       "মধ্যে লেইস",
       "অবজ্ঞা করা",
-      "উপর aspersions নিক্ষেপ",
       "আবর্জনা",
       "উপর অবজ্ঞা ঢালা",
       "মধ্যে রাখা",
@@ -52966,7 +52710,6 @@
       "সমালোচনা করা",
       "কাষ্ঠানির্মিত শাস্তিস্তম্ভবিশেষ",
       "বিরুদ্ধে গালাগালি করা",
-      "nitpick",
       "নিন্দা করা",
       "আলাদা করা",
       "কুত্সা করা",
@@ -53094,8 +52837,7 @@
       "নি: শ্বাস ফেলা",
       "গ্রন্থিল হত্তয়া",
       "অসন্তোষ প্রকাশ করা",
-      "রেতি",
-      "cronk"
+      "রেতি"
     ],
     "en_syns": [
       "cronk",
@@ -53351,7 +53093,6 @@
       "Worse, he would lose all control of the network of corrupt businesses he has created to support his family and his cronies ."
     ],
     "bn_syns": [
-      "Sidekick",
       "দৃষ্টি",
       "বন্ধু",
       "দোস্ত",
@@ -53365,9 +53106,7 @@
       "অন্তরঙ্গ",
       "সহচর",
       "যোগদানকারী",
-      "Amigo",
       "অভিন্নহৃদয় বন্ধু",
-      "Dawg",
       "লাগল দোস্ত",
       "ভাই",
       "পরিচিত"
@@ -53667,7 +53406,6 @@
       "বিঘত",
       "তর্ক করা",
       "বোঝা",
-      "crisscross",
       "দোআঁশলা",
       "ক্রুশ",
       "বর্ণসঙ্কর",
@@ -53735,7 +53473,6 @@
     "bn_syns": [
       "তর্ক করা",
       "ক্রুশ",
-      "trave",
       "ছাঁচ",
       "আড়কাট",
       "ফর্ম",
@@ -53823,8 +53560,7 @@
       "দুর্বৃত্ত",
       "বর্ণসঙ্করতা",
       "ক্রুশ",
-      "শঙ্কর প্রজাতি",
-      "interbreed"
+      "শঙ্কর প্রজাতি"
     ],
     "en_syns": [
       "interbreed",
@@ -53957,8 +53693,7 @@
     "bn_syns": [
       "গ্রাম্য মজুর",
       "ঢিলা",
-      "অসন্তোষ প্রকাশ করা",
-      "grump"
+      "অসন্তোষ প্রকাশ করা"
     ],
     "en_syns": [
       "grump",
@@ -53984,7 +53719,6 @@
     "bn_syns": [
       "ছেদ",
       "আড়াআড়ি পথ",
-      "Crossway",
       "উত্তরণ",
       "কারেফোর"
     ],
@@ -54126,7 +53860,6 @@
       "Kit was still <b>crouch</b>ing in his position from the last strike and slowly stood to look at her."
     ],
     "bn_syns": [
-      "আপ scrunch",
       "বেঁটে",
       "মোড়",
       "গুড়ি",
@@ -54395,8 +54128,7 @@
       "The steel columns are expressed: <b>cruciform</b> in shape, a modern fluting effect, they are chrome-plated."
     ],
     "bn_syns": [
-      "ক্রুশাকার",
-      "cruciate"
+      "ক্রুশাকার"
     ],
     "en_syns": [
       "cruciate"
@@ -54619,7 +54351,6 @@
       "├ö├ç├┐I've got my eye on a salt and pepper <b>cruet</b> set - they're only Ôö¼├║18,├ö├ç├û she said."
     ],
     "bn_syns": [
-      "crewet",
       "শিশি"
     ],
     "en_syns": [
@@ -54693,7 +54424,6 @@
       "আউন্স",
       "রূটির টুকরা",
       "ক্ষুদ্র টুকরা করা",
-      "smidgen",
       "পরমাণু",
       "বিট",
       "কণিকা",
@@ -54780,7 +54510,6 @@
       "If they freeze hard enough before curing when on the walls, they will become quite <b>crumbly</b> and need to be removed."
     ],
     "bn_syns": [
-      "crispy",
       "চূর্ণিত",
       "ভঙ্গুর",
       "সহজে টুকরা টুকরা হয় এমন",
@@ -54816,7 +54545,6 @@
       "অসংলগ্ন",
       "টুকরা টুকরা",
       "ভগ্ন",
-      "chintzy",
       "টিনঘটিত",
       "গোলগাল",
       "সস্তা",
@@ -55222,8 +54950,7 @@
       "সমাধিগৃহ",
       "অস্থি-আধার",
       "খিলান",
-      "ভুগর্ভস্থ সমাধিক্ষেত্র",
-      "undercroft"
+      "ভুগর্ভস্থ সমাধিক্ষেত্র"
     ],
     "en_syns": [
       "mausoleum",
@@ -55576,7 +55303,6 @@
     ],
     "bn_syns": [
       "তাকেই",
-      "goofball",
       "মূর্খ লোক",
       "গণ্ডমূর্খ",
       "নিরেট মূর্খ",
@@ -55613,8 +55339,7 @@
     ],
     "bn_syns": [
       "শসা",
-      "ক্ষীরা",
-      "cuke"
+      "ক্ষীরা"
     ],
     "en_syns": [
       "cuke"
@@ -55699,14 +55424,11 @@
       "রূল",
       "লাঠি",
       "দণ্ড",
-      "nightstick",
-      "shillelagh",
       "ক্লাব",
       "মুগুর",
       "সজোরে আঘাত",
       "বীট",
       "প্রহার করা",
-      "Blackjack",
       "গদা",
       "মুদ্গর",
       "যষ্টি",
@@ -55984,7 +55706,6 @@
       "অভিযুক্ত ব্যক্তি",
       "অপরাধী",
       "অভিযুক্ত",
-      "perp",
       "বাঁক",
       "নৃশংস",
       "আইনভঙ্গকারী",
@@ -56042,7 +55763,6 @@
       "These teachers have the unique opportunity to help students <b>cultivate</b> talents and skills that will enrich the rest of their lives."
     ],
     "bn_syns": [
-      "naturalise",
       "হত্তয়া",
       "কাজ",
       "পর্যন্ত",
@@ -56486,10 +56206,8 @@
       "প্রেস",
       "মলত্যাগের জন্য পাত্র",
       "শয়নকক্ষের দেরাজ",
-      "armoire",
       "তাক ইঃ লাগানো টেবিল",
       "পায়খানা",
-      "credenza",
       "মন্ত্রিসভা",
       "রুপকার",
       "পোশাক"
@@ -56549,8 +56267,7 @@
       "অর্থলিপ্সা",
       "ধনতৃষ্ণা",
       "প্রলোভন",
-      "ভালবাসা",
-      "টাকা grubbing"
+      "ভালবাসা"
     ],
     "en_syns": [
       "materialism",
@@ -56599,9 +56316,7 @@
       "These reactions depend on the ability of the reducing sugar to convert <b>cupric</b> sulfate to cuprous oxide with a resulting color change.",
       "True verdigris is actually a coating of <b>cupric</b> carbonate formed by weathering on copper, brass and bronze from age."
     ],
-    "bn_syns": [
-      "cuprous"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "cuprous"
     ],
@@ -56874,9 +56589,7 @@
       "অসাধারণত্ব",
       "কল্পিত খাবার",
       "টুকিটাকি",
-      "বস্তু d'শিল্প",
       "ছিট",
-      "tchotchke",
       "ছোটখাট দক্ষতা",
       "সংগ্রাহক এর আইটেমটি",
       "কৌতুহল",
@@ -57081,8 +56794,7 @@
       "হিল্লোলিত",
       "উপর নিচ",
       "ঝাপসা",
-      "ক্রীংপী",
-      "frizzy"
+      "ক্রীংপী"
     ],
     "en_syns": [
       "curling",
@@ -57352,7 +57064,6 @@
       "Some people were afflicted with the <b>curse</b> of bad timing."
     ],
     "bn_syns": [
-      "maledict",
       "অভিশপ্ত বস্তু",
       "মন্দ",
       "সমাজচু্যত করা",
@@ -57435,7 +57146,6 @@
       "Sitting down at my desk, I took out my diary and set it out, flipping through the pages and seeing my own flowing <b>cursive</b> , seeing the curses, seeing the dreams, and I could see everything just flowing by like time could be tracked."
     ],
     "bn_syns": [
-      "longhand",
       "টানা-লেখা",
       "কার্সিভ স্ক্রিপ্ট",
       "একটানা হস্তাক্ষর"
@@ -57769,7 +57479,6 @@
       "├ö├ç├┐The food and the champagne and the big, <b>cushy</b> seat are nice,├ö├ç├û he says."
     ],
     "bn_syns": [
-      "undemanding",
       "সহজ",
       "সুখী",
       "মনোরম",
@@ -58191,8 +57900,7 @@
     ],
     "bn_syns": [
       "শামুকবিশেষ",
-      "কাটলেট",
-      "scollop"
+      "কাটলেট"
     ],
     "en_syns": [
       "escallop",
@@ -58243,8 +57951,7 @@
       "কাটারী",
       "অধ্যায়",
       "সেক্টর",
-      "কোমল",
-      "stonecutter"
+      "কোমল"
     ],
     "en_syns": [
       "cutting tool",
@@ -58381,7 +58088,6 @@
       "The spectra that are observed indicate that small molecules, such as <b>cyanide</b> , methane, and cyanogen, can assemble in outer space."
     ],
     "bn_syns": [
-      "nitrile",
       "সাইয়্যান্যাজিনের মিশ্র"
     ],
     "en_syns": [
@@ -58524,9 +58230,7 @@
       "Bury has numerous cycle lanes and special facilities for <b>cyclist</b>s including parking in the town.",
       "There is nothing to stop <b>cyclist</b>s using the pavement if they walk with their bikes."
     ],
-    "bn_syns": [
-      "Wheeler"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "wheeler"
     ],
@@ -58579,8 +58283,7 @@
       "মিনিট",
       "ক্ষুদ্রাতিক্ষুদ্র",
       "সঙ্কুচিত",
-      "বেঁটে",
-      "Bantam"
+      "বেঁটে"
     ],
     "en_antonyms": [
       "infinitesimal",
@@ -58771,7 +58474,6 @@
       "দোষ ধরে যে",
       "নিয়তি নবী",
       "অনর্থদর্শী",
-      "doomsayer",
       "ক্যাসান্ড্রা",
       "সন্দেহবাদী"
     ],
@@ -59004,7 +58706,6 @@
       "Mild infections may cause urethral discomfort and dysuria without discharge and may be confused with <b>cystitis</b> ."
     ],
     "bn_syns": [
-      "czaritza",
       "জারিনা"
     ],
     "en_syns": [

@@ -704,7 +704,6 @@
     "bn_syns": [
       "নির্জীব",
       "বিরস",
-      "unexciting",
       "নীরস",
       "দুর্বল",
       "বিস্বাদ",
@@ -763,7 +762,6 @@
       "The blonde beauty believes her image as a <b>vapid</b> party girl is completely unfair, as she's always been proud of her classroom achievements."
     ],
     "bn_syns": [
-      "jejunity",
       "স্বাদহীনতা",
       "গতানুগতিকতা"
     ],
@@ -817,7 +815,6 @@
       "Also, for early cancers, a doctor may use a laser to <b>vaporize</b> the growth."
     ],
     "bn_syns": [
-      "vaporific",
       "পাতলা ত্ত স্বচ্ছ",
       "বাষ্পীয়",
       "অবাস্তব",
@@ -951,7 +948,6 @@
       "বিচিত্র",
       "আশ্চর্যজনক",
       "বিস্ময়কর",
-      "marbled",
       "চিত্রবিচিত্র",
       "রামধনু",
       "বিভিন্ন করা",
@@ -1265,7 +1261,6 @@
       "খুঁজে অঞ্চল",
       "বাহির করিয়া ঝোলান",
       "বসিয়া থাকা",
-      "lollygag",
       "উদ্ভিদ্জীবন যাপন করা",
       "শিথিল করা"
     ],
@@ -1586,7 +1581,6 @@
       "Just outside each vertebra, the dorsal and <b>ventral</b> roots unite to form a spinal nerve on each side."
     ],
     "bn_syns": [
-      "adaxial",
       "অঙ্কীয়"
     ],
     "en_syns": [
@@ -1664,6 +1658,9 @@
   {
     "en": "venus",
     "bn": "শুক্র",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈvēnəs",
       "Śukra"
@@ -1691,9 +1688,6 @@
     ],
     "en_syns": [
       "urania"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1791,7 +1785,6 @@
       "Primrose, sunflowers, sand <b>verbena</b> , and a number of others we cannot yet identify have exploded upon the sand dunes."
     ],
     "bn_syns": [
-      "vervain",
       "বেনা"
     ],
     "en_syns": [
@@ -2294,8 +2287,7 @@
       "New mutated forms of GFP that are more intensely fluorescent provide more avenues for its use in <b>vertebrate</b> systems."
     ],
     "bn_syns": [
-      "মেরূদণ্ডী",
-      "craniate"
+      "মেরূদণ্ডী"
     ],
     "en_syns": [
       "craniate"
@@ -2509,9 +2501,7 @@
       "I have been on my local library board and served on our church <b>vestry</b> .",
       "They were married in the <b>vestry</b> of St. Patrick's Cathedral, in New York, one week after his first novel, This Side of Paradise, was published."
     ],
-    "bn_syns": [
-      "sacristy"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "sacristy"
     ],
@@ -2608,10 +2598,7 @@
       "The rest of the mix, however, is a bit more jazzy and quirky, blending piano, flute, organ vamps, <b>vibraphone</b>s , and some basic samples.",
       "Found sounds, guitars, <b>vibraphone</b>s , 8-bit synths and analogue drum machines are brushed vigorously with cut and paste pyrotechnics, exploding aurally with a pretty pop rather than colourful starburst."
     ],
-    "bn_syns": [
-      "vibraharp",
-      "vibes নেই"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "vibraharp",
       "vibes"
@@ -2992,7 +2979,6 @@
       "It's true potential, however, has always been there and recently it has begun to be realised in yet another <b>vinous</b> renaissance!"
     ],
     "bn_syns": [
-      "vinaceous",
       "মদ্যতুল্য"
     ],
     "en_syns": [
@@ -3092,7 +3078,6 @@
       "কিশোর",
       "সত্",
       "সচ্চরিত্র",
-      "virginals জোড়া",
       "বিশুদ্ধ"
     ],
     "en_syns": [
@@ -3128,6 +3113,9 @@
   {
     "en": "virgo",
     "bn": "কন্যারাশি",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈvərgō",
       "Kan'yārāśi"
@@ -3145,9 +3133,6 @@
     ],
     "en_syns": [
       "Virgo"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -3184,7 +3169,6 @@
       "a performance of considerable <b>virtuosity</b>"
     ],
     "bn_syns": [
-      "panache",
       "বিচারবুদ্ধি",
       "প্রবণতা",
       "আধিপত্য",
@@ -3279,7 +3263,6 @@
     "bn_syns": [
       "স্বভাবজ",
       "স্বজ্ঞাত",
-      "splanchnic",
       "আন্তরয়ন্ত্রীয়"
     ],
     "en_syns": [
@@ -3306,8 +3289,7 @@
       "আঠাল",
       "আঠাযুক্ত",
       "এঁেটল",
-      "সান্দ্র",
-      "mucilaginous"
+      "সান্দ্র"
     ],
     "en_syns": [
       "pasty",
@@ -3893,7 +3875,6 @@
       "আসন্ন",
       "অকপট",
       "বাক্পটু",
-      "talky",
       "গ্রন্থিবদ্ধ",
       "ঝড়ো",
       "কইয়ে",
@@ -3979,7 +3960,6 @@
     ],
     "bn_syns": [
       "পত্রমূলাবর্তবিশিষ্ট",
-      "turbinate",
       "স্ক্রুর ন্যায় পেঁচাল",
       "কুনুলাকার",
       "সর্পিল"
@@ -4169,7 +4149,6 @@
       "But, while she stares straight ahead - aloof, resigned - he diverts his gaze momentarily from the road to engage us with a look of such <b>vulpine</b> knowingness that we begin to wonder just what exactly he has in mind."
     ],
     "bn_syns": [
-      "vulpecular",
       "ধূর্ত",
       "সেয়ানা",
       "সূক্ষ্ম",

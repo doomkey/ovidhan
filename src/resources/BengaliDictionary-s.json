@@ -95,6 +95,9 @@
   {
     "en": "sabbath",
     "bn": "রবিবার",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       null,
       "Rabibāra"
@@ -113,9 +116,6 @@
       "Sunday",
       "first day",
       "Sabbath"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -298,8 +298,7 @@
       "While Mother rises virtuously early for <b>sacristan</b> duties at Little Saint Mary's church, we heathens opt for an indolent morning with the papers."
     ],
     "bn_syns": [
-      "গির্জার যে কর্মচারী ঘণ্টাবাদন",
-      "Sexton"
+      "গির্জার যে কর্মচারী ঘণ্টাবাদন"
     ],
     "en_syns": [
       "sexton"
@@ -383,7 +382,6 @@
       "বিজ্ঞ",
       "বিচক্ষণ",
       "মিতব্যয়ী",
-      "streetwise",
       "ঋষি",
       "বুদ্ধিমান",
       "তীক্ষ্নদৃষ্টি",
@@ -424,6 +422,9 @@
   {
     "en": "sagittarius",
     "bn": "ধনু",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˌsajiˈte(ə)rēəs",
       "Dhanu"
@@ -448,9 +449,6 @@
       "bow",
       "arch",
       "Sagittarius"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -877,9 +875,7 @@
       "Everyone's back on stage for the Carnaval Finale, and there'll be plenty of room for the audience to <b>samba</b> and share the festive spirit.",
       "When the doors to the club are thrown open at 10 pm, music fans can expect a rare treat with two different DJs and three different live bands performing everything from salsa to <b>samba</b> to reggae to hip-hop."
     ],
-    "bn_syns": [
-      "obeche"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "obeche"
     ],
@@ -1116,8 +1112,7 @@
     "bn_syns": [
       "স্বাস্থ্যনিবাস",
       "স্বাস্থ্যকর স্থান",
-      "হাসপাতাল",
-      "sanatarium"
+      "হাসপাতাল"
     ],
     "en_syns": [
       "sanatarium",
@@ -1277,6 +1272,9 @@
   {
     "en": "satan",
     "bn": "শয়তান",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈsātn",
       "Śaẏatāna"
@@ -1309,9 +1307,6 @@
       "old nick",
       "devil",
       "the tempter"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1349,9 +1344,7 @@
       "So Price established a <b>satellite</b> office in Denver, making it his center for work in the telecommunications industry.",
       "Simmonds's company has <b>satellite</b> offices all over the world, and, he said, they're constantly opening, closing, or relocating them."
     ],
-    "bn_syns": [
-      "Satisfiable"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "satisfiable"
     ],
@@ -1455,6 +1448,9 @@
   {
     "en": "saturday",
     "bn": "শনিবার",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "-dē,ˈsatərˌdā",
       "Śanibāra"
@@ -1473,15 +1469,15 @@
     "en_syns": [
       "Saturday"
     ],
-    "pos": [
-      "noun"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
   {
     "en": "saturn",
     "bn": "শনি",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈsatərn",
       "Śani"
@@ -1498,9 +1494,6 @@
     ],
     "en_syns": [
       "Saturn"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1883,8 +1876,7 @@
     ],
     "bn_syns": [
       "বদমাশ",
-      "সন্তান",
-      "scalawag"
+      "সন্তান"
     ],
     "en_syns": [
       "imp",
@@ -1909,12 +1901,9 @@
     ],
     "bn_syns": [
       "হতভাগ্য লোক",
-      "hellion",
       "সন্ত্রাস",
       "বানর",
-      "prankster",
       "বদমাশ",
-      "scalawag",
       "ভয়",
       "সন্তান",
       "পবিত্র সন্ত্রাসী",
@@ -1966,9 +1955,7 @@
       "There was steak or <b>scampi</b> or half a chicken, and sweet white wine for my grandmother.",
       "For Ôö¼├║5.50 there was a choice of cod or haddock, with <b>scampi</b> Ôö¼├║1 extra."
     ],
-    "bn_syns": [
-      "langoustine"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "langoustine"
     ],
@@ -1991,6 +1978,10 @@
   {
     "en": "scandinavian",
     "bn": "স্ক্যান্ডিনইভিআর অধিবাসী",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˌskandəˈnāvēən",
       "Skyānḍina'ibhi'āra adhibāsī"
@@ -2010,10 +2001,6 @@
     ],
     "en_syns": [
       "Scandinavian"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -2133,9 +2120,7 @@
       "The most common Egyptian amulet was the <b>scarab</b> , made in the form of a sacred beetle, and this design continued to be used in early Greek and Etruscan work.",
       "Castellani also incorporated cameos, <b>scarab</b>s , and enamel into pieces of jewelry as had been done in ancient times."
     ],
-    "bn_syns": [
-      "scarabaeus"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "scarabaeus"
     ],
@@ -2216,7 +2201,6 @@
       "As for Elliot, she's as <b>scatty</b> as a fruit fly, the constant butt of Cox's cutting jokes."
     ],
     "bn_syns": [
-      "absentminded",
       "অনুপস্থিত",
       "পাগলাটে",
       "কর্কশ",
@@ -2499,8 +2483,7 @@
       "Not until the late nineteenth century was it understood that his attacks on late medieval <b>scholasticism</b> did not result from brash ignorance but from a proper understanding of traditional theology, especially patristic."
     ],
     "bn_syns": [
-      "দার্শনিক পদ্ধতি",
-      "academicism"
+      "দার্শনিক পদ্ধতি"
     ],
     "en_syns": [
       "academicism"
@@ -2633,7 +2616,6 @@
       "ছিন্নাংশ",
       "কণিকা",
       "অকুস্থল",
-      "smidgen",
       "ফিস্ ফিস্ শব্দ",
       "টুকরা",
       "কণা",
@@ -2883,6 +2865,9 @@
   {
     "en": "scorpio",
     "bn": "বৃশ্চিকরাশি",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈskôrpēˌō",
       "Br̥ścikarāśi"
@@ -2901,9 +2886,6 @@
     ],
     "en_syns": [
       "scorpion"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -2998,6 +2980,10 @@
   {
     "en": "scottish",
     "bn": "স্কটিশ",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈskätiSH",
       "Skaṭiśa"
@@ -3017,10 +3003,6 @@
       "Scotsman",
       "Scotchman",
       "Scottish"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -3185,6 +3167,9 @@
   {
     "en": "scripture",
     "bn": "বাইবেল",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       null,
       "Bā'ibēla"
@@ -3213,9 +3198,6 @@
       "bible",
       "word of god",
       "good book"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -3261,7 +3243,6 @@
     "bn_syns": [
       "বিষণ্ণ নীরবতা",
       "গণ্ডমালারোগ",
-      "struma",
       "রাজার মন্দ"
     ],
     "en_syns": [
@@ -3323,7 +3304,6 @@
       "The orchestral introduction grips us by the <b>scruff</b> of the neck in the venom with which it makes hunting and stalking aurally incarnate."
     ],
     "bn_syns": [
-      "nucha",
       "ঘাড়",
       "বাহু"
     ],
@@ -3367,7 +3347,6 @@
       "মসলাদার",
       "মুখরোচক",
       "আঙুল-মার",
-      "mouthwatering",
       "সুস্বাদু",
       "ঠোঁট-চাপড়ানো",
       "আনন্দদায়ক",
@@ -3828,8 +3807,7 @@
       "ক্ষতিকর",
       "দারিদ্র্যপীড়িত",
       "মোটামুটি",
-      "অপ্রীতিকর",
-      "skeevy"
+      "অপ্রীতিকর"
     ],
     "en_syns": [
       "degenerate",
@@ -4035,8 +4013,6 @@
       "The demonstration spanned the city's traditional <b>sectarian</b> divide, with marchers coming from every area."
     ],
     "bn_syns": [
-      "sectarist",
-      "Parti প্রিস",
       "মতবাদ-সংক্রান্ত",
       "তরফদার",
       "অননুগামী ব্যক্তি",
@@ -4044,7 +4020,6 @@
       "ভিন্নমতাবলন্বী",
       "অনমনীয়",
       "বিচ্ছিন্নতাবাদী",
-      "doctrinaire",
       "ছোট মনের অধিকারী",
       "গোঁড়া",
       "বিরোধী ব্যক্তি",
@@ -4285,7 +4260,6 @@
       "কাজ জিনিস",
       "যথাযথ",
       "সুরুচি",
-      "আস মাস faut",
       "শালীন",
       "কার্যক্ষম",
       "সুশীল",
@@ -4545,8 +4519,7 @@
       "Maybe there is something to be said for inhabiting a separate little musical world of adulation, ‘luvvies’ and cascading <b>semiquaver</b>s !"
     ],
     "bn_syns": [
-      "শেমীট্",
-      "YID"
+      "শেমীট্"
     ],
     "en_syns": [
       "Yid",
@@ -4791,7 +4764,6 @@
       "স্ব-গুরুত্বপূর্ণ",
       "সংক্ষিপ্ত অথচ অর্থপূর্ন",
       "ধার্মিক",
-      "pietistic",
       "ধর্মোপদেশ বা নীতি উপদেশ দিত্র ভাল বাসে এমন"
     ],
     "en_syns": [
@@ -4880,8 +4852,7 @@
       "ত্রাণকর্তা",
       "প্রতিবাদী",
       "অভিভাবক",
-      "রক্ষাকর্তা",
-      "spotter"
+      "রক্ষাকর্তা"
     ],
     "en_syns": [
       "lookout",
@@ -4947,7 +4918,6 @@
     ],
     "bn_syns": [
       "বিচ্ছিন্নতাকামী",
-      "separationist",
       "বিভাজন-প্রক্রিয়ায় বংশবৃদ্ধি করে এমন"
     ],
     "en_syns": [
@@ -4994,7 +4964,6 @@
       "The colour is a kind of brownish <b>sepia</b> and reminds one of old, well-loved photographs."
     ],
     "bn_syns": [
-      "পোড়ানো Sienna",
       "মেহগনিবৃক্ষ"
     ],
     "en_syns": [
@@ -5047,6 +5016,9 @@
   {
     "en": "september",
     "bn": "সেপ্টেম্বর",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "sepˈtembər",
       "Sēpṭēmbara"
@@ -5066,9 +5038,6 @@
     ],
     "en_syns": [
       "September"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -5110,7 +5079,6 @@
       "পুঁজের পূরণ",
       "পচা",
       "পচনশীল",
-      "festering",
       "পুঁজভর্তি"
     ],
     "en_syns": [
@@ -5220,7 +5188,6 @@
       "ধূলিকণা",
       "পরমানন্দ",
       "সমাধিগৃহ",
-      "undercroft",
       "খিলান",
       "কবর চেম্বারের"
     ],
@@ -5377,8 +5344,7 @@
     ],
     "bn_syns": [
       "হারেম",
-      "অন্ত: পুর",
-      "serail"
+      "অন্ত: পুর"
     ],
     "en_syns": [
       "harem",
@@ -5612,9 +5578,7 @@
       "Further enhancements were achieved with Optware's <b>servo</b> system.",
       "The electrical <b>servo</b> drives are digitally controlled."
     ],
-    "bn_syns": [
-      "servomechanism"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "servomechanism"
     ],
@@ -5634,7 +5598,6 @@
       "Maize and <b>sesame</b> are common in the irrigated farms along the Wabe Sha ile River."
     ],
     "bn_syns": [
-      "benne",
       "তিল",
       "আঁচিল",
       "ফোঁটা",
@@ -5926,8 +5889,7 @@
       "কাম্পা",
       "টলমল করা",
       "এক পা টেনে",
-      "ব্যাহত করা",
-      "shambling"
+      "ব্যাহত করা"
     ],
     "en_syns": [
       "shambling",
@@ -5993,9 +5955,7 @@
       "He'd obviously had a half too much of <b>shandy</b> , though.",
       "She normally drank <b>shandy</b> , but vodka did not seem inappropriate in the circumstances (in fact, I wished I'd asked for a double Southern Comfort myself, no soda, no ice)."
     ],
-    "bn_syns": [
-      "shandygaff"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "shandygaff"
     ],
@@ -6210,10 +6170,7 @@
       "And the Sufi sheik talks about when you are chanting, I becomes we, and it's no longer the I, and that that's what it's about.",
       "An intimate group of senators and sheiks dined together at Le Cirque."
     ],
-    "bn_syns": [
-      "sawbill",
-      "merganser"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "sawbill",
       "merganser"
@@ -6256,9 +6213,7 @@
       "And let us contrast it with the frequent <b>shemozzle</b>s that characterise Her Majesty's Opposition, wherein disputes, dissent and debates rage.",
       "I think it's absolutely fair to say that the immediate responses in dealing with the community exposure were a <b>shemozzle</b> ."
     ],
-    "bn_syns": [
-      "schemozzle"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "schemozzle"
     ],
@@ -6362,9 +6317,7 @@
       "It is almost impossible to get judges there who will administer laws without bribery, and as every man goes armed with knife or revolver, there are plenty of shindies .",
       "there were plenty of gulls kicking up a <b>shindy</b>"
     ],
-    "bn_syns": [
-      "shindig"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "shindig"
     ],
@@ -6384,10 +6337,7 @@
       "With age, the weakening immune system may allow the virus to re-emerge as <b>shingles</b> : a painful rash that causes pain lasting for months or years.",
       "It may also help relieve pain from nerves damaged by <b>shingles</b> or diabetes."
     ],
-    "bn_syns": [
-      "zoster",
-      "হারপিস zoster"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "zoster",
       "herpes zoster"
@@ -6435,7 +6385,6 @@
     "bn_syns": [
       "রায়বাঘিনী",
       "কলহপ্রি় স্ত্রীলোক",
-      "shrewmouse",
       "খাণ্ডার"
     ],
     "en_syns": [
@@ -6569,7 +6518,6 @@
     ],
     "bn_syns": [
       "হিস্হিস শব্দকর",
-      "continuant",
       "ত্তষ্ঠ্য ব্যন্জনবর্ণ",
       "উচ্চনাদ",
       "ঘর্ষিত"
@@ -6682,9 +6630,7 @@
       "In the middle of the zone, where it narrowed to less than a kilometre near Byumba, I spotted soldiers swarming around the rich <b>sienna</b> of freshly turned mounds of earth; they were like giant anthills bracketing the city on both flanks.",
       "For example, if you have a warm complexion (yellow or olive tones), select colors with names like auburn, copper, red or <b>sienna</b> ."
     ],
-    "bn_syns": [
-      "Sienna"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "sienna"
     ],
@@ -6727,7 +6673,6 @@
     ],
     "bn_syns": [
       "প্রভেদ করা",
-      "signalise",
       "সংকেত",
       "বিমূর্ত",
       "অংশ",
@@ -6813,8 +6758,7 @@
     ],
     "bn_syns": [
       "পরিচায়ক",
-      "ইঙ্গিতপূর্ণ",
-      "revelatory"
+      "ইঙ্গিতপূর্ণ"
     ],
     "en_syns": [
       "indicative",
@@ -6996,9 +6940,7 @@
       "Although this order represents an extremely diverse and economically important group of insects, mapping studies have been conducted only in the <b>silkworm</b> , Bombyx mori.",
       "As is well known, the <b>silkworm</b> , Bombyx mori, is reared for the production of silk and its diet consists solely of mulberry leaves."
     ],
-    "bn_syns": [
-      "syllabub"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "syllabub"
     ],
@@ -7133,9 +7075,7 @@
       "It is subject to constant dust-laden winds variously known as sirocco, khamsin, <b>simoom</b> and harmattan.",
       "And then slowly, implacably, the weather changed, the desert began its insidious creep, the simoon started to scour the land and the hills with its harsh dragon's breath."
     ],
-    "bn_syns": [
-      "samiel"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "samiel"
     ],
@@ -7272,7 +7212,6 @@
     ],
     "bn_syns": [
       "ন্যস্ত করা",
-      "undershirt",
       "একক বস্তু"
     ],
     "en_syns": [
@@ -7527,8 +7466,7 @@
       "For months I had been planning this Texas business trip, which also happened to include an afternoon of <b>skeet</b> shooting ."
     ],
     "bn_syns": [
-      "স্কিট শুটিং",
-      "trapshooting"
+      "স্কিট শুটিং"
     ],
     "en_syns": [
       "trapshooting",
@@ -7710,7 +7648,6 @@
     ],
     "bn_syns": [
       "ভূপাতিত করা পিন",
-      "ninepin",
       "খোলস",
       "পরাস্ত",
       "ভূপাতিত করা",
@@ -7844,7 +7781,6 @@
       "শিরা",
       "নল",
       "লালা ঝরান",
-      "slaveholder",
       "ক্রীতদাসের মালিক",
       "প্রচুর লালা নির্গত হত্তয়া",
       "আবোলতাবোল বকা"
@@ -7977,7 +7913,6 @@
       "চেল",
       "নির্মোক",
       "চামড়া",
-      "sphacelus",
       "ঝরান",
       "ত্যাগ করা",
       "চালা",
@@ -8039,8 +7974,6 @@
       "কুঁডে লোক",
       "স্লাগ্",
       "অলস ব্যক্তি",
-      "underachiever",
-      "layabout",
       "অলস",
       "নিষ্কর্মা",
       "অকর্মা",
@@ -8106,11 +8039,9 @@
     ],
     "bn_syns": [
       "কর্দমাক্ত",
-      "sucky",
       "চর্বিযুক্ত",
       "বাক্পটুতাপূর্ণ",
       "পদানত",
-      "sycophantic",
       "তেলা",
       "তোয়াজ",
       "তোষামুদে",
@@ -8429,9 +8360,7 @@
       "In fact I won ├ö├ç├┐ <b>snivel</b>ler of the year├ö├ç├û one year, according to a newspaper."
     ],
     "bn_syns": [
-      "sniffle",
       "ঘেনঘেন",
-      "blub",
       "নাকের শ্লেষ্মা",
       "শিকনি",
       "ঠান্ডা",
@@ -8501,7 +8430,6 @@
       "Glory nickered and bobbed his head in way of greeting, before stretching his nose to <b>snuffle</b> my face."
     ],
     "bn_syns": [
-      "sniffle",
       "নাকিসুরে কথা",
       "নাকের শ্লেষ্মা"
     ],
@@ -8580,8 +8508,7 @@
     "bn_syns": [
       "জঘন্য ব্যক্তি",
       "ঘাসের চাপড়া",
-      "পায়ুকামী",
-      "sodomist"
+      "পায়ুকামী"
     ],
     "en_syns": [
       "sod",
@@ -8864,8 +8791,7 @@
       "she would have liked to wake up from her <b>somnambulism</b> to find herself back in bed"
     ],
     "bn_syns": [
-      "স্বপ্নচারিতা",
-      "noctambulation"
+      "স্বপ্নচারিতা"
     ],
     "en_syns": [
       "noctambulation"
@@ -9012,7 +8938,6 @@
       "উন্নতস্তনী",
       "ভালভাবে অন্বিত",
       "স্তুপীকৃত",
-      "পুরো bosomed",
       "ইন্দ্রি়পরায়ণতাপূর্ণ"
     ],
     "en_syns": [
@@ -9172,9 +9097,7 @@
       "And with that unfocused and slightly <b>soppy</b> sentiment, I'm off to bed."
     ],
     "bn_syns": [
-      "drippy",
       "ঘৃণাজনক",
-      "soupy",
       "কর্দমাক্ত",
       "আবেগপ্রবণ",
       "শাস্তা",
@@ -9185,8 +9108,7 @@
       "উদ্বেগহীন",
       "সিদ্ধ",
       "অর্ধপানোন্মত্ত",
-      "ভাবপ্রবণ",
-      "bathetic"
+      "ভাবপ্রবণ"
     ],
     "en_syns": [
       "maudlin",
@@ -9434,6 +9356,10 @@
   {
     "en": "soviet",
     "bn": "সোভিয়েত",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       null,
       "Sōbhiẏēta"
@@ -9448,10 +9374,6 @@
       "সোভিএট্"
     ],
     "en_syns": [],
-    "pos": [
-      "noun",
-      "adjective"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -9483,7 +9405,6 @@
       "থেঁত",
       "খেপাটে",
       "আঁট",
-      "sloshed",
       "অল্প মাতাল",
       "মাতাল",
       "পানোন্মত্ত",
@@ -9553,6 +9474,10 @@
   {
     "en": "spanish",
     "bn": "স্প্যানিশ",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈspaniSH",
       "Spyāniśa"
@@ -9577,10 +9502,6 @@
       "Hispanic",
       "Spanish",
       "Spaniard"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -9612,6 +9533,10 @@
   {
     "en": "spartan",
     "bn": "স্পার্টা লোক",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈspärtn",
       "Spārṭā lōka"
@@ -9650,10 +9575,6 @@
       "bare",
       "stark",
       "plain"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -9747,9 +9668,7 @@
     "bn_syns": [
       "অতি ক্ষুদ্র দাগ",
       "বিন্দু দ্বারা করা",
-      "bespeckle",
       "অকুস্থল",
-      "maculation",
       "তালি"
     ],
     "en_syns": [
@@ -9978,9 +9897,7 @@
       "Everyone in England should see it from the deck of a wooden sailing ship, with a chill on the air and the taste of <b>spindrift</b> on their lips.",
       "It's a fine day, the sun shining but the wind blowing <b>spindrift</b> sharp as staples."
     ],
-    "bn_syns": [
-      "spoondrift"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "spoondrift"
     ],
@@ -10151,9 +10068,7 @@
       "Insects crawled freely around the cracks in the walls, and across the bottles of <b>spirituous</b> beverages.",
       "The food was served in the house and the wake participants then adjourned ├ö├ç├┐to a very large barn, in which <b>spirituous</b> liquors of every kind, and tobacco in profusion, with pipes, were distributed.├ö├ç├û"
     ],
-    "bn_syns": [
-      "spiritous"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "spiritous"
     ],
@@ -10580,7 +10495,6 @@
       "The crabs, which are natural scavengers, are being fed with dead sand eels and <b>sprat</b>s ."
     ],
     "bn_syns": [
-      "brisling",
       "বাচ্চা",
       "শিশু",
       "খোকামনি",
@@ -10635,7 +10549,6 @@
       "দ্রুতগতি",
       "শক্তির পূর্ণ",
       "অনলস",
-      "VIM এবং তেজ পূর্ণ",
       "সজীব"
     ],
     "en_syns": [
@@ -10872,7 +10785,6 @@
       "When they discovered that all the local homing pigeons were booked up, they bought 80 <b>squab</b>s from a poultry market in Newark, N.J."
     ],
     "bn_syns": [
-      "squabby",
       "ঘুঘু",
       "পরী",
       "বেঁটে",
@@ -10939,7 +10851,6 @@
       "অপ্রকৃতিস্থ",
       "ভিজা",
       "অল্প মাতাল",
-      "sloshed",
       "খেপাটে",
       "শক্ত"
     ],
@@ -11038,7 +10949,6 @@
       "stage manager"
     ],
     "bn_antonyms": [
-      "Tyro",
       "আরোগ্যলাভ করা",
       "ব্রতী",
       "নবদীক্ষিত ব্যক্তি",
@@ -11242,7 +11152,6 @@
       "After an initial flash of light, of a painful but very <b>starry</b> brightness everywhere, the world went suddenly dark, and life seemed to be draining from my limbs, along with my consciousness."
     ],
     "bn_syns": [
-      "তারকা spangled",
       "তারকাময়",
       "তারকাখচিত"
     ],
@@ -11570,7 +11479,6 @@
       "অট্ট",
       "কৃতকর্মা",
       "গুড়ুম",
-      "deafening",
       "ক্ষমতাশালী"
     ],
     "en_syns": [
@@ -11676,7 +11584,6 @@
       "If it divides higher than usual, it may incline to the left rising in front of the trachea above the <b>sternum</b> ."
     ],
     "bn_syns": [
-      "breastbone",
       "বক্ষাস্থি"
     ],
     "en_syns": [
@@ -11721,9 +11628,7 @@
     "bn_syns": [
       "সামুদ্রিক বন্দরে কাজে নিযুক্ত",
       "ডক শ্রমিক",
-      "lumper",
-      "ডকশ্রমিক",
-      "dockhand"
+      "ডকশ্রমিক"
     ],
     "en_syns": [
       "lumper",
@@ -11772,7 +11677,6 @@
     ],
     "bn_syns": [
       "সবৃত্তিক শাসক",
-      "compensable",
       "বেতনভুক্",
       "লাভজনক"
     ],
@@ -12031,8 +11935,7 @@
       "কৌতুক",
       "যন্ত্র",
       "শিল্প",
-      "কপট",
-      "gambit"
+      "কপট"
     ],
     "en_syns": [
       "dodge",
@@ -12187,7 +12090,6 @@
       "At least I have one pass of the wreck with <b>strobe</b> working."
     ],
     "bn_syns": [
-      "stroboscope",
       "এক ধরনের ফ্ল্যাশ বাতি"
     ],
     "en_syns": [
@@ -12591,7 +12493,6 @@
       "Most people keep some <b>styptic</b> powder (available at pet stores) on hand to cauterize the bleeding if necessary."
     ],
     "bn_syns": [
-      "hemostatic",
       "রক্তস্রাবরোধী",
       "ধারক"
     ],
@@ -13146,7 +13047,6 @@
       "This range is broad enough to create a difference between normal tissue glutathione peroxidase and <b>subnormal</b> levels."
     ],
     "bn_syns": [
-      "subpar",
       "দরিদ্র",
       "স্বাভাবিক নিচে",
       "গড় নীচের",
@@ -13297,7 +13197,6 @@
       "Soil and <b>subsoil</b> will be stocked for subsequent respreading."
     ],
     "bn_syns": [
-      "undersoil",
       "অন্তমৃত্তিকা"
     ],
     "en_syns": [
@@ -13445,7 +13344,6 @@
     "bn_syns": [
       "পা",
       "ভিত্তি",
-      "understructure",
       "বনিয়াদ",
       "নিতম্ব",
       "স্থল"
@@ -13624,7 +13522,6 @@
       "That founded because of what I have said earlier, that the Commissioner found that the <b>subtrahend</b> in the equation, namely the value of improvements, was not in fact the value."
     ],
     "bn_syns": [
-      "semitropical",
       "প্রায় গ্রীষ্মমণ্ডলীয়"
     ],
     "en_syns": [
@@ -13828,9 +13725,7 @@
       "The procedure is based on the cleavage of <b>sucrose</b> by invertase to glucose and fructose.",
       "Epidermal cells contained low concentrations of <b>sucrose</b> , glucose and fructose, and no fructan."
     ],
-    "bn_syns": [
-      "saccharose"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "saccharose"
     ],
@@ -14275,6 +14170,9 @@
   {
     "en": "sunday",
     "bn": "রবিবার",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "-dē,ˈsəndā",
       "Rabibāra"
@@ -14296,9 +14194,6 @@
       "Sunday",
       "Sabbath",
       "first day"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -14641,7 +14536,6 @@
       "On the poster, the now famous Gelede mask is <b>superimpose</b>d upon a world globe, its wings stretching across west Africa into the Atlantic Ocean."
     ],
     "bn_syns": [
-      "superpose",
       "করা",
       "আরোপ করা",
       "উপর শুয়ে"
@@ -14945,7 +14839,6 @@
       "কুঁড়ে",
       "অলস",
       "জড়",
-      "resupine",
       "দুর্বল"
     ],
     "en_syns": [
@@ -15001,7 +14894,6 @@
       "Without such living arrangements it would not have been possible for thousands of Messenians to hold out as <b>suppliant</b>s in the sanctuary of Zeus on Ithome in the 460s BC until they finally obtained safe conduct to their new home at Naupactus."
     ],
     "bn_syns": [
-      "supplicatory",
       "প্রার্থনা",
       "সনির্বন্ধ আবেদক",
       "মিনতিপূর্ণ"
@@ -15242,7 +15134,6 @@
       "অপরিমিতভাজন",
       "অতিভোজন",
       "ঘাট",
-      "oversupply",
       "সম্পূর্ণ পরিতৃপ্ত করা",
       "ভরতি",
       "বিতৃষ্ণা বোধ করা"
@@ -15723,7 +15614,6 @@
       "বীর",
       "ডানপিটে",
       "সাহসী",
-      "lionhearted",
       "নির্ভীক",
       "অভী",
       "আড়ম্বরপ্রি়",
@@ -15874,8 +15764,7 @@
       "গ্রাস",
       "কনস্টবল",
       "নিচে চকচক করে গেলা",
-      "পান করা",
-      "pigswill"
+      "পান করা"
     ],
     "en_syns": [
       "slop",
@@ -16071,9 +15960,7 @@
       "At times, the music is practically <b>symphonic</b> and then it just as easily turns harsh and destructive.",
       "My father prefers everything else, especially <b>symphonic</b> music, but on occasion he'll play traditional Asian music."
     ],
-    "bn_syns": [
-      "symphonious"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "symphonious"
     ],
@@ -16177,9 +16064,7 @@
     ],
     "bn_syns": [
       "সামঞ্জস্যের",
-      "synchrony",
-      "সমলয়",
-      "synchroneity"
+      "সমলয়"
     ],
     "en_syns": [
       "synchroneity",
@@ -16250,9 +16135,7 @@
       "Chronic cough can cause exhaustion and irritability, headaches, difficulty sleeping, urinary incontinence, syncopal episodes, sore throat, self consciousness, and fear of underlying serious illness.",
       "The traditional spellings of English place names such as Worcester and Gloucester bear evidence of <b>syncope</b> ."
     ],
-    "bn_syns": [
-      "syncopation"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "syncopation"
     ],

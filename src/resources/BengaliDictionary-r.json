@@ -278,8 +278,7 @@
       "Indian paintings adorn the walls, the floors are tiled, and the chairs are heavy wood as are the tables, which are topped with <b>raffia</b> place mats."
     ],
     "bn_syns": [
-      "র্যাফ়িয়া",
-      "raphia"
+      "র্যাফ়িয়া"
     ],
     "en_syns": [
       "raphia"
@@ -434,6 +433,9 @@
   {
     "en": "ramadan",
     "bn": "রমজান",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈraməˌdan,ˈräməˌdän",
       "Ramajāna"
@@ -452,9 +454,6 @@
     "en_syns": [
       "Ramadan"
     ],
-    "pos": [
-      "noun"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -471,7 +470,6 @@
       "Frequently, the sewerage, water supply, as well as heat supply system is a concealed but quite ramified network existing several meters below the earth surface."
     ],
     "bn_syns": [
-      "complexify",
       "কাঁটাচামচ",
       "শাখা",
       "শাখাবিভক্ত করা"
@@ -594,7 +592,6 @@
       "I can report, however, that in the few days I've worn my new blue band, I've noticed a decided increase in randiness !"
     ],
     "bn_syns": [
-      "ruttish",
       "বাষ্পীয়",
       "কামুক",
       "শৃঙ্গাকার"
@@ -878,9 +875,7 @@
       "It's only in the down time that we recognize the one-way <b>ratchet</b> of adding to the cost of doing business."
     ],
     "bn_syns": [
-      "rachet",
-      "র্যাচিট",
-      "ratch"
+      "র্যাচিট"
     ],
     "en_syns": [
       "rachet",
@@ -996,7 +991,6 @@
       "অসুখী",
       "দাগযুক্ত",
       "ইঁদুরে পূর্ণ",
-      "tatty",
       "পোকাযর়্খাত্তয়া",
       "হীন"
     ],
@@ -1078,8 +1072,7 @@
       "So leave it to these folks to create a <b>ravioli</b> dish, minus the pasta."
     ],
     "bn_syns": [
-      "রাভিওলি",
-      "cappelletti"
+      "রাভিওলি"
     ],
     "en_syns": [
       "cappelletti"
@@ -1256,6 +1249,9 @@
   {
     "en": "realtor",
     "bn": "স্থাবর সম্পত্তির নিযুক্তক",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "-ˌtôr,ˈrē(ə)ltər,ˈrē(ə)lətər",
       "Sthābara sampattira niyuktaka"
@@ -1272,9 +1268,6 @@
       "স্থাবর সম্পত্তির নিযুক্তক"
     ],
     "en_syns": [],
-    "pos": [
-      "noun"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -1467,7 +1460,6 @@
       "The argument is rather simple so let me <b>recapitulate</b> ."
     ],
     "bn_syns": [
-      "Reprise",
       "সংক্ষিপ্তবৃত্তি",
       "সারসংক্ষেপ প্রদান করা",
       "ঝালা",
@@ -1667,7 +1659,6 @@
       "The forecasts show that <b>recidivist</b> offenders are now more likely to be convicted, taken off the streets, and kept off the streets."
     ],
     "bn_syns": [
-      "reversionist",
       "অপরাধপ্রবণ"
     ],
     "en_syns": [
@@ -2447,7 +2438,6 @@
     ],
     "bn_syns": [
       "লাঠি",
-      "spliff",
       "যৌথ"
     ],
     "en_syns": [
@@ -2741,7 +2731,6 @@
       "The first is a different <b>refraction</b> for the two polarization components at the lens surfaces, which causes a ray bifurcation at each lens."
     ],
     "bn_syns": [
-      "deflexion",
       "বিনিময়তা",
       "প্রতিসরণ"
     ],
@@ -2860,8 +2849,7 @@
       "নিরাকরণ",
       "পাল্টা যুক্তি",
       "বর্জন",
-      "মুছিয়াতা",
-      "refutal"
+      "মুছিয়াতা"
     ],
     "en_syns": [
       "defense",
@@ -3309,8 +3297,7 @@
     "bn_syns": [
       "লাভজনক",
       "উপকারী",
-      "সুবিধাজনক",
-      "compensable"
+      "সুবিধাজনক"
     ],
     "en_syns": [
       "lucrative",
@@ -3326,6 +3313,9 @@
   {
     "en": "renaissance",
     "bn": "রেনেসাঁ",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "-ˌzäns,ˈrenəˌsäns",
       "Rēnēsām̐"
@@ -3355,9 +3345,6 @@
       "resurgence",
       "regeneration",
       "renascence"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -3492,7 +3479,6 @@
     ],
     "bn_syns": [
       "সংশোধনযোগ্য",
-      "restorable",
       "প্রতিকারযোগ্য",
       "পুনরূদ্ধার করা যায়",
       "আরোগ্যসাধ্য"
@@ -4250,7 +4236,6 @@
       "The whole plant <b>respire</b>d 59% of photosynthates in the growing period."
     ],
     "bn_syns": [
-      "suspire",
       "শ্বাস ফেলা",
       "শ্বাস-প্রশ্বাস লত্তয়া",
       "শ্বাস নাও"
@@ -4296,9 +4281,7 @@
       "Hoteliers and <b>restaurateur</b>s have often tried, but failed.",
       "One of the difficulties associated with the restaurant industry is a <b>restaurateur</b> 's reliance on others."
     ],
-    "bn_syns": [
-      "restauranter"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "restauranter"
     ],
@@ -4431,8 +4414,7 @@
     ],
     "bn_syns": [
       "বারবার",
-      "আবৃত্তি করা",
-      "fictionalize"
+      "আবৃত্তি করা"
     ],
     "en_syns": [
       "iterate",
@@ -4459,7 +4441,6 @@
       "রক্ষাকর",
       "আত্মরক্ষামূলক",
       "আচ্ছাদন",
-      "recollective",
       "দীর্ঘ"
     ],
     "en_syns": [
@@ -4526,7 +4507,6 @@
       "‘Thank you,’ Clara said, giving a shilling from her <b>reticule</b> to show her appreciation."
     ],
     "bn_syns": [
-      "graticule",
       "সূক্ষ্ম জালি"
     ],
     "en_syns": [
@@ -4604,7 +4584,6 @@
       "একজনের বেল্ট আঁট করা",
       "ব্যয় কমাতে",
       "মিতব্যয়ী হতে",
-      "cutbacks করা",
       "অর্থনীতির করতে",
       "লাভজনক হতে"
     ],
@@ -4634,7 +4613,6 @@
       "Austin's plan was a perfect way for him to get <b>retribution</b> for past pain."
     ],
     "bn_syns": [
-      "retributory",
       "প্রতিদানমূলক",
       "সমর্থনানুকূল"
     ],
@@ -4663,9 +4641,7 @@
       "অনগ্রসর",
       "খারাপ",
       "অধ: পতনশীল",
-      "প্রত্যাবর্তন",
-      "এখন প্রথমে rehash",
-      "retral"
+      "প্রত্যাবর্তন"
     ],
     "en_syns": [
       "retral",
@@ -4862,6 +4838,10 @@
   {
     "en": "reverend",
     "bn": "পূজনীয়",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       null,
       "Pūjanīẏa"
@@ -4890,10 +4870,6 @@
       "man of the cloth",
       "clergyman",
       "sublime"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -5300,9 +5276,7 @@
     "bn_syns": [
       "গেঁড়",
       "কন্দ",
-      "মূল",
-      "rootstock",
-      "rootstalk"
+      "মূল"
     ],
     "en_syns": [
       "rootstalk",
@@ -5388,9 +5362,7 @@
       "Some betrayed patients, institutions, and colleagues in the search for <b>riband</b>s to stick in their coats.",
       "When the Dodgers and the Giants left New York in 1957, he quoted Robert Browning: ‘Just for a handful of silver he left us, just for a <b>riband</b> to stick in his coat.’"
     ],
-    "bn_syns": [
-      "ribband"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "ribband"
     ],
@@ -5818,7 +5790,6 @@
       "Despite all the ranting, the <b>rodomontade</b> and the rhubarb Howard's excellent adventure will end in ignominy - although, naturally, he will insist that he stuck by his allies to the last."
     ],
     "bn_syns": [
-      "rhodomontade",
       "হামবড়া",
       "তর্জন-গর্জন"
     ],
@@ -5945,6 +5916,10 @@
   {
     "en": "roman",
     "bn": "রোমান",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈrōmən",
       "Rōmāna"
@@ -5967,7 +5942,6 @@
       "প্রাচীন রোমের অধিবাসী",
       "প্রাচীন রোমের খ্রিস্টানগণ",
       "রোমান ক্যাথলিক সম্প্রদায়ের লোক",
-      "papistic",
       "পোপধর্র্মসম্বন্ধীয়"
     ],
     "en_syns": [
@@ -5975,10 +5949,6 @@
       "papistic",
       "papist",
       "papistical"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -6115,7 +6085,6 @@
       "In those cases, any visible rank, name tag and the Air Force <b>rondel</b> on the aircraft are removed using photo software."
     ],
     "bn_syns": [
-      "mimeo",
       "হস্তলিখিত বা টাইপ করা জিনিসের কপি করিবার যন্ত্রবিশেষ"
     ],
     "en_syns": [
@@ -6355,8 +6324,7 @@
       "পশ্চাদ্দেশ",
       "আপত্তিকর বস্তু",
       "তাই এবং তাই",
-      "ক্ষুদ্র টুকরা করা",
-      "Git"
+      "ক্ষুদ্র টুকরা করা"
     ],
     "en_syns": [
       "git",
@@ -6457,8 +6425,7 @@
     ],
     "bn_syns": [
       "বৃত্তাকার বস্তু",
-      "উপবৃত্তাকার",
-      "annulet"
+      "উপবৃত্তাকার"
     ],
     "en_syns": [
       "annulet"
@@ -6535,7 +6502,6 @@
       "Although both carbon fibre oars were smashed to pieces and the stainless <b>rowlock</b> pins bent, the crew had two spare oars on board and managed to repair the <b>rowlock</b>s ."
     ],
     "bn_syns": [
-      "oarlock",
       "পিন",
       "নৌকার পার্শ্বসংলগ্ন কাঠি",
       "গোঁজ"
@@ -6740,7 +6706,6 @@
       "রাক্স্যাক",
       "খাদ্যবহনার্থ ঝোলাবিশেষ",
       "ঝোলা",
-      "packsack",
       "ব্যাকপ্যাক"
     ],
     "en_syns": [
@@ -6831,7 +6796,6 @@
       "অমার্জিত গেঁয়ো লোক",
       "ভানড্ল",
       "শক্ত",
-      "গিঁট-dragger",
       "দুর্বৃত্ত",
       "খুনে",
       "টেটন",
@@ -6842,10 +6806,8 @@
       "গুণ্ডা",
       "উচ্ছৃঙ্খল",
       "চমত্কার",
-      "roughneck",
       "নরপশু",
       "ভারী",
-      "Hardman",
       "মল্ল",
       "দসু্য",
       "খচ্চর",
@@ -6914,8 +6876,7 @@
       "There are also two-days of intensive workshops in flamenco rhythms, singing, guitar, children's Spanish, <b>rumba</b> , castanette playing, men's flamenco and much more."
     ],
     "bn_syns": [
-      "রুম্বানৃত্য নাচা",
-      "Rhumba"
+      "রুম্বানৃত্য নাচা"
     ],
     "en_syns": [
       "rhumba"
@@ -7044,7 +7005,6 @@
       "রটান",
       "গুঁজন",
       "বাজে বক্বক্ করা",
-      "scuttlebutt",
       "জনশ্রুতি",
       "শব্দ",
       "পরচর্চা",
@@ -7108,8 +7068,7 @@
       "বিদ্রোহ",
       "সারি",
       "হইচই",
-      "তোলপাড়",
-      "foofaraw"
+      "তোলপাড়"
     ],
     "en_syns": [
       "stink",
@@ -7256,6 +7215,10 @@
   {
     "en": "russian",
     "bn": "রাশিয়ান",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈrəSHən",
       "Rāśiẏāna"
@@ -7282,10 +7245,6 @@
     ],
     "en_syns": [
       "Russian"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []

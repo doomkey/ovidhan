@@ -115,6 +115,9 @@
   {
     "en": "january",
     "bn": "জানুয়ারী",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈjanyo͞oˌerē",
       "Jānuẏārī"
@@ -131,9 +134,6 @@
     ],
     "en_syns": [
       "jan"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -486,6 +486,9 @@
   {
     "en": "jesus",
     "bn": "যীশু",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈjēzəs",
       "Yīśu"
@@ -506,9 +509,6 @@
     "en_syns": [
       "redeemer",
       "savior"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -635,8 +635,7 @@
       "But the last part of the <b>jigsaw</b> is missing."
     ],
     "bn_syns": [
-      "স্ক্রল করাত",
-      "fretsaw"
+      "স্ক্রল করাত"
     ],
     "en_syns": [
       "fretsaw",
@@ -707,9 +706,7 @@
       "Over and over, the new American <b>jingo</b>es depict the U.S. as somehow a victim in the international economy."
     ],
     "bn_syns": [
-      "patrioteer",
-      "শত-কুসীদজীবী",
-      "পতাকা-Waver"
+      "শত-কুসীদজীবী"
     ],
     "en_syns": [
       "hundred-percenter",
@@ -1046,6 +1043,9 @@
   {
     "en": "judaism",
     "bn": "ইহুদীধর্মমত",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "-dā-,ˈjo͞odēˌizəm",
       "Ihudīdharmamata"
@@ -1065,9 +1065,6 @@
     ],
     "en_syns": [
       "Judaism"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -1191,7 +1188,6 @@
       "They are dangerous, but it's because they are reckless and corrupt not because they are a political <b>juggernaut</b> ."
     ],
     "bn_syns": [
-      "steamroller",
       "জগন্নাথদেব"
     ],
     "en_syns": [
@@ -1212,9 +1208,7 @@
       "It tasted wonderful, the meat was <b>juicy</b> and full of flavor and the sauce was excellent.",
       "Enticed by <b>juicy</b> commissions from all those deals, others are jumping into the mortgage biz."
     ],
-    "bn_syns": [
-      "jiujitsu"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "jiujitsu"
     ],
@@ -1358,7 +1352,6 @@
       "Other than our voices, the only sound was that of the wind gusting through the <b>juniper</b>s ."
     ],
     "bn_syns": [
-      "retem",
       "একধরণের গাছ গুল্ম"
     ],
     "en_syns": [
@@ -1371,6 +1364,9 @@
   {
     "en": "jupiter",
     "bn": "বৃহস্পতিগ্রহ",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "ˈjo͞opitər",
       "Br̥haspatigraha"
@@ -1384,9 +1380,6 @@
       "বৃহস্পতিগ্রহ"
     ],
     "en_syns": [],
-    "pos": [
-      "noun"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },

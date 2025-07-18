@@ -1027,7 +1027,6 @@
       "হস্তিতুল্য",
       "অপর্যাপ্ত",
       "অগণ্য",
-      "unmeasurable",
       "ধারণাতীত"
     ],
     "en_syns": [
@@ -1077,7 +1076,6 @@
       "ব্যবহৃত",
       "পিছনে",
       "নিরবধি",
-      "timeworn",
       "পুরাকালে",
       "ঐতিহ্যগত"
     ],
@@ -1154,7 +1152,6 @@
       "ভয়ানক",
       "অবশ",
       "অখণ্ড",
-      "overindulgent",
       "লক্ষ্মীছাড়া"
     ],
     "en_syns": [
@@ -1600,9 +1597,7 @@
       "This greatly minimizes crosstalk among signals and helps to balance the effective <b>impedance</b> of each line at high frequencies."
     ],
     "bn_syns": [
-      "ohmic প্রতিরোধের",
       "বৈদ্যুতিক সহ্য করার ক্ষমতা",
-      "resistivity",
       "সহ্য করার ক্ষমতা"
     ],
     "en_syns": [
@@ -1654,9 +1649,7 @@
     "bn_syns": [
       "অলজ্জিত",
       "অননুতপ্ত",
-      "unrepenting",
       "অনপিাতহীন",
-      "unapologetic",
       "অননুতাপী",
       "অনুতাপশূন্য"
     ],
@@ -1794,7 +1787,6 @@
       "টেকসই",
       "অক্ষয়",
       "নিরন্তর",
-      "ineliminable",
       "অনন্ত",
       "বহুবর্ষজীবী",
       "অবিনশ্বর",
@@ -1956,7 +1948,6 @@
     ],
     "bn_syns": [
       "নির্বিকার",
-      "unflustered",
       "উদ্বেগহীন",
       "জড়",
       "চিরশান্ত",
@@ -1973,8 +1964,6 @@
       "এখনো",
       "নিশ্চল",
       "স্ব-নিয়ন্ত্রিত",
-      "unfazed",
-      "unexcitable",
       "এমনকি-বদমেজাজি",
       "স্বায়ত্ত",
       "অকাতর",
@@ -2071,7 +2060,6 @@
       "Work itself, not to mention hard work, is now shunned as radically as the appearance of <b>impiety</b> was, once upon a time."
     ],
     "bn_syns": [
-      "impiousness",
       "অভক্তি",
       "অধার্মিকতা",
       "ভাইস",
@@ -2367,12 +2355,9 @@
       "Another seemingly plausible, but <b>impracticable</b> scheme is feared to end up wasting the nation's energy and worsening social division."
     ],
     "bn_syns": [
-      "nonviable",
       "অকার্যকর",
       "অসম্ভব",
-      "unachievable",
       "অসাধ্য",
-      "unfeasible",
       "দু: সাধ্য",
       "অলভ্য",
       "মায়াময়",
@@ -3486,7 +3471,6 @@
       "হিংসাত্মক",
       "ঝোড়ো",
       "কঠোর",
-      "drizzly",
       "বৃষ্টিবহুল",
       "ঠান্ডা",
       "পাশবিক",
@@ -3592,8 +3576,7 @@
     ],
     "bn_syns": [
       "অদাহ্য",
-      "অদহনীয়",
-      "noncombustible"
+      "অদহনীয়"
     ],
     "en_syns": [
       "noncombustible"
@@ -4096,10 +4079,7 @@
       "But if they are uncovered, then they will affect the demand for metallic money whether they are convertible or <b>inconvertible</b> .",
       "These citizens will be issued a non-extendable and <b>inconvertible</b> 30-day stay permit free of charge."
     ],
-    "bn_syns": [
-      "unexchangeable",
-      "unconvertible"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "unexchangeable",
       "unconvertible"
@@ -4121,10 +4101,8 @@
     ],
     "bn_syns": [
       "তুরীয়",
-      "discarnate",
       "গগনচারী",
       "ফক্কা",
-      "nonphysical",
       "আধ্যাত্মিক",
       "ভৌতিক",
       "অশরীরী",
@@ -4210,7 +4188,6 @@
     ],
     "bn_syns": [
       "সত্",
-      "unbribable",
       "ভাল",
       "নৈতিক",
       "নিয়মাবদ্ধ",
@@ -4421,10 +4398,8 @@
       "ভিতরে ঠেলা",
       "অনুপ্রবেশকে",
       "মধ্যে হানা",
-      "এর overrunning",
       "আক্রমণ",
       "উপর হামলা",
-      "এর storming",
       "হামলার",
       "নিখাত",
       "বহিরাক্রমণ",
@@ -4729,8 +4704,7 @@
       "সংভৃতক",
       "খাঁজকাটা",
       "সংভৃতি",
-      "ফাঁপা",
-      "pitting"
+      "ফাঁপা"
     ],
     "en_syns": [
       "indenture",
@@ -4822,7 +4796,6 @@
       "A girl of <b>indeterminable</b> age stood behind her, a grin on her face."
     ],
     "bn_syns": [
-      "undeterminable",
       "অনির্ণেয়",
       "ভারহীন",
       "নিরপেক্ষ"
@@ -4863,6 +4836,10 @@
   {
     "en": "indian",
     "bn": "ভারতীয়",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈindēən",
       "Bhāratīẏa"
@@ -4882,10 +4859,6 @@
     ],
     "en_syns": [
       "Indian"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -4936,8 +4909,7 @@
     "bn_syns": [
       "বেগনি নীলবর্ণ",
       "আকাশি নীল",
-      "নীলের চারা",
-      "indigotin"
+      "নীলের চারা"
     ],
     "en_syns": [
       "indigotin",
@@ -5183,8 +5155,7 @@
       "ভেদ করা",
       "প্রভেদ করা",
       "চিহ্নিত করা",
-      "আলাদা",
-      "individualise"
+      "আলাদা"
     ],
     "en_syns": [
       "individualise"
@@ -5277,8 +5248,6 @@
       "দ্ব্যর্থহীন",
       "নিশ্চিত",
       "অনস্বীকার্য",
-      "unarguable",
-      "undoubtable",
       "সন্দেহাতীত",
       "নির্দিষ্ট",
       "প্রশ্ন নেই",
@@ -5292,7 +5261,6 @@
       "নিরাপদ",
       "নির্ধারক",
       "পরম",
-      "undebatable",
       "সন্দেহাতীতভাবে",
       "সন্দেহ নেই",
       "বিতর্ক পরলোক"
@@ -5379,7 +5347,6 @@
       "তাসখেলা-বিশেষ",
       "প্রমত্ত করা",
       "মদে চুর",
-      "wino",
       "মাতাল",
       "শোষণ",
       "নেশাখোর"
@@ -5438,7 +5405,6 @@
       "খেতে অযোগ্য",
       "মামুলি",
       "খারাপ",
-      "unappetizing",
       "বন্ধ",
       "অখাদ্য",
       "অভোক্তব্য",
@@ -5865,7 +5831,6 @@
       "অপদার্থ",
       "হস্তচালনায় অপটু",
       "অদক্ষ",
-      "butterfingered",
       "অ -পেশাদারী",
       "অপেশাদার",
       "জবুথবু",
@@ -6391,8 +6356,7 @@
     "bn_syns": [
       "পুষ্পোদ্গম",
       "পুষ্পায়নকাল",
-      "পুষ্পবিন্যাস",
-      "anthesis"
+      "পুষ্পবিন্যাস"
     ],
     "en_syns": [
       "flowering",
@@ -6706,7 +6670,6 @@
     ],
     "bn_syns": [
       "শত্রুভাবাপন্ন",
-      "unharmonious",
       "বেসুরো",
       "বেতালা",
       "অসঙ্গতিপূর্ণ",
@@ -7154,7 +7117,6 @@
     ],
     "bn_syns": [
       "মারাত্মক",
-      "untreatable",
       "প্রান্তিক",
       "অনারোগ্য",
       "দুশ্চিকিৎসা"
@@ -7267,7 +7229,6 @@
       "It should be noted, however, that this relative calm - save for the murmur of conversation between old friends and new acquaintances across the long tables - was in itself the source of a certain <b>inquietude</b> ."
     ],
     "bn_syns": [
-      "disquietude",
       "অশান্তি",
       "কষ্ট",
       "মৃদুমন্দ বাতাস",
@@ -7381,8 +7342,7 @@
     "bn_syns": [
       "অস্বাস্থ্যকর",
       "বিনাশসাধক",
-      "দুর্বল",
-      "unhealthful"
+      "দুর্বল"
     ],
     "en_syns": [
       "unhealthy",
@@ -7411,8 +7371,7 @@
       "অস্বাস্থ্যকর",
       "বিনাশসাধক",
       "দুর্বল",
-      "মলিন",
-      "unhealthful"
+      "মলিন"
     ],
     "en_syns": [
       "unsanitary",
@@ -7827,8 +7786,7 @@
       "The <b>insole</b>s of golf shoes will have energy-producing materials that are activated with each step, transmitted to your body to reduce stress and fatigue."
     ],
     "bn_syns": [
-      "জুতার সুক্তলা",
-      "innersole"
+      "জুতার সুক্তলা"
     ],
     "en_syns": [
       "innersole"
@@ -8080,9 +8038,7 @@
       "Engraving, or incising, to use Wood's term, refers to cutting into the plaque to form the design so that the face of the plaque is flat, the design inset as an <b>intaglio</b> .",
       "The Southwark <b>intaglio</b> could indicate a Chnoubis, or Gorgon, a type of head which was well used in Late Antiquity as an apotropaic device whose protective power concerned the abdomen."
     ],
-    "bn_syns": [
-      "diaglyph"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "diaglyph"
     ],
@@ -8145,7 +8101,6 @@
     "bn_syns": [
       "বুদ্ধিমান",
       "বুদ্ধিমান মানুষ",
-      "Illuminati",
       "পণ্ডিতবর্গ"
     ],
     "en_syns": [
@@ -8175,7 +8130,6 @@
       "স্ব-অসংযত",
       "চরিত্রহীন",
       "অমিতব্যয়ী",
-      "overindulgent",
       "বন্য",
       "হঠকারী",
       "বেপরোয়া",
@@ -8586,7 +8540,6 @@
       "মেশা",
       "জোড়া লাগানো",
       "সম্পূর্ণ",
-      "commix",
       "মিশ্রিত বস্তু",
       "মিশ্রিত হত্তয়া",
       "মার্জ",
@@ -8631,8 +8584,7 @@
       "একত্র মেশা",
       "মিশ্রিত করা",
       "দ্রবীভূত করা",
-      "মিশ্রণ",
-      "immingle"
+      "মিশ্রণ"
     ],
     "en_syns": [
       "immingle",
@@ -9066,7 +9018,6 @@
     ],
     "bn_syns": [
       "স্বন",
-      "intonate",
       "ভজন"
     ],
     "en_syns": [
@@ -9092,7 +9043,6 @@
     ],
     "bn_syns": [
       "এলকোহল",
-      "inebriant",
       "আসব",
       "আফিম",
       "মাদকদ্রব্য",
@@ -9466,9 +9416,7 @@
       "They are intended to provide cover for all the persons to whom they apply, against the risks of sickness, old age, death and <b>invalidity</b> , regardless of their financial status and their state of health at the time of affiliation.",
       "On balance, it seems to me that the fact that a theory may be spread but has been roundly rejected is much stronger evidence of the theory's <b>invalidity</b> than is the legal judgment that the theory may not be spread."
     ],
-    "bn_syns": [
-      "invalidness"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "invalidness"
     ],
@@ -9741,8 +9689,7 @@
       "আবেদন",
       "আহ্বান",
       "চ্যালেঞ্জ",
-      "কুহক",
-      "conjury"
+      "কুহক"
     ],
     "en_syns": [
       "conjuration",
@@ -9788,7 +9735,6 @@
     ],
     "bn_syns": [
       "উদ্ঘাতন",
-      "exponentiation",
       "জড়িত থাকার"
     ],
     "en_syns": [
@@ -9899,8 +9845,7 @@
       "But despite frequent theorizing to the contrary, the lower-frequency beams don't <b>ionize</b> ; they pack just enough punch to penetrate and reflect but not to separate electrons from atoms entirely."
     ],
     "bn_syns": [
-      "স্থূলাণুতে পরিণত করা",
-      "ionise"
+      "স্থূলাণুতে পরিণত করা"
     ],
     "en_syns": [
       "ionise"
@@ -10049,8 +9994,6 @@
       "With all his savagery, he was not half so savage, so unclean, so <b>irreclaimable</b> , as the tenant of a tenement in an East London slum."
     ],
     "bn_syns": [
-      "unreformable",
-      "unredeemable",
       "অনপনেয়"
     ],
     "en_syns": [
@@ -10104,8 +10047,6 @@
       "অনপনেয়",
       "অনপসারণীয়",
       "অনারোগ্য",
-      "unreformable",
-      "unredeemable",
       "অসংশোধনীয়"
     ],
     "en_syns": [
@@ -10276,7 +10217,6 @@
       "অবিশ্বাস্য",
       "সন্দেহে",
       "দ্বিধাগ্রস্ত",
-      "দ্বিধাগ্রস্ত shallying",
       "সন্দিহান",
       "কৃশ প্রাণী",
       "দুই মন",
@@ -10289,7 +10229,6 @@
       "অনিশ্চিত",
       "উভয় সংকটে",
       "গরম ও ঠান্ডা ফুঁ",
-      "hemming এবং hawing",
       "একটি মুশকিল মধ্যে",
       "বেড়া বসে"
     ],
@@ -10425,6 +10364,9 @@
   {
     "en": "islam",
     "bn": "ইসলাম",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       "isˈläm,iz-",
       "Isalāma"
@@ -10446,9 +10388,6 @@
     ],
     "en_syns": [
       "mohammedanism"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []

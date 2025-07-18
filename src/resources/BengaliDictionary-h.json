@@ -416,6 +416,9 @@
   {
     "en": "halloween",
     "bn": "হ্যালোইন",
+    "pos": [
+      "verb"
+    ],
     "pron": [
       "-ōˈēn,ˌhaləˈwēn,ˌhälə-",
       "Hyālō'ina"
@@ -430,9 +433,6 @@
     ],
     "bn_syns": [],
     "en_syns": [],
-    "pos": [
-      "verb"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -498,7 +498,6 @@
       "বাণিজ্য",
       "গঠনপ্রণালী",
       "হস্তকৃত শিল্প",
-      "craftwork",
       "দক্ষতা"
     ],
     "en_syns": [
@@ -604,7 +603,6 @@
       "শাকুনবিদ্যা",
       "রাষ্ট্রদূত",
       "অগ্রগামী",
-      "forewarning",
       "ভবিষ্যদ্বাণী করা",
       "পূর্বনিদর্শন",
       "ইঙ্গিত",
@@ -1085,9 +1083,7 @@
       "potato <b>haulm</b>",
       "Blight is a terribly cruel fungal attack which leaves the potato <b>haulm</b>s in shreds just as though a herd of locusts had ravaged the whole crop and, yes, it can literally happen that fast."
     ],
-    "bn_syns": [
-      "halm"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "halm"
     ],
@@ -1342,7 +1338,6 @@
       "<b>heath</b> vegetation"
     ],
     "bn_syns": [
-      "heathland",
       "ঊষর প্রান্তর",
       "বন্য",
       "গুল্মবিশেষ",
@@ -1843,7 +1838,6 @@
       "Liver metastases frequently present with multiple <b>hepatic</b> lesions on diagnosis."
     ],
     "bn_syns": [
-      "liverwort",
       "যকৃত্যুক্ত"
     ],
     "en_syns": [
@@ -1995,7 +1989,6 @@
       "This allowed construction of a male / <b>hermaphrodite</b> strain."
     ],
     "bn_syns": [
-      "gynandromorph",
       "উভলিঙ্গ",
       "নপুংসক",
       "পুরুষত্বহীন ব্যক্তি",
@@ -2043,7 +2036,6 @@
     ],
     "bn_syns": [
       "চট",
-      "jackboot",
       "ওয়েলিংটন বুট"
     ],
     "en_syns": [
@@ -2314,6 +2306,9 @@
   {
     "en": "highness",
     "bn": "মাননীয়",
+    "pos": [
+      "noun"
+    ],
     "pron": [
       null,
       "Mānanīẏa"
@@ -2329,9 +2324,6 @@
     ],
     "en_syns": [
       "loftiness"
-    ],
-    "pos": [
-      "noun"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -2387,6 +2379,10 @@
   {
     "en": "hindu",
     "bn": "হিন্দু",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "ˈhindo͞o",
       "Hindu"
@@ -2410,10 +2406,6 @@
     "en_syns": [
       "Hindustani",
       "Hindu"
-    ],
-    "pos": [
-      "noun",
-      "adjective"
     ],
     "bn_antonyms": [],
     "en_antonyms": []
@@ -2558,6 +2550,10 @@
   {
     "en": "hispanic",
     "bn": "হিস্পানিক",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
     "pron": [
       "hiˈspanik",
       "Hispānika"
@@ -2579,10 +2575,6 @@
       "Spanish",
       "Hispanic"
     ],
-    "pos": [
-      "noun",
-      "adjective"
-    ],
     "bn_antonyms": [],
     "en_antonyms": []
   },
@@ -2600,7 +2592,6 @@
       "Personally I'd be happy to see <b>hoarding</b>s removed altogether from public spaces."
     ],
     "bn_syns": [
-      "দূরে Stow",
       "দূরে কাঠবিড়াল",
       "খারিজ",
       "দূরে লুকিয়ে",
@@ -2679,7 +2670,6 @@
       "আদিম",
       "প্রবীণ",
       "বিশুদ্ধ",
-      "canescent",
       "পক্বকেশ"
     ],
     "en_syns": [
@@ -2804,9 +2794,7 @@
       "Plants that may require staking to hold their blooms high include Canterbury bells, <b>hollyhock</b>s , and verbascums, with foxgloves and delphiniums in the upper garden zones.",
       "Likewise, flowers that need to send up their stalks high into the sky, such as <b>hollyhock</b>s , will obviously fare better in a country garden than they will in a city window box."
     ],
-    "bn_syns": [
-      "althaea"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "althaea"
     ],
@@ -3287,7 +3275,6 @@
       "গণ্ডমূর্খ",
       "কৃপণ",
       "বাজে",
-      "Hardman",
       "দসু্য",
       "ডাকাত"
     ],
@@ -3331,8 +3318,7 @@
       "ফেটিশ",
       "জাদু করা",
       "দুর্ভাগ্যদায়ক ব্যক্তি",
-      "দুর্ভাগ্যআনয়নকারী",
-      "Juju"
+      "দুর্ভাগ্যআনয়নকারী"
     ],
     "en_syns": [
       "fetish",
@@ -3398,12 +3384,8 @@
     ],
     "bn_syns": [
       "জল নল",
-      "Kalian",
       "হাবল বাবল",
-      "shisha",
-      "chicha",
-      "হুঁকা",
-      "narghile"
+      "হুঁকা"
     ],
     "en_syns": [
       "kalian",
@@ -3512,7 +3494,6 @@
       "As I mentioned briefly last week, I met up with a Patrick Curran, a <b>horsey</b> man who runs, along with his wife, Helena the Capall Dubh bed and breakfast establishment in Green Street, Daingean."
     ],
     "bn_syns": [
-      "hortatory",
       "মিনতিপূর্ণ"
     ],
     "en_syns": [
@@ -3599,9 +3580,7 @@
       "টুকিটাকি",
       "খিচুড়ি",
       "জগাখিচুড়ি",
-      "অদ্ভুত মিশ্রণ-বস্তু",
-      "gallimaufry",
-      "ragbag"
+      "অদ্ভুত মিশ্রণ-বস্তু"
     ],
     "en_syns": [
       "omnium-gatherum",
@@ -4005,7 +3984,6 @@
       "She says that the media <b>hubbub</b> caused by our anti-prepubescent legislation opened the door to a handful of well-paying corporate gigs."
     ],
     "bn_syns": [
-      "katzenjammer",
       "হল্লা",
       "মদ্যপানোত্সব",
       "চিত্কার",
@@ -4224,7 +4202,6 @@
       "হল্লা",
       "ডামাডোল",
       "উন্মাদনা",
-      "ruckus",
       "ঝড়",
       "সঙ্গীত ও নৃত্য",
       "দুর্গন্ধ"
@@ -4367,7 +4344,6 @@
       "সত্",
       "সহানুভূতিপূর্ণ",
       "দুর্বলহৃদয়",
-      "warmhearted",
       "হিতৈষী",
       "দয়াশীল"
     ],
@@ -4494,7 +4470,6 @@
       "উদার",
       "প্রকাশ্য",
       "বিশ্বপ্রেমিক",
-      "do-gooder",
       "দয়াশীল"
     ],
     "en_syns": [
@@ -4710,7 +4685,6 @@
       "ক্লান্তিকর",
       "সাধারণ",
       "প্লেইন ভ্যানিলা",
-      "Ho-গুন্ গুন্",
       "প্রাকৃত",
       "নিস্তেজ",
       "গতানুগতিকতা",
@@ -4718,7 +4692,6 @@
       "একঘেয়েমি",
       "অকাল্পনিক",
       "দৈনিক জ্বর",
-      "unexciting",
       "দিন থেকে দিন",
       "বেরসিক",
       "পুনরাবৃত্তিমূলক"
@@ -5173,7 +5146,6 @@
       "হাস্যপ্রবণ",
       "বিদগ্ধ",
       "পাঁজর-সুড়সুড়করণ",
-      "হাঁটু slapping",
       "জিহ্বা-ইন-গাল",
       "উচ্চ চিত্কারপূর্ণ",
       "মজাদার",
@@ -5182,7 +5154,6 @@
       "রসাল",
       "হাস্যরসিক",
       "কমিক",
-      "জাং-slapping",
       "প্রফুল্লিত",
       "রসাত্মক",
       "অদ্ভুত",
@@ -5313,11 +5284,7 @@
       "There was a huge spread of food, pasta salad, hummus , vegetables, and a big plate of chocolate chip cookies.",
       "Make a turkey sandwich on nutritious whole-grain bread, or spread some peanut butter or hummus on a bagel."
     ],
-    "bn_syns": [
-      "hommos",
-      "hoummos",
-      "hummus"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "hommos",
       "hoummos",
@@ -5807,8 +5774,7 @@
       "চাষী",
       "স্বামী",
       "খেতিমজুর",
-      "পিছনের",
-      "sodbuster"
+      "পিছনের"
     ],
     "en_syns": [
       "sodbuster",
@@ -5921,7 +5887,6 @@
       "বেশ্যা",
       "বেহায়া মেয়ে",
       "বারাঙ্গনা",
-      "Lolita থেকে",
       "সুন্দরী",
       "টার্ট",
       "সম্মোহিনী",
@@ -6113,7 +6078,6 @@
       "একত্রীকরণ",
       "লয়",
       "সংকর জাতের",
-      "hyphenated",
       "অকুলীন",
       "দোআঁশলা",
       "বর্ণসঙ্করতা",
@@ -6518,11 +6482,9 @@
       "Because the tub circulates air, not water, it is <b>hygienic</b> and easy to clean."
     ],
     "bn_syns": [
-      "squeaky পরিষ্কার",
       "সুস্থ",
       "জীবাণু-মুক্ত",
       "বাঁজা",
-      "uncontaminated",
       "স্বাস্থ্যকর",
       "স্বাস্থ্যপ্রদ",
       "সদয়",
@@ -6643,7 +6605,6 @@
       "বাড়তি",
       "রক্তবর্ণ গদ্য",
       "প্রশংসাচ্ছলে প্রচার",
-      "Overkill",
       "অলঙ্কারশাস্ত্র",
       "বৃহত্তরীকরণ"
     ],
@@ -6837,16 +6798,12 @@
     "bn_syns": [
       "চৌম্বক",
       "সম্মোহিত",
-      "ঘুম-inducing",
       "বিমুগ্ধ করে এমন",
       "কমনীয়",
-      "spellbinding",
       "ঘুমপাড়ানি",
       "অনিবার্য",
       "মনোরম",
-      "stupefacient",
       "বাধ্যকারী",
-      "numbing",
       "ঘুমের ঔষধ",
       "মুগ্ধকর"
     ],
@@ -6951,9 +6908,7 @@
       "The result for her is misery, a permanent state of irritation, dissatisfaction, and <b>hypochondria</b> .",
       "As she coaxed out my tale of <b>hypochondria</b> and patiently explained the phenomenon of growing pains, my mother rocked me in her arms."
     ],
-    "bn_syns": [
-      "hypochondriasis"
-    ],
+    "bn_syns": [],
     "en_syns": [
       "hypochondriasis"
     ],
@@ -6974,7 +6929,6 @@
       "With his <b>hypochondriac</b> tendencies it's not hard to imagine why Mrs. Unger ran out of patience."
     ],
     "bn_syns": [
-      "phobic",
       "বায়ুগ্রস্ত",
       "মন্দস্বাস্থ্যযুক্ত",
       "বিষণ্ণপ্রকৃতি",
@@ -6983,8 +6937,7 @@
       "বিষাদময়",
       "তিমিরাচ্ছন্ন",
       "স্বাস্থ্য অন্ধকারাচ্ছন্ন",
-      "ভীতু",
-      "hypochondriacal"
+      "ভীতু"
     ],
     "en_syns": [
       "phobic",
@@ -7166,7 +7119,6 @@
     "bn_syns": [
       "ত্বকনিম্নস্থ",
       "অধস্তক্সংক্রান্ত সিরিঞ্জের",
-      "hypo",
       "অধস্তক্সংক্রান্ত"
     ],
     "en_syns": [

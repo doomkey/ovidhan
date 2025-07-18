@@ -24,7 +24,7 @@
         >
           <ion-label>
             <h3>{{ word.en }}</h3>
-            <!-- <p>{{ word.bn }}</p> -->
+            <p>{{ word.bn }}</p>
           </ion-label>
         </ion-item>
       </ion-list>
@@ -35,10 +35,7 @@
           :word-data="wordOfTheDay"
           @word-clicked="handleWordClick"
         />
-        <recent-searches-list
-          :searches="recentSearches"
-          @clear-history="handleClearHistory"
-        />
+        <recent-searches-list :searches="recentSearches" />
       </div>
     </ion-content>
   </ion-page>
@@ -86,17 +83,15 @@ onIonViewWillEnter(() => {
   clearResults();
 
   App.addListener("backButton", ({ canGoBack }) => {
-    // Check if the current page is the root/home page
-    if (!ionRouter.canGoBack()) {
-      const currentTime = new Date().getTime();
-      // If the last press was less than 2 seconds ago, exit
-      if (currentTime - lastBackPress < 2000) {
-        App.exitApp();
-      } else {
-        // Otherwise, show a toast and update the last press time
-        showExitToast();
-        lastBackPress = currentTime;
-      }
+
+    const currentTime = new Date().getTime();
+    // If the last press was less than 2 seconds ago, exit
+    if (currentTime - lastBackPress < 2000) {
+      App.exitApp();
+    } else {
+      // Otherwise, show a toast and update the last press time
+      showExitToast();
+      lastBackPress = currentTime;
     }
   });
 });
@@ -136,14 +131,11 @@ const clearResults = () => {
 
 const goToWordDetail = (wordName: string) => {
   addRecent(wordName);
-  clearResults();
+  // clearResults();
   router.push(`/word/${encodeURIComponent(wordName)}`);
 };
 
 const handleWordClick = (word: string) => addRecent(word);
-const handleClearHistory = () => {
-  if (confirm(t("clearHistoryMessage"))) clearRecents();
-};
 </script>
 
 <style scoped>
