@@ -82,18 +82,19 @@ const filteredResults = ref<SearchResult[]>([]);
 let lastBackPress = 0;
 
 onIonViewWillEnter(() => {
-  // Clear search history when entering the page
   clearResults();
 
   App.addListener("backButton", ({ canGoBack }) => {
-    const currentTime = new Date().getTime();
-    // If the last press was less than 2 seconds ago, exit
-    if (currentTime - lastBackPress < 2000) {
-      App.exitApp();
-    } else {
-      // Otherwise, show a toast and update the last press time
-      showExitToast();
-      lastBackPress = currentTime;
+    if (!ionRouter.canGoBack()) {
+      const currentTime = new Date().getTime();
+      // If the last press was less than 2 seconds ago, exit
+      if (currentTime - lastBackPress < 2000) {
+        App.exitApp();
+      } else {
+        // Otherwise, show a toast and update the last press time
+        showExitToast();
+        lastBackPress = currentTime;
+      }
     }
   });
 });
