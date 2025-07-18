@@ -20,10 +20,11 @@
           :key="word.en"
           button
           @click="goToWordDetail(word.en)"
+          :detail="true"
         >
           <ion-label>
             <h3>{{ word.en }}</h3>
-            <p>{{ word.bn }}</p>
+            <!-- <p>{{ word.bn }}</p> -->
           </ion-label>
         </ion-item>
       </ion-list>
@@ -54,7 +55,12 @@ import {
   IonItem,
   IonLabel,
   IonSpinner,
+  onIonViewWillEnter,
+  onIonViewDidLeave,
+  toastController,
+  useIonRouter,
 } from "@ionic/vue";
+import { App } from "@capacitor/app";
 import { useDictionaryData, Word } from "@/composables/useDictionaryData";
 import { useRecents } from "@/composables/useRecents";
 import { useLanguage } from "@/composables/useLanguage";
@@ -64,6 +70,7 @@ import WordOfTheDayCard from "@/components/WordOfTheDayCard.vue";
 import RecentSearchesList from "@/components/RecentSearchesList.vue";
 
 const router = useRouter();
+const ionRouter = useIonRouter();
 const { t } = useLanguage();
 const { recentSearches, addRecent, clearRecents } = useRecents();
 const { wordOfTheDay } = useWordOfTheDay();
@@ -71,6 +78,42 @@ const { searchWords, isLoading } = useDictionaryData();
 
 const searchQuery = ref("");
 const filteredResults = ref<Word[]>([]);
+
+let lastBackPress = 0;
+
+onIonViewWillEnter(() => {
+  // Clear search history when entering the page
+  clearResults();
+
+  App.addListener("backButton", ({ canGoBack }) => {
+    // Check if the current page is the root/home page
+    if (!ionRouter.canGoBack()) {
+      const currentTime = new Date().getTime();
+      // If the last press was less than 2 seconds ago, exit
+      if (currentTime - lastBackPress < 2000) {
+        App.exitApp();
+      } else {
+        // Otherwise, show a toast and update the last press time
+        showExitToast();
+        lastBackPress = currentTime;
+      }
+    }
+  });
+});
+
+onIonViewDidLeave(() => {
+  App.removeAllListeners();
+});
+
+const showExitToast = async () => {
+  const toast = await toastController.create({
+    message: "Press back again to exit",
+    duration: 2000,
+    position: "bottom",
+    color: "dark",
+  });
+  await toast.present();
+};
 
 const detectLanguage = (text: string): "en" | "bn" => {
   return /[\u0980-\u09FF]/.test(text) ? "bn" : "en";
