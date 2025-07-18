@@ -5,8 +5,7 @@
     <!-- 
       This is the global loading indicator.
     -->
-    <ion-loading :is-open="isLoadingWord || isLoading" :duration="0">
-    </ion-loading>
+    <ion-loading :is-open="isLoadingWord" :duration="0"> </ion-loading>
   </ion-app>
 </template>
 
@@ -22,7 +21,7 @@ loadTheme();
 loadTextSize();
 loadLanguage();
 
-const { isLoadingWord, isLoading } = useDictionaryData();
+const { isLoadingWord } = useDictionaryData();
 </script>
 
 <style>

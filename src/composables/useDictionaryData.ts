@@ -52,18 +52,15 @@ export function useDictionaryData() {
   const findWordByEnglish = async (
     englishWord: string
   ): Promise<Word | undefined> => {
-    isLoadingWord.value = true;
-    try {
-      const firstLetter = englishWord.charAt(0).toLowerCase();
-      await loadWordsByLetter(firstLetter);
-      return allLoadedWords.value.find(
-        (w) => w.en.toLowerCase() === englishWord.toLowerCase()
-      );
-    } finally {
-      isLoadingWord.value = false;
-    }
+    const firstLetter = englishWord.charAt(0).toLowerCase();
+    await loadWordsByLetter(firstLetter);
+    return allLoadedWords.value.find(
+      (w) => w.en.toLowerCase() === englishWord.toLowerCase()
+    );
   };
-
+  const setWordLoading = (state: boolean) => {
+    isLoadingWord.value = state;
+  };
   const loadBanglaIndex = async () => {
     if (banglaIndex) return;
     isLoading.value = true;
@@ -184,6 +181,7 @@ export function useDictionaryData() {
   return {
     isLoading: readonly(isLoading),
     isLoadingWord: readonly(isLoadingWord),
+    setWordLoading,
     findWordByEnglish,
     searchWords,
     checkWordsExist,

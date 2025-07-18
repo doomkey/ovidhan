@@ -206,6 +206,7 @@ import {
   heartOutline,
   home,
 } from "ionicons/icons";
+
 import { useDictionaryData, Word } from "@/composables/useDictionaryData";
 import { useFavorites } from "@/composables/useFavorites";
 import { useLanguage } from "@/composables/useLanguage";
@@ -218,6 +219,8 @@ const {
   isLoading,
   checkWordsExist,
   findEnglishEquivalents,
+  isLoadingWord,
+  setWordLoading,
 } = useDictionaryData();
 const { addFavorite, removeFavorite, isFavorite } = useFavorites();
 
@@ -273,22 +276,27 @@ const processAntonyms = async () => {
 };
 
 onIonViewWillEnter(async () => {
-  const newWordName = route.params.wordName as string;
-  if (newWordName) {
-    // Reset state for the new page to ensure no old data flashes
-    wordData.value = null;
-    processedEnglishSynonyms.value = [];
-    processedBanglaSynonyms.value = [];
-    processedEnglishAntonyms.value = [];
-    processedBanglaAntonyms.value = [];
+  setWordLoading(true);
+  try {
+    const newWordName = route.params.wordName as string;
+    if (newWordName) {
+      // Reset state for the new page to ensure no old data flashes
+      wordData.value = null;
+      processedEnglishSynonyms.value = [];
+      processedBanglaSynonyms.value = [];
+      processedEnglishAntonyms.value = [];
+      processedBanglaAntonyms.value = [];
 
-    const foundWord = await findWordByEnglish(newWordName);
-    wordData.value = foundWord || null;
+      const foundWord = await findWordByEnglish(newWordName);
+      wordData.value = foundWord || null;
 
-    if (wordData.value) {
-      await processSynonyms();
-      await processAntonyms();
+      if (wordData.value) {
+        await processSynonyms();
+        await processAntonyms();
+      }
     }
+  } finally {
+    setWordLoading(false);
   }
 });
 
