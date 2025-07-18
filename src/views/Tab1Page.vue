@@ -16,15 +16,15 @@
 
       <ion-list v-if="filteredResults.length > 0" class="autocomplete-list">
         <ion-item
-          v-for="word in filteredResults"
-          :key="word.en"
-          button
-          @click="goToWordDetail(word.en)"
+          v-for="result in filteredResults"
+          :key="result.word.en"
+          :button="true"
           :detail="true"
+          @click="goToWordDetail(result.word.en)"
         >
           <ion-label>
-            <h3>{{ word.en }}</h3>
-            <p>{{ word.bn }}</p>
+            <h3>{{ result.word.en }}</h3>
+            <p>{{ result.matchedBn }}</p>
           </ion-label>
         </ion-item>
       </ion-list>
@@ -58,7 +58,10 @@ import {
   useIonRouter,
 } from "@ionic/vue";
 import { App } from "@capacitor/app";
-import { useDictionaryData, Word } from "@/composables/useDictionaryData";
+import {
+  useDictionaryData,
+  SearchResult,
+} from "@/composables/useDictionaryData";
 import { useRecents } from "@/composables/useRecents";
 import { useLanguage } from "@/composables/useLanguage";
 import { useWordOfTheDay } from "@/composables/useWordOfTheDay";
@@ -74,7 +77,7 @@ const { wordOfTheDay } = useWordOfTheDay();
 const { searchWords, isLoading } = useDictionaryData();
 
 const searchQuery = ref("");
-const filteredResults = ref<Word[]>([]);
+const filteredResults = ref<SearchResult[]>([]);
 
 let lastBackPress = 0;
 
@@ -83,7 +86,6 @@ onIonViewWillEnter(() => {
   clearResults();
 
   App.addListener("backButton", ({ canGoBack }) => {
-
     const currentTime = new Date().getTime();
     // If the last press was less than 2 seconds ago, exit
     if (currentTime - lastBackPress < 2000) {

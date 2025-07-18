@@ -12,6 +12,11 @@ export interface Word {
   pos: string;
 }
 
+export interface SearchResult {
+  word: Word;
+  matchedBn: string; // The specific Bangla word that was matched
+}
+
 interface WordLocation {
   f: string; // file
   i: number; // index
@@ -99,14 +104,15 @@ export function useDictionaryData() {
   const searchWords = async (
     query: string,
     language: "en" | "bn"
-  ): Promise<Word[]> => {
+  ): Promise<SearchResult[]> => {
     if (language === "en") {
       const firstLetter = query.charAt(0).toLowerCase();
       await loadWordsByLetter(firstLetter);
       const wordsInFile = wordsByLetterCache.value.get(firstLetter) || [];
-      return wordsInFile
+      const results = wordsInFile
         .filter((word) => word.en.toLowerCase().startsWith(query.toLowerCase()))
         .slice(0, 10);
+      return results.map((word) => ({ word, matchedBn: word.bn }));
     } else {
       await loadBanglaIndex();
       if (!banglaIndex) return [];
@@ -115,19 +121,32 @@ export function useDictionaryData() {
         key.startsWith(query)
       );
 
-      const locationsMap = new Map<string, WordLocation>();
+      const locationsMap = new Map<
+        string,
+        { loc: WordLocation; matchedKey: string }
+      >();
       matchingKeys.forEach((key) => {
         const loc = banglaIndex![key];
-        locationsMap.set(`${loc.f}-${loc.i}`, loc);
+        const locationKey = `${loc.f}-${loc.i}`;
+        if (!locationsMap.has(locationKey)) {
+          locationsMap.set(locationKey, { loc, matchedKey: key });
+        }
       });
 
-      const uniqueLocations = Array.from(locationsMap.values()).slice(0, 10);
+      const uniqueLookups = Array.from(locationsMap.values()).slice(0, 10);
 
-      const wordPromises = uniqueLocations.map((loc) => getWordByLocation(loc));
-      const results = (await Promise.all(wordPromises)).filter(
-        Boolean
-      ) as Word[];
-      return results;
+      const resultsWithNulls = await Promise.all(
+        uniqueLookups.map(async (lookup) => {
+          const wordObject = await getWordByLocation(lookup.loc);
+          return wordObject
+            ? { word: wordObject, matchedBn: lookup.matchedKey }
+            : null;
+        })
+      );
+
+      return resultsWithNulls.filter(
+        (result): result is SearchResult => result !== null
+      );
     }
   };
 
