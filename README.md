@@ -6,7 +6,7 @@ Ovidhan is a modern, feature-rich, and offline-first English to Bangla dictionar
 
 ## Features
 
-  * **Dual Language Search**: Instantly search for words in either English or Bangla. No more switching button for searching.
+  * **Dual Language Search**: Instantly search for words in either English or Bangla. No more switching of button for searching.
   * **Word of the Day**: A new word is automatically selected each day. You can opt-in to get notification of it everyday.
   * **Comprehensive Word Details**: View detailed information for each word, including pronunciation, parts of speech, synonyms, and antonyms in both languages.
   * **Persistent User Data**:
