@@ -1,0 +1,101 @@
+#!/bin/bash
+
+# A script to automate the version bumping and release tagging process.
+#
+# Usage:
+# ./release.sh 1.1.1
+
+PROJECT_ROOT=$(git rev-parse --show-toplevel)
+
+# Check if the git command was successful. If not, we're not in a git repo.
+if [ $? -ne 0 ]; then
+    echo "Error: This does not appear to be a git repository. Cannot determine project root."
+    exit 1
+fi
+
+GRADLE_FILE="$PROJECT_ROOT/android/app/build.gradle"
+
+
+# Check if a version argument was provided.
+if [ -z "$1" ]; then
+  echo "Error: No version number provided."
+  echo "Usage: ./release.sh <version>"
+  exit 1
+fi
+
+# Check if the build.gradle file exists.
+if [ ! -f "$GRADLE_FILE" ]; then
+  echo "Error: build.gradle file not found at '$GRADLE_FILE'"
+  exit 1
+fi
+
+# Check if the git working directory is clean.
+# Use -C flag to run the git command in the project's root directory.
+if ! git -C "$PROJECT_ROOT" diff-index --quiet HEAD --; then
+    echo "Error: Your working directory is not clean. Please commit or stash your changes."
+    exit 1
+fi
+
+
+NEW_VERSION_NAME=$1
+TAG_NAME="v$NEW_VERSION_NAME"
+
+echo "Starting release process for version $NEW_VERSION_NAME..."
+
+# Read the current versionCode from build.gradle
+CURRENT_VERSION_CODE=$(grep 'versionCode ' "$GRADLE_FILE" | awk '{print $2}')
+if ! [[ "$CURRENT_VERSION_CODE" =~ ^[0-9]+$ ]]; then
+    echo "Error: Could not parse current versionCode from $GRADLE_FILE"
+    exit 1
+fi
+
+# Increment the versionCode
+NEW_VERSION_CODE=$((CURRENT_VERSION_CODE + 1))
+
+sed -i.bak "s/versionName \".*\"/versionName \"$NEW_VERSION_NAME\"/" "$GRADLE_FILE"
+sed -i.bak "s/versionCode .*/versionCode $NEW_VERSION_CODE/" "$GRADLE_FILE"
+
+# Remove the backup file created by sed.
+rm "${GRADLE_FILE}.bak"
+
+echo "Updated $GRADLE_FILE"
+
+# --- Add Confirmation Step ---
+echo ""
+echo "--- Review Changes ---"
+echo "File to be committed: $GRADLE_FILE"
+echo "New versionName:      $NEW_VERSION_NAME"
+echo "New versionCode:      $NEW_VERSION_CODE"
+echo "Tag to be created:    $TAG_NAME"
+echo "Commit message:       \"Bumped to version $NEW_VERSION_NAME\""
+echo "----------------------"
+echo ""
+
+read -p "Are you sure you want to proceed? (y/n) " -n 1 -r
+echo "" # move to a new line
+
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    # If the user does not confirm, revert the changes and exit.
+    echo "Aborting release."
+    git -C "$PROJECT_ROOT" checkout -- "$GRADLE_FILE"
+    exit 1
+fi
+# --- End of Confirmation Step ---
+
+
+COMMIT_MESSAGE="Bumped to version $NEW_VERSION_NAME"
+
+echo "Committing changes..."
+git -C "$PROJECT_ROOT" add "$GRADLE_FILE"
+git -C "$PROJECT_ROOT" commit -m "$COMMIT_MESSAGE"
+
+echo "Creating tag $TAG_NAME..."
+git -C "$PROJECT_ROOT" tag -a "$TAG_NAME" -m "$COMMIT_MESSAGE"
+
+echo "Pushing commit and tag to remote..."
+git -C "$PROJECT_ROOT" push
+git -C "$PROJECT_ROOT" push origin "$TAG_NAME"
+
+echo "Done! Release $TAG_NAME is on its way."
+
