@@ -1,7 +1,7 @@
 <template>
   <!-- If wordData has loaded, show the actual card content -->
   <div v-if="wordData">
-    <ion-list-header>Word of the Day</ion-list-header>
+    <ion-list-header>{{ t("wordOfTheDay") }}</ion-list-header>
     <ion-card button @click="onCardClick" class="md-filled">
       <ion-card-header>
         <ion-card-title>
@@ -74,6 +74,8 @@ import {
 import { volumeMediumOutline } from "ionicons/icons";
 import { useRouter } from "vue-router";
 import { Word } from "@/composables/useDictionaryData";
+import { useLanguage } from "@/composables/useLanguage";
+const { t } = useLanguage();
 
 const props = defineProps<{
   wordData: Word | null;
