@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <app-header :title="t('settings')"></app-header>
-    <ion-content :fullscreen="true">
+    <ion-content :fullscreen="true" class="ion-padding">
       <ion-list-header>{{ t("language") }}</ion-list-header>
       <div style="padding: 0 16px">
         <ion-segment

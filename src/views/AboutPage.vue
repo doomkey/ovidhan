@@ -9,7 +9,7 @@
       </ion-toolbar>
     </ion-header>
 
-    <ion-content :fullscreen="true">
+    <ion-content :fullscreen="true" class="ion-padding">
       <div class="logo-container">
         <ion-icon :icon="book" class="app-logo"></ion-icon>
         <h3 class="app-title">{{ t("appName") }}</h3>

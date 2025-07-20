@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <app-header :title="t('favoritesTitle')"></app-header>
-    <ion-content :fullscreen="true">
+    <ion-content :fullscreen="true" class="ion-padding">
       <div v-if="favorites.length > 0">
         <ion-list>
           <ion-item-sliding v-for="word in favorites" :key="word">
@@ -74,7 +74,6 @@ const handleRemove = (word: string) => {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 20px;
   text-align: center;
 }
 

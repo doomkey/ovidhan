@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <app-header :title="t('homeTitle')"></app-header>
-    <ion-content :fullscreen="true">
+    <ion-content :fullscreen="true" class="ion-padding">
       <div class="search-container">
         <ion-searchbar
           :placeholder="t('searchPlaceholder')"
@@ -147,13 +147,14 @@ const handleWordClick = (word: string) => addRecent(word);
   top: 0;
   z-index: 10;
   background: var(--ion-background-color);
-  padding: 8px 8px;
   display: flex;
   align-items: center;
 }
 ion-searchbar {
   flex-grow: 1;
 }
+
+/*  */
 ion-spinner {
   margin-left: 16px;
 }
