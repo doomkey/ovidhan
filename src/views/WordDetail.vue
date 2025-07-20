@@ -22,7 +22,7 @@
       </ion-toolbar>
     </ion-header>
 
-    <ion-content :fullscreen="true">
+    <ion-content :fullscreen="true" class="ion-padding">
       <div v-if="isLoading" class="loading-container">
         <ion-spinner name="crescent"></ion-spinner>
       </div>

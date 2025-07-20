@@ -3,20 +3,18 @@
     <app-header :title="t('settings')"></app-header>
     <ion-content :fullscreen="true" class="ion-padding">
       <ion-list-header>{{ t("language") }}</ion-list-header>
-      <div style="padding: 0 16px">
-        <ion-segment
-          :value="language"
-          @ionChange="onLanguageChange($event)"
-          class="full-width-segment"
-        >
-          <ion-segment-button value="en">
-            <ion-label>{{ t("english") }}</ion-label>
-          </ion-segment-button>
-          <ion-segment-button value="bn">
-            <ion-label>{{ t("bangla") }}</ion-label>
-          </ion-segment-button>
-        </ion-segment>
-      </div>
+      <ion-segment
+        :value="language"
+        @ionChange="onLanguageChange($event)"
+        class="full-width-segment"
+      >
+        <ion-segment-button value="en">
+          <ion-label>{{ t("english") }}</ion-label>
+        </ion-segment-button>
+        <ion-segment-button value="bn">
+          <ion-label>{{ t("bangla") }}</ion-label>
+        </ion-segment-button>
+      </ion-segment>
 
       <ion-list :inset="false">
         <ion-list-header>{{ t("appearance") }}</ion-list-header>

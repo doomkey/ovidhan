@@ -1,23 +1,46 @@
 /* Lists: https://m3.material.io/components/lists/specs */
-:root[mode=md] {
+:root[mode="md"] {
   ion-list {
     background: var(--md-sys-surface);
     color: var(--md-sys-on-surface);
   }
-
+  ion-item-sliding:first-child {
+    border-radius: 12px 12px 0 0;
+  }
+  ion-item-sliding:last-child {
+    border-radius: 0 0 12px 12px;
+  }
+  ion-item-sliding:only-child {
+    border-radius: 12px;
+  }
+  ion-item:first-child {
+    border-radius: 12px 12px 0 0;
+  }
+  ion-item:last-child {
+    border-radius: 0 0 12px 12px;
+  }
+  ion-item:only-child {
+    border-radius: 12px;
+  }
+  ion-list-header + ion-item {
+    border-radius: 12px 12px 0 0 !important;
+  }
+  ion-list-header + ion-item:last-child {
+    border-radius: 12px !important;
+  }
   ion-item {
-    --background: var(--md-sys-surface);
+    --background: var(--md-sys-surface-variant);
     --color: var(--md-sys-on-surface);
-    --border-color: var(--md-sys-surface-variant);
+    --border-color: var(--md-sys-surface);
 
     font: var(--md-sys-body-large);
     letter-spacing: var(--md-sys-body-large-letter-spacing);
 
-    ion-icon[slot='start'] {
+    ion-icon[slot="start"] {
       color: var(--md-sys-on-surface-variant);
     }
 
-    ion-icon[slot='end'] {
+    ion-icon[slot="end"] {
       color: var(--md-sys-on-surface-variant);
       font-size: 24px;
     }
@@ -53,9 +76,10 @@
     color: var(--md-sys-on-background);
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-top: 8px;
     font-size: inherit;
     border: none;
-
+    border-radius: 12px 12px 0 0;
     ion-icon {
       font-size: 24px;
       color: inherit;
