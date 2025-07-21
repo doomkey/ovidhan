@@ -4,15 +4,11 @@
     <ion-content :fullscreen="true" class="ion-padding">
       <div v-if="favorites.length > 0">
         <ion-list>
-          <ion-item-sliding v-for="word in favorites" :key="word">
-            <word-list-item :word="word"></word-list-item>
-
-            <ion-item-options slot="end">
-              <ion-item-option color="danger" @click="handleRemove(word)">
-                <ion-icon slot="icon-only" :icon="trash"></ion-icon>
-              </ion-item-option>
-            </ion-item-options>
-          </ion-item-sliding>
+          <word-list-item
+            :word="word"
+            v-for="word in favorites"
+            :key="word"
+          ></word-list-item>
         </ion-list>
       </div>
 

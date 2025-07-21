@@ -2,7 +2,7 @@
   <!-- If wordData has loaded, show the actual card content -->
   <div v-if="wordData">
     <ion-list-header>{{ t("wordOfTheDay") }}</ion-list-header>
-    <ion-card button @click="onCardClick" class="md-filled">
+    <ion-card button @click="onCardClick" class="md-filled" color="primary">
       <ion-card-header>
         <ion-card-title>
           {{ wordData.en }}
@@ -100,11 +100,10 @@ const onPronounceClick = () => {
 
 <style scoped>
 ion-card {
-  background-color: var(--md-sys-primary-container);
+  margin: 0;
 }
-
-ion-card * {
-  color: var(--md-sys-on-primary-container) !important;
+ion-card-header {
+  padding-bottom: 0;
 }
 .card-title-wrapper {
   display: flex;
@@ -117,9 +116,10 @@ ion-card-title {
 }
 
 .bangla-meaning {
-  font-size: 1.4rem;
+  margin-top: 0;
+  font-size: 1.5rem;
   /* color: var(--ion-color-primary, #3880ff); */
-  font-weight: 500;
+  font-weight: 600;
 }
 
 ion-card-header ion-skeleton-text {
