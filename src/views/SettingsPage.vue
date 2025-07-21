@@ -85,7 +85,6 @@
         </ion-item>
       </ion-list>
 
-      <!-- FIX: Added navigation to the About Page -->
       <ion-list :inset="false">
         <ion-item button @click="goToAboutPage" :detail="true">
           <ion-icon :icon="informationCircle" slot="start"></ion-icon>

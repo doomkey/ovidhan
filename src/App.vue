@@ -1,7 +1,7 @@
 <template>
   <ion-app>
-    <ion-router-outlet />
-
+    <desktop-layout v-if="isDesktop" />
+    <mobile-layout v-else />
     <!-- 
       This is the global loading indicator.
     -->
@@ -15,13 +15,16 @@ import { useDictionaryData } from "./composables/useDictionaryData";
 import { loadTheme } from "./composables/useTheme";
 import { loadTextSize } from "./composables/useTextSize";
 import { loadLanguage } from "./composables/useLanguage";
-
+import { useScreenSize } from "@/composables/useScreenSize";
+import DesktopLayout from "./views/DesktopLayout.vue";
+import MobileLayout from "./views/MobileLayout.vue";
 // Initialize all user preferences on startup
 loadTheme();
 loadTextSize();
 loadLanguage();
 
 const { isLoadingWord } = useDictionaryData();
+const { isDesktop } = useScreenSize();
 </script>
 
 <style>
