@@ -16,8 +16,11 @@ import { loadTheme } from "./composables/useTheme";
 import { loadTextSize } from "./composables/useTextSize";
 import { loadLanguage } from "./composables/useLanguage";
 import { useScreenSize } from "@/composables/useScreenSize";
+import { runUpdateCheck } from "./composables/useAppUpdate";
+
 import DesktopLayout from "./views/DesktopLayout.vue";
 import MobileLayout from "./views/MobileLayout.vue";
+import { onMounted } from "vue";
 // Initialize all user preferences on startup
 loadTheme();
 loadTextSize();
@@ -25,6 +28,10 @@ loadLanguage();
 
 const { isLoadingWord } = useDictionaryData();
 const { isDesktop } = useScreenSize();
+
+onMounted(() => {
+  runUpdateCheck();
+});
 </script>
 
 <style>

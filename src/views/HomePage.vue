@@ -2,6 +2,11 @@
   <ion-page>
     <app-header :title="t('homeTitle')"></app-header>
     <ion-content :fullscreen="true" class="ion-padding">
+      <update-card
+        v-if="updateInfo?.isUpdateAvailable"
+        :version="updateInfo?.latestVersion"
+        @update-click="handleUpdateClick"
+      ></update-card>
       <div class="search-container">
         <ion-searchbar
           :placeholder="t('searchPlaceholder')"
@@ -68,13 +73,17 @@ import { useWordOfTheDay } from "@/composables/useWordOfTheDay";
 import AppHeader from "@/components/AppHeader.vue";
 import WordOfTheDayCard from "@/components/WordOfTheDayCard.vue";
 import RecentSearchesList from "@/components/RecentSearchesList.vue";
-
+import { useAppUpdate } from "@/composables/useAppUpdate"; // Import the update state composable
+import { useUpdater } from "@/composables/useUpdater";
+import UpdateCard from "@/components/UpdateCard.vue";
 const router = useRouter();
 const ionRouter = useIonRouter();
 const { t } = useLanguage();
 const { recentSearches, addRecent, clearRecents } = useRecents();
 const { wordOfTheDay } = useWordOfTheDay();
 const { searchWords, isLoading } = useDictionaryData();
+const { checkForUpdate, presentUpdateAlert } = useUpdater();
+const { updateInfo } = useAppUpdate(); // Get the shared update state
 
 const searchQuery = ref("");
 const filteredResults = ref<SearchResult[]>([]);
@@ -102,6 +111,11 @@ onIonViewWillEnter(() => {
 onIonViewDidLeave(() => {
   App.removeAllListeners();
 });
+const handleUpdateClick = () => {
+  if (updateInfo.value) {
+    presentUpdateAlert(updateInfo.value);
+  }
+};
 
 const showExitToast = async () => {
   const toast = await toastController.create({

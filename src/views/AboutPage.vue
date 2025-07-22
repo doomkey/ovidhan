@@ -51,7 +51,7 @@
           <ion-icon :icon="logoGithub" slot="start"></ion-icon>
           <ion-label>{{ t("sourceCode") }}</ion-label>
         </ion-item>
-        <ion-item button :detail="false" @click="checkForUpdate">
+        <ion-item button :detail="false" @click="handleUpdateCheck">
           <ion-icon :icon="cloudDownload" slot="start"></ion-icon>
           <ion-label>{{ t("checkForUpdate") }}</ion-label>
         </ion-item>
@@ -82,10 +82,11 @@ import { book, logoGithub, cloudDownload } from "ionicons/icons";
 import { useLanguage } from "@/composables/useLanguage";
 const { t } = useLanguage();
 
-import { CapacitorHttp, type HttpResponse } from "@capacitor/core";
 import { App } from "@capacitor/app";
 import { Browser } from "@capacitor/browser";
 import { onMounted, ref } from "vue";
+import { useUpdater } from "@/composables/useUpdater";
+const { checkForUpdate, presentUpdateAlert } = useUpdater();
 
 const openGitHub = async () => {
   await Browser.open({ url: "https://github.com/doomkey/ovidhan" });
@@ -103,59 +104,9 @@ onMounted(async () => {
   }
 });
 
-const checkForUpdate = async () => {
-  const loading = await loadingController.create({
-    message: t("updateChecking"),
-    spinner: "crescent",
-  });
-  await loading.present();
-
-  const owner = "doomkey";
-  const repo = "ovidhan";
-
-  const options = {
-    url: `https://api.github.com/repos/${owner}/${repo}/releases/latest`,
-    headers: { "Content-Type": "application/json" },
-  };
-
-  try {
-    const response: HttpResponse = await CapacitorHttp.get(options);
-    const latestRelease = response.data;
-    const latestVersion = latestRelease.tag_name;
-    await loading.dismiss();
-    if (latestVersion && latestVersion > "v" + appVersion.value) {
-      const alert = await alertController.create({
-        header: t("updateAvailable"),
-        message: t("updateAvailableMessage"),
-        buttons: [
-          { text: t("updateLater"), role: "cancel" },
-          {
-            text: t("updateDownload"),
-            handler: () => {
-              Browser.open({ url: latestRelease.html_url });
-            },
-          },
-        ],
-      });
-      await alert.present();
-    } else {
-      const alert = await alertController.create({
-        header: t("updateNone"),
-        message: t("updateNoneMessage"),
-        buttons: [t("ok")],
-      });
-      await alert.present();
-    }
-  } catch (error) {
-    console.error("Error checking for updates:", error);
-    await loading.dismiss();
-    const alert = await alertController.create({
-      header: t("error"),
-      message: t("updateFailed"),
-      buttons: [t("ok")],
-    });
-    await alert.present();
-  }
+const handleUpdateCheck = async () => {
+  const updateInfo = await checkForUpdate(true);
+  await presentUpdateAlert(updateInfo);
 };
 </script>
 
