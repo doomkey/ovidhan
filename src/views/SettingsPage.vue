@@ -1,6 +1,10 @@
 <template>
   <ion-page>
-    <app-header :title="t('settings')"></app-header>
+    <app-header :title="t('settings')">
+      <IonButtons slot="start">
+        <IonBackButton></IonBackButton>
+      </IonButtons>
+    </app-header>
     <ion-content :fullscreen="true" class="ion-padding">
       <ion-list-header>{{ t("language") }}</ion-list-header>
       <ion-segment
@@ -110,7 +114,8 @@ import {
   IonSegmentButton,
   alertController,
   IonSelect,
-  IonSelectOption,
+  IonButtons,
+  IonBackButton,
 } from "@ionic/vue";
 import {
   moon,

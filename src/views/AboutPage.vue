@@ -3,7 +3,7 @@
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
-          <ion-back-button :text="t('back')"></ion-back-button>
+          <ion-back-button></ion-back-button>
         </ion-buttons>
         <ion-title>{{ t("aboutApp") }}</ion-title>
       </ion-toolbar>

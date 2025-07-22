@@ -1,7 +1,8 @@
 <template>
   <ion-app>
-    <desktop-layout v-if="isDesktop" />
-    <mobile-layout v-else />
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+    <!-- <desktop-layout v-if="isDesktop" /> -->
+    <!-- <mobile-layout v-else /> -->
     <!-- 
       This is the global loading indicator.
     -->

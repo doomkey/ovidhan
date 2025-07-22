@@ -1,6 +1,12 @@
 <template>
   <ion-page>
-    <app-header :title="t('homeTitle')"></app-header>
+    <app-header :title="t('homeTitle')">
+      <ion-buttons slot="end">
+        <ion-button router-link="/settings" class="settings-button">
+          <ion-icon :icon="settings" slot="icon-only"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </app-header>
     <ion-content :fullscreen="true" class="ion-padding">
       <update-card
         v-if="updateInfo?.isUpdateAvailable"
@@ -40,6 +46,11 @@
           :word-data="wordOfTheDay"
           @word-clicked="handleWordClick"
         />
+        <ion-list>
+          <ion-item button detail router-link="/favorites" color="tertiary">
+            {{ t("favoritesTitle") }}
+          </ion-item>
+        </ion-list>
         <recent-searches-list :searches="recentSearches" />
       </div>
     </ion-content>
@@ -48,7 +59,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import { useRouter } from "vue-router";
+import { RouterLink, useRouter, useRoute } from "vue-router";
 import {
   IonPage,
   IonContent,
@@ -61,6 +72,12 @@ import {
   onIonViewDidLeave,
   toastController,
   useIonRouter,
+  IonButtons,
+  IonButton,
+  IonIcon,
+  IonCard,
+  IonCardHeader,
+  IonCardTitle,
 } from "@ionic/vue";
 import { App } from "@capacitor/app";
 import {
@@ -76,6 +93,7 @@ import RecentSearchesList from "@/components/RecentSearchesList.vue";
 import { useAppUpdate } from "@/composables/useAppUpdate"; // Import the update state composable
 import { useUpdater } from "@/composables/useUpdater";
 import UpdateCard from "@/components/UpdateCard.vue";
+import { settings } from "ionicons/icons";
 const router = useRouter();
 const ionRouter = useIonRouter();
 const { t } = useLanguage();
@@ -84,7 +102,6 @@ const { wordOfTheDay } = useWordOfTheDay();
 const { searchWords, isLoading } = useDictionaryData();
 const { checkForUpdate, presentUpdateAlert } = useUpdater();
 const { updateInfo } = useAppUpdate(); // Get the shared update state
-
 const searchQuery = ref("");
 const filteredResults = ref<SearchResult[]>([]);
 
@@ -174,12 +191,5 @@ ion-spinner {
 }
 .autocomplete-list {
   margin-top: 0;
-}
-ion-label h3 {
-  font-weight: 500;
-}
-ion-label p {
-  font-size: 0.9em;
-  color: var(--ion-color-medium-shade);
 }
 </style>

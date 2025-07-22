@@ -1,6 +1,10 @@
 <template>
   <ion-page>
-    <app-header :title="t('favoritesTitle')"></app-header>
+    <app-header :title="t('favoritesTitle')">
+      <IonButtons slot="start">
+        <IonBackButton></IonBackButton>
+      </IonButtons>
+    </app-header>
     <ion-content :fullscreen="true" class="ion-padding">
       <div v-if="favorites.length > 0">
         <ion-list>
@@ -36,6 +40,8 @@ import {
   IonLabel,
   IonList,
   IonPage,
+  IonButtons,
+  IonBackButton,
 } from "@ionic/vue";
 import { star, trash, sadOutline, heartDislike } from "ionicons/icons";
 import { useRouter } from "vue-router";

@@ -2,6 +2,7 @@
   <ion-header :translucent="true">
     <ion-toolbar>
       <ion-title>{{ title }}</ion-title>
+      <slot></slot>
     </ion-toolbar>
   </ion-header>
 </template>

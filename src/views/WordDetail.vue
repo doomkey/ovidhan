@@ -3,7 +3,7 @@
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
-          <ion-back-button :text="t('back')"></ion-back-button>
+          <ion-back-button></ion-back-button>
         </ion-buttons>
         <ion-title>{{ wordData?.en }}</ion-title>
         <!-- Favorite button in the header -->
@@ -28,7 +28,7 @@
       </div>
       <!-- v-if: Only show content if a word was successfully found -->
       <div v-else-if="wordData">
-        <ion-card class="md-outlined">
+        <ion-card class="md-filled" color="secondary">
           <ion-card-content class="main-word-card">
             <div class="pronunciation-wrapper">
               <h4 class="english-word">{{ wordData.en }}</h4>
@@ -325,11 +325,8 @@ const pronounceWord = () => {
 </script>
 
 <style scoped>
-ion-card.md-outlined {
-  background-color: var(--md-sys-primary);
-}
-ion-card.md-outlined * {
-  color: var(--md-sys-on-primary);
+ion-card {
+  margin: 0;
 }
 .loading-container {
   display: flex;
