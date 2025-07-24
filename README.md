@@ -1,8 +1,5 @@
 # Ovidhan: English-Bangla Dictionary
 
-<div style="text-align:center">
-    <img src="./resources/promo/lgo-transparent-low-res.png" />
-</div>
 
 ![](./resources/promo/banner.png)
 
