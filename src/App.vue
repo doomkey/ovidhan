@@ -19,8 +19,6 @@ import { loadLanguage } from "./composables/useLanguage";
 import { useScreenSize } from "@/composables/useScreenSize";
 import { runUpdateCheck } from "./composables/useAppUpdate";
 
-import DesktopLayout from "./views/DesktopLayout.vue";
-import MobileLayout from "./views/MobileLayout.vue";
 import { onMounted } from "vue";
 // Initialize all user preferences on startup
 loadTheme();

@@ -114,6 +114,7 @@ import {
   IonSegmentButton,
   alertController,
   IonSelect,
+  IonSelectOption,
   IonButtons,
   IonBackButton,
 } from "@ionic/vue";
