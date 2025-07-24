@@ -1,4 +1,4 @@
-:root[mode=md] {
+:root[mode="md"] {
   ion-alert {
     --background: var(--md-sys-surface-container-high);
 
@@ -35,6 +35,11 @@
 
     .alert-button-group {
       padding-bottom: 14px;
+
+      .alert-button-role-destructive {
+        color: var(--md-sys-on-error) !important;
+        background-color: var(--md-sys-error) !important;
+      }
     }
   }
 

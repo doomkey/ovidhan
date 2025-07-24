@@ -210,5 +210,6 @@ export function useDictionaryData() {
     searchWords,
     checkWordsExist,
     findEnglishEquivalents,
+    getWordByLocation,
   };
 }

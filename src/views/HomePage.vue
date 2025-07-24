@@ -47,8 +47,13 @@
           @word-clicked="handleWordClick"
         />
         <ion-list>
-          <ion-item button detail router-link="/favorites" color="tertiary">
+          <ion-item button detail router-link="/favorites">
+            <ion-icon aria-hidden="true" :icon="heart" slot="start" />
             {{ t("favoritesTitle") }}
+          </ion-item>
+          <ion-item button detail router-link="/quiz">
+            <ion-icon aria-hidden="true" :icon="gameController" slot="start" />
+            {{ t("quizTitle") }}
           </ion-item>
         </ion-list>
         <recent-searches-list :searches="recentSearches" />
@@ -93,7 +98,12 @@ import RecentSearchesList from "@/components/RecentSearchesList.vue";
 import { useAppUpdate } from "@/composables/useAppUpdate"; // Import the update state composable
 import { useUpdater } from "@/composables/useUpdater";
 import UpdateCard from "@/components/UpdateCard.vue";
-import { settings } from "ionicons/icons";
+import {
+  gameController,
+  gameControllerOutline,
+  settings,
+  heart,
+} from "ionicons/icons";
 const router = useRouter();
 const ionRouter = useIonRouter();
 const { t } = useLanguage();

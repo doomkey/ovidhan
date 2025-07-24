@@ -1,0 +1,79 @@
+<template>
+  <ion-page>
+    <app-header :title="t('quizTitle')">
+      <ion-back-button slot="start" defaultHref="/"></ion-back-button>
+    </app-header>
+    <ion-content :fullscreen="true" class="ion-padding">
+      <ion-list>
+        <ion-list-header>
+          <ion-label>{{ t("quizStats") }}</ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-label>{{ t("quizzesTaken") }}</ion-label>
+          <ion-note slot="end">{{ stats.quizzesTaken }}</ion-note>
+        </ion-item>
+        <ion-item>
+          <ion-label>{{ t("correctRatio") }}</ion-label>
+          <ion-note slot="end">{{ correctRatio }}%</ion-note>
+        </ion-item>
+      </ion-list>
+
+      <ion-list>
+        <ion-list-header>
+          <ion-label>{{ t("newQuiz") }}</ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-input
+            v-model="seedInput"
+            label="Quiz Seed"
+            label-placement="stacked"
+            type="number"
+            :placeholder="t('quizSeedPlaceholder')"
+            @ionInput="seedInput = parseInt($event.target.value, 10)"
+            :helper-text="t('seedHelper')"
+          ></ion-input>
+        </ion-item>
+      </ion-list>
+      <ion-button expand="full" @click="startQuiz">
+        {{ t("startQuiz") }}
+        <ion-icon slot="end" :icon="arrowForward"></ion-icon>
+      </ion-button>
+    </ion-content>
+  </ion-page>
+</template>
+
+<script setup lang="ts">
+import {
+  IonPage,
+  IonContent,
+  IonList,
+  IonListHeader,
+  IonItem,
+  IonLabel,
+  IonNote,
+  IonInput,
+  IonButton,
+  IonIcon,
+  IonBackButton,
+} from "@ionic/vue";
+import { arrowForward } from "ionicons/icons";
+import AppHeader from "@/components/AppHeader.vue";
+import { useLanguage } from "@/composables/useLanguage";
+import { ref } from "vue";
+import { useQuizStats } from "@/composables/useQuizStats";
+import { useQuiz } from "@/composables/useQuiz";
+const { t } = useLanguage();
+const { stats, correctRatio } = useQuizStats();
+const { generateAndStartQuiz } = useQuiz();
+const seedInput = ref<number | null>(Math.floor(Math.random() * 1000));
+const startQuiz = () => {
+  const seed = seedInput.value || new Date().getTime();
+  generateAndStartQuiz(seed);
+};
+</script>
+
+<style scoped>
+ion-list {
+  margin-top: 20px;
+}
+</style>
