@@ -47,7 +47,7 @@
         </ion-list>
 
         <div v-if="isAnswered">
-          <ion-button expand="full" @click="nextQuestion">
+          <ion-button expand="full" @click="nextQuestion" color="tertiary">
             {{ isLastQuestion ? t("finishQuiz") : t("nextQuestion") }}
             <ion-icon slot="end" :icon="arrowForward"></ion-icon>
           </ion-button>

@@ -41,7 +41,7 @@
           ></ion-input>
         </ion-item>
       </ion-list>
-      <ion-button expand="full" @click="startQuiz">
+      <ion-button expand="full" @click="startQuiz" color="primary">
         {{ t("startQuiz") }}
         <ion-icon slot="end" :icon="arrowForward"></ion-icon>
       </ion-button>
