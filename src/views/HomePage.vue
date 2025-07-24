@@ -48,7 +48,12 @@
         <ion-grid>
           <ion-row class="ion-align-items-center">
             <ion-col size="8">
-              <ion-card button router-link="/favorites" color="tertiary">
+              <ion-card
+                button
+                router-link="/favorites"
+                color="tertiary"
+                class="md-filled"
+              >
                 <ion-card-content>
                   <ion-icon :icon="heart" />
                   <span>
@@ -58,7 +63,12 @@
               </ion-card>
             </ion-col>
             <ion-col>
-              <ion-card button router-link="/quiz" color="success">
+              <ion-card
+                button
+                router-link="/quiz"
+                color="success"
+                class="md-filled"
+              >
                 <ion-card-content>
                   <ion-icon :icon="gameController" />
                   <span>
