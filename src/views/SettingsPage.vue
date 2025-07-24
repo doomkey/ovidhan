@@ -11,6 +11,7 @@
         :value="language"
         @ionChange="onLanguageChange($event)"
         class="full-width-segment"
+        color="tertiary"
       >
         <ion-segment-button value="en">
           <ion-label>{{ t("english") }}</ion-label>
@@ -232,12 +233,4 @@ const onLanguageChange = (event: CustomEvent) => {
 };
 </script>
 
-<style scoped>
-ion-list {
-  margin-top: 20px;
-}
-ion-label p {
-  font-size: 0.8em;
-  color: var(--ion-color-medium);
-}
-</style>
+<style scoped></style>

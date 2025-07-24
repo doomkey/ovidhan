@@ -106,9 +106,10 @@ export const translations = {
   quizTitle: { en: "Quiz", bn: "কুইজ" },
   quizStats: { en: "Statistics", bn: "পরিসংখ্যান" },
   quizzesTaken: { en: "Quizzes Taken", bn: "অংশগ্রহণ" },
-  correctRatio: { en: "Correct Ratio", bn: "সঠিক অনুপাত" },
+  correctRatio: { en: "Correct Answers", bn: "সঠিক উত্তর" },
   newQuiz: { en: "New Quiz", bn: "নতুন কুইজ" },
   quizSeedPlaceholder: { en: "Enter any number", bn: "যেকোনো একটি সংখ্যা দিন" },
+  quizSeed: { en: "Quiz Seed", bn: "সিড" },
   seedHelper: {
     en: "Same seed will give the same questions.",
     bn: "একই প্রশ্ন পেতে একই সিড দিন।",

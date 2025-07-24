@@ -4,19 +4,26 @@
       <ion-back-button slot="start" defaultHref="/"></ion-back-button>
     </app-header>
     <ion-content :fullscreen="true" class="ion-padding">
-      <ion-list>
-        <ion-list-header>
-          <ion-label>{{ t("quizStats") }}</ion-label>
-        </ion-list-header>
-        <ion-item>
-          <ion-label>{{ t("quizzesTaken") }}</ion-label>
-          <ion-note slot="end">{{ stats.quizzesTaken }}</ion-note>
-        </ion-item>
-        <ion-item>
-          <ion-label>{{ t("correctRatio") }}</ion-label>
-          <ion-note slot="end">{{ correctRatio }}%</ion-note>
-        </ion-item>
-      </ion-list>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-card class="md-filled" color="secondary">
+              <ion-card-header>
+                <ion-card-title>{{ stats.quizzesTaken }}</ion-card-title>
+              </ion-card-header>
+              <ion-card-content> {{ t("quizzesTaken") }} </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col>
+            <ion-card class="md-filled">
+              <ion-card-header>
+                <ion-card-title>{{ correctRatio }}%</ion-card-title>
+              </ion-card-header>
+              <ion-card-content> {{ t("correctRatio") }} </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
 
       <ion-list>
         <ion-list-header>
@@ -25,7 +32,7 @@
         <ion-item>
           <ion-input
             v-model="seedInput"
-            label="Quiz Seed"
+            :label="t('quizSeed')"
             label-placement="stacked"
             type="number"
             :placeholder="t('quizSeedPlaceholder')"
@@ -55,6 +62,13 @@ import {
   IonButton,
   IonIcon,
   IonBackButton,
+  IonGrid,
+  IonRow,
+  IonCol,
+  IonCard,
+  IonCardHeader,
+  IonCardTitle,
+  IonCardContent,
 } from "@ionic/vue";
 import { arrowForward } from "ionicons/icons";
 import AppHeader from "@/components/AppHeader.vue";
@@ -73,7 +87,8 @@ const startQuiz = () => {
 </script>
 
 <style scoped>
-ion-list {
-  margin-top: 20px;
+ion-grid {
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
 }
 </style>
