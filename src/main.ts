@@ -37,9 +37,6 @@ import "./theme/variables.css";
 import { defineCustomElements } from "@ionic/pwa-elements/loader";
 defineCustomElements(window);
 
-import { isPlatform } from "@ionic/vue";
-import { Capacitor } from "@capacitor/core";
-
 const app = createApp(App)
   .use(IonicVue, {
     // mode: "ios",

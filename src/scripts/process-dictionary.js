@@ -8,7 +8,7 @@ async function processDictionary() {
   console.log("Starting dictionary processing...");
 
   // Read all dictionary files and combine them into one array
-  let allWords = [];
+  const allWords = [];
   console.log("Reading all source files...");
   for (const letter of alphabet) {
     const filePath = path.join(

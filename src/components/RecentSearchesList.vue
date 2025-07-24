@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import { IonList, IonButton, IonListHeader } from "@ionic/vue";
+import { IonList, IonListHeader } from "@ionic/vue";
 import WordListItem from "./WordListItem.vue";
 import { useLanguage } from "@/composables/useLanguage";
 const { t } = useLanguage();
@@ -33,14 +33,6 @@ const { t } = useLanguage();
 defineProps<{
   searches: readonly string[];
 }>();
-
-const emit = defineEmits<{
-  (e: "clearHistory"): void;
-}>();
-
-const onClearClick = () => {
-  emit("clearHistory");
-};
 </script>
 
 <style scoped>

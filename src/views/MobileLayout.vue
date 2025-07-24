@@ -29,7 +29,6 @@ import {
   IonTabs,
   IonLabel,
   IonIcon,
-  IonPage,
   IonRouterOutlet,
   IonApp,
 } from "@ionic/vue";

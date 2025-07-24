@@ -125,7 +125,6 @@ import {
   notifications,
   trashBin,
   informationCircle,
-  languageSharp,
 } from "ionicons/icons";
 import { useRouter } from "vue-router"; // Import the router
 import AppHeader from "@/components/AppHeader.vue";
@@ -223,8 +222,6 @@ const goToAboutPage = () => {
   router.push("/about");
 };
 
-// --- Language Logic (Placeholder) ---
-const selectedLanguage = ref("en"); // Default to English
 const onLanguageChange = (event: CustomEvent) => {
   const newLang = event.detail.value;
   if (newLang) {

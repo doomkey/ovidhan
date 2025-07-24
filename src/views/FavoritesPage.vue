@@ -33,40 +33,19 @@ import WordListItem from "@/components/WordListItem.vue";
 import {
   IonContent,
   IonIcon,
-  IonItem,
-  IonItemOption,
-  IonItemOptions,
-  IonItemSliding,
-  IonLabel,
   IonList,
   IonPage,
   IonButtons,
   IonBackButton,
 } from "@ionic/vue";
-import { star, trash, sadOutline, heartDislike } from "ionicons/icons";
-import { useRouter } from "vue-router";
+import { heartDislike } from "ionicons/icons";
 import AppHeader from "@/components/AppHeader.vue";
 import { useLanguage } from "@/composables/useLanguage";
 const { t } = useLanguage();
 
-const router = useRouter();
-
-/**
- * Navigates to the detail page for the selected word.
- * @param word The word to view.
- */
-const viewWord = (word: string) => {
-  console.log(`Navigating to details for: ${word}`);
-  router.push(`/word/${encodeURIComponent(word)}`);
-};
-
 import { useFavorites } from "@/composables/useFavorites";
 
-const { favorites, removeFavorite } = useFavorites();
-
-const handleRemove = (word: string) => {
-  removeFavorite(word);
-};
+const { favorites } = useFavorites();
 </script>
 
 <style scoped>

@@ -74,8 +74,6 @@ import {
   IonItem,
   IonLabel,
   IonIcon,
-  loadingController,
-  alertController,
 } from "@ionic/vue";
 import { book, logoGithub, cloudDownload } from "ionicons/icons";
 

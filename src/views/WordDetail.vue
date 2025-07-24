@@ -43,7 +43,7 @@
               / {{ wordData.pron[0] }} /
             </p>
             <div v-if="wordData.pos">
-              <p v-for="pos in wordData.pos">
+              <p v-for="pos in wordData.pos" v-bind:key="pos">
                 {{ pos }}
               </p>
             </div>
@@ -174,7 +174,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch, computed } from "vue";
+import { ref, computed } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import {
   IonPage,
@@ -197,15 +197,7 @@ import {
   IonSpinner,
   onIonViewWillEnter,
 } from "@ionic/vue";
-import {
-  star,
-  starOutline,
-  volumeMediumOutline,
-  sadOutline,
-  heart,
-  heartOutline,
-  home,
-} from "ionicons/icons";
+import { sadOutline, heart, heartOutline, home } from "ionicons/icons";
 
 import { useDictionaryData, Word } from "@/composables/useDictionaryData";
 import { useFavorites } from "@/composables/useFavorites";
@@ -219,7 +211,6 @@ const {
   isLoading,
   checkWordsExist,
   findEnglishEquivalents,
-  isLoadingWord,
   setWordLoading,
 } = useDictionaryData();
 const { addFavorite, removeFavorite, isFavorite } = useFavorites();
@@ -318,9 +309,6 @@ const goToSynonym = (englishWord: string) => {
 };
 const goHome = () => {
   router.push(`/`);
-};
-const pronounceWord = () => {
-  if (wordData.value) alert(`Pronouncing: ${wordData.value.en}`);
 };
 </script>
 

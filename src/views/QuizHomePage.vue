@@ -36,7 +36,7 @@
             label-placement="stacked"
             type="number"
             :placeholder="t('quizSeedPlaceholder')"
-            @ionInput="seedInput = parseInt($event.target.value, 10)"
+            @ionInput="seedInput = parseInt(String($event.target.value), 10)"
             :helper-text="t('seedHelper')"
           ></ion-input>
         </ion-item>
@@ -57,7 +57,6 @@ import {
   IonListHeader,
   IonItem,
   IonLabel,
-  IonNote,
   IonInput,
   IonButton,
   IonIcon,

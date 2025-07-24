@@ -78,7 +78,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import { RouterLink, useRouter, useRoute } from "vue-router";
+import { useRouter } from "vue-router";
 import {
   IonPage,
   IonContent,
@@ -92,8 +92,6 @@ import {
   toastController,
   useIonRouter,
   IonCard,
-  IonCardHeader,
-  IonCardTitle,
   IonCardContent,
   IonGrid,
   IonCol,
@@ -116,19 +114,14 @@ import RecentSearchesList from "@/components/RecentSearchesList.vue";
 import { useAppUpdate } from "@/composables/useAppUpdate"; // Import the update state composable
 import { useUpdater } from "@/composables/useUpdater";
 import UpdateCard from "@/components/UpdateCard.vue";
-import {
-  gameController,
-  gameControllerOutline,
-  settings,
-  heart,
-} from "ionicons/icons";
+import { gameController, settings, heart } from "ionicons/icons";
 const router = useRouter();
 const ionRouter = useIonRouter();
 const { t } = useLanguage();
-const { recentSearches, addRecent, clearRecents } = useRecents();
+const { recentSearches, addRecent } = useRecents();
 const { wordOfTheDay } = useWordOfTheDay();
 const { searchWords, isLoading } = useDictionaryData();
-const { checkForUpdate, presentUpdateAlert } = useUpdater();
+const { presentUpdateAlert } = useUpdater();
 const { updateInfo } = useAppUpdate(); // Get the shared update state
 const searchQuery = ref("");
 const filteredResults = ref<SearchResult[]>([]);
@@ -138,7 +131,7 @@ let lastBackPress = 0;
 onIonViewWillEnter(() => {
   clearResults();
 
-  App.addListener("backButton", ({ canGoBack }) => {
+  App.addListener("backButton", () => {
     if (!ionRouter.canGoBack()) {
       const currentTime = new Date().getTime();
       // If the last press was less than 2 seconds ago, exit

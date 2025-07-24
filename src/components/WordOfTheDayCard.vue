@@ -66,16 +66,10 @@ import {
   IonCardTitle,
   IonCardSubtitle,
   IonCardContent,
-  IonButton,
-  IonIcon,
   IonSkeletonText,
-  IonListHeader,
 } from "@ionic/vue";
-import { volumeMediumOutline } from "ionicons/icons";
 import { useRouter } from "vue-router";
 import { Word } from "@/composables/useDictionaryData";
-import { useLanguage } from "@/composables/useLanguage";
-const { t } = useLanguage();
 
 const props = defineProps<{
   wordData: Word | null;
@@ -88,12 +82,6 @@ const onCardClick = () => {
   if (props.wordData?.en) {
     emit("wordClicked", props.wordData.en);
     router.push(`/word/${encodeURIComponent(props.wordData.en)}`);
-  }
-};
-
-const onPronounceClick = () => {
-  if (props.wordData?.en) {
-    alert(`Pronouncing: ${props.wordData.en}`);
   }
 };
 </script>

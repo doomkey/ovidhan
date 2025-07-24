@@ -16,7 +16,6 @@ import { useDictionaryData } from "./composables/useDictionaryData";
 import { loadTheme } from "./composables/useTheme";
 import { loadTextSize } from "./composables/useTextSize";
 import { loadLanguage } from "./composables/useLanguage";
-import { useScreenSize } from "@/composables/useScreenSize";
 import { runUpdateCheck } from "./composables/useAppUpdate";
 
 import { onMounted } from "vue";
@@ -26,7 +25,6 @@ loadTextSize();
 loadLanguage();
 
 const { isLoadingWord } = useDictionaryData();
-const { isDesktop } = useScreenSize();
 
 onMounted(() => {
   runUpdateCheck();
