@@ -38,7 +38,7 @@ defineProps<{
 <style scoped>
 .recent-searches-container {
   /* padding: 0 16px; */
-  margin-top: 24px;
+  /* margin-top: 24px; */
 }
 
 .section-header {
