@@ -47,7 +47,7 @@
         </ion-list>
 
         <div v-if="isAnswered">
-          <ion-button expand="full" @click="nextQuestion" color="tertiary">
+          <ion-button @click="nextQuestion" color="tertiary">
             {{ isLastQuestion ? t("finishQuiz") : t("nextQuestion") }}
             <ion-icon slot="end" :icon="arrowForward"></ion-icon>
           </ion-button>
@@ -224,7 +224,9 @@ onMounted(() => {
   align-items: center;
   height: 100%;
 }
-
+ion-button {
+  width: 100%;
+}
 ion-item[disabled] {
   opacity: 1;
 }

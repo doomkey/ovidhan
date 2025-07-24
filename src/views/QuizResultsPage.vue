@@ -21,7 +21,7 @@
         </div>
 
         <div class="action-buttons">
-          <ion-button expand="full" @click="playAgain" color="primary">
+          <ion-button @click="playAgain" color="primary">
             <ion-icon slot="start" :icon="refresh"></ion-icon>
             {{ t("playAgain") }}
           </ion-button>
