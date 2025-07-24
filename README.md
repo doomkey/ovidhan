@@ -1,5 +1,9 @@
 # Ovidhan: English-Bangla Dictionary
 
+<div style="text-align:center">
+    <img src="./resources/promo/lgo-transparent-low-res.png" />
+</div>
+
 ![](./resources/promo/banner.png)
 
 Ovidhan is a modern, feature-rich, and offline-first English to Bangla dictionary **with no ads and tracking** application built with the Ionic Framework and Vue.js. It is designed to be fast, efficient, and user-friendly.
