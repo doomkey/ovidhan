@@ -41,21 +41,35 @@
       </ion-list>
 
       <div v-show="filteredResults.length === 0 && !isLoading">
-        <!-- Word of the day and recents are hidden while searching -->
         <word-of-the-day-card
           :word-data="wordOfTheDay"
           @word-clicked="handleWordClick"
         />
-        <ion-list>
-          <ion-item button detail router-link="/favorites">
-            <ion-icon aria-hidden="true" :icon="heart" slot="start" />
-            {{ t("favoritesTitle") }}
-          </ion-item>
-          <ion-item button detail router-link="/quiz">
-            <ion-icon aria-hidden="true" :icon="gameController" slot="start" />
-            {{ t("quizTitle") }}
-          </ion-item>
-        </ion-list>
+        <ion-grid>
+          <ion-row class="ion-align-items-center">
+            <ion-col size="8">
+              <ion-card button router-link="/favorites" color="tertiary">
+                <ion-card-content>
+                  <ion-icon :icon="heart" />
+                  <span>
+                    {{ t("favoritesTitle") }}
+                  </span>
+                </ion-card-content>
+              </ion-card>
+            </ion-col>
+            <ion-col>
+              <ion-card button router-link="/quiz" color="success">
+                <ion-card-content>
+                  <ion-icon :icon="gameController" />
+                  <span>
+                    {{ t("quizTitle") }}
+                  </span>
+                </ion-card-content>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
         <recent-searches-list :searches="recentSearches" />
       </div>
     </ion-content>
@@ -77,12 +91,16 @@ import {
   onIonViewDidLeave,
   toastController,
   useIonRouter,
-  IonButtons,
-  IonButton,
-  IonIcon,
   IonCard,
   IonCardHeader,
   IonCardTitle,
+  IonCardContent,
+  IonGrid,
+  IonCol,
+  IonRow,
+  IonIcon,
+  IonButton,
+  IonButtons,
 } from "@ionic/vue";
 import { App } from "@capacitor/app";
 import {
@@ -193,6 +211,16 @@ const handleWordClick = (word: string) => addRecent(word);
 }
 ion-searchbar {
   flex-grow: 1;
+}
+ion-grid {
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+
+ion-card-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 /*  */

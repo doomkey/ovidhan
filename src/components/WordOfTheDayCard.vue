@@ -1,7 +1,7 @@
 <template>
   <!-- If wordData has loaded, show the actual card content -->
   <div v-if="wordData" class="woty">
-    <ion-list-header>{{ t("wordOfTheDay") }}</ion-list-header>
+    <!-- <ion-list-header>{{ t("wordOfTheDay") }}</ion-list-header> -->
     <ion-card button @click="onCardClick" class="md-filled" color="primary">
       <ion-card-header>
         <ion-card-title>
@@ -99,14 +99,6 @@ const onPronounceClick = () => {
 </script>
 
 <style scoped>
-.woty {
-  margin: 0;
-}
-ion-card {
-  margin: 0;
-  margin-top: 0;
-  margin-bottom: 24px;
-}
 ion-card-header {
   padding-bottom: 0;
 }

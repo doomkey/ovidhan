@@ -24,7 +24,7 @@
           </ion-text>
         </div>
 
-        <ion-card class="question-card">
+        <ion-card class="question-card" color="secondary">
           <ion-card-header>
             <ion-card-subtitle>{{ t("whichMeaning") }}</ion-card-subtitle>
             <ion-card-title class="english-word">{{

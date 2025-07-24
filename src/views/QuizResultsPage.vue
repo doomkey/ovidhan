@@ -15,7 +15,7 @@
         <div class="progress-wrapper">
           <ion-progress-bar
             :value="score / total"
-            color="success"
+            color="secondary"
           ></ion-progress-bar>
           <span class="percentage-text">{{ percentage }}%</span>
         </div>
@@ -101,7 +101,6 @@ const goHome = () => {
 
 .score-text {
   font-size: 1.2rem;
-  color: var(--md-sys-dark);
   margin-bottom: 24px;
 }
 
@@ -128,6 +127,5 @@ ion-progress-bar {
 
 .percentage-text {
   font-weight: bold;
-  color: var(--md-sys-dark);
 }
 </style>

@@ -56,10 +56,12 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/quiz/:seed", // The seed is passed as a URL parameter
     component: () => QuizPage,
+    name: "Quiz",
   },
   {
     path: "/quiz-results/:score/:total",
     component: () => QuizResultsPage,
+    name: "Results",
   },
 ];
 
