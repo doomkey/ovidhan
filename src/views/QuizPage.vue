@@ -49,7 +49,6 @@
         <div v-if="isAnswered">
           <ion-button @click="nextQuestion" color="tertiary">
             {{ isLastQuestion ? t("finishQuiz") : t("nextQuestion") }}
-            <ion-icon slot="end" :icon="arrowForward"></ion-icon>
           </ion-button>
         </div>
       </div>
@@ -79,7 +78,7 @@ import {
   onIonViewWillEnter,
   onIonViewDidLeave,
 } from "@ionic/vue";
-import { arrowForward, close } from "ionicons/icons";
+import { close } from "ionicons/icons";
 import AppHeader from "@/components/AppHeader.vue";
 import { useLanguage } from "@/composables/useLanguage";
 import { useQuiz, WordLocation } from "@/composables/useQuiz";

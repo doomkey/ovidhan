@@ -43,7 +43,6 @@
       </ion-list>
       <ion-button @click="startQuiz" color="primary">
         {{ t("startQuiz") }}
-        <ion-icon slot="end" :icon="arrowForward"></ion-icon>
       </ion-button>
     </ion-content>
   </ion-page>
@@ -59,7 +58,6 @@ import {
   IonLabel,
   IonInput,
   IonButton,
-  IonIcon,
   IonBackButton,
   IonGrid,
   IonRow,
@@ -69,7 +67,6 @@ import {
   IonCardTitle,
   IonCardContent,
 } from "@ionic/vue";
-import { arrowForward } from "ionicons/icons";
 import AppHeader from "@/components/AppHeader.vue";
 import { useLanguage } from "@/composables/useLanguage";
 import { ref } from "vue";

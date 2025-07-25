@@ -22,7 +22,6 @@
 
         <div class="action-buttons">
           <ion-button @click="playAgain" color="primary">
-            <ion-icon slot="start" :icon="refresh"></ion-icon>
             {{ t("playAgain") }}
           </ion-button>
           <ion-button
@@ -49,7 +48,7 @@ import {
   IonProgressBar,
   IonButton,
 } from "@ionic/vue";
-import { trophy, refresh } from "ionicons/icons";
+import { trophy } from "ionicons/icons";
 import AppHeader from "@/components/AppHeader.vue";
 import { useLanguage } from "@/composables/useLanguage";
 
