@@ -76,6 +76,8 @@ import {
   IonButton,
   IonIcon,
   alertController,
+  onIonViewWillEnter,
+  onIonViewDidLeave,
 } from "@ionic/vue";
 import { arrowForward, close } from "ionicons/icons";
 import AppHeader from "@/components/AppHeader.vue";
@@ -84,6 +86,7 @@ import { useQuiz, WordLocation } from "@/composables/useQuiz";
 import { useDictionaryData, Word } from "@/composables/useDictionaryData";
 import { useQuizStats } from "@/composables/useQuizStats";
 import candidatesData from "../generated/wordOfTheDayCandidates.json";
+import { App } from "@capacitor/app";
 
 const { t } = useLanguage();
 const { quizQuestions, quizSeed } = useQuiz();
@@ -102,6 +105,16 @@ const isAnswered = ref(false);
 const isLastQuestion = computed(
   () => currentQuestionIndex.value === quizQuestions.value.length - 1
 );
+
+onIonViewWillEnter(() => {
+  App.addListener("backButton", () => {
+    confirmClose();
+  });
+});
+
+onIonViewDidLeave(() => {
+  App.removeAllListeners();
+});
 
 const confirmClose = async () => {
   const alert = await alertController.create({
