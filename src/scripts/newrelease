@@ -40,6 +40,15 @@ fi
 NEW_VERSION_NAME=$1
 TAG_NAME="v$NEW_VERSION_NAME"
 
+# Check if the tag already exists locally or remotely.
+# Fetch tags from remote first to ensure we have the latest list.
+git -C "$PROJECT_ROOT" fetch --tags
+if git -C "$PROJECT_ROOT" rev-parse "$TAG_NAME" >/dev/null 2>&1; then
+    echo "Error: Tag '$TAG_NAME' already exists. Aborting release."
+    exit 1
+fi
+
+
 echo "Starting release process for version $NEW_VERSION_NAME..."
 
 # Read the current versionCode from build.gradle
@@ -98,4 +107,3 @@ git -C "$PROJECT_ROOT" push
 git -C "$PROJECT_ROOT" push origin "$TAG_NAME"
 
 echo "Done! Release $TAG_NAME is on its way."
-
