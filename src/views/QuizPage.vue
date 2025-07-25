@@ -75,7 +75,10 @@ import {
   IonButton,
   IonIcon,
   alertController,
+  onIonViewWillEnter,
+  onIonViewDidLeave,
   useBackButton,
+  type UseBackButtonResult,
 } from "@ionic/vue";
 import { close } from "ionicons/icons";
 import AppHeader from "@/components/AppHeader.vue";
@@ -102,10 +105,20 @@ const isAnswered = ref(false);
 const isLastQuestion = computed(
   () => currentQuestionIndex.value === quizQuestions.value.length - 1
 );
+let unregisterBackButtonAction: UseBackButtonResult | undefined;
 
-useBackButton(10, () => {
-  confirmClose();
+onIonViewWillEnter(() => {
+  unregisterBackButtonAction = useBackButton(10, () => {
+    confirmClose();
+  });
 });
+
+onIonViewDidLeave(() => {
+  if (unregisterBackButtonAction) {
+    unregisterBackButtonAction.unregister();
+  }
+});
+
 const confirmClose = async () => {
   const alert = await alertController.create({
     header: t("back"),
