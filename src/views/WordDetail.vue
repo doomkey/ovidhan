@@ -298,9 +298,11 @@ const isWordFavorite = computed(() => {
 
 const toggleFavorite = () => {
   if (wordData.value) {
-    isWordFavorite.value
-      ? removeFavorite(wordData.value.en)
-      : addFavorite(wordData.value.en);
+    if (isWordFavorite.value) {
+      removeFavorite(wordData.value.en);
+    } else {
+      addFavorite(wordData.value.en);
+    }
   }
 };
 
