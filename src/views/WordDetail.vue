@@ -310,7 +310,7 @@ const goToSynonym = (englishWord: string) => {
   router.push(`/word/${encodeURIComponent(englishWord)}`);
 };
 const goHome = () => {
-  router.push(`/`);
+  router.replace(`/`);
 };
 </script>
 
